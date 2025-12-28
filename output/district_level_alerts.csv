@@ -1,0 +1,2626 @@
+STATE_UT,DISTRICT,ALERT_CONFIRMED,alert_count
+Andhra Pradesh,Alluri Sitharama Raju,CRITICAL_GROUNDWATER,14
+Andhra Pradesh,Alluri Sitharama Raju,DEPLETION_WARNING,8
+Andhra Pradesh,Alluri Sitharama Raju,RECOVERY_SIGNAL,6
+Andhra Pradesh,Alluri Sitharama Raju,SUDDEN_DROP,3
+Andhra Pradesh,Anakapalli,CRITICAL_GROUNDWATER,4
+Andhra Pradesh,Anakapalli,DEPLETION_WARNING,8
+Andhra Pradesh,Anakapalli,RECOVERY_SIGNAL,5
+Andhra Pradesh,Anakapalli,SUDDEN_DROP,2
+Andhra Pradesh,Ananthapuramu,CRITICAL_GROUNDWATER,7
+Andhra Pradesh,Ananthapuramu,DEPLETION_WARNING,2
+Andhra Pradesh,Ananthapuramu,RECOVERY_SIGNAL,6
+Andhra Pradesh,Ananthapuramu,SUDDEN_DROP,8
+Andhra Pradesh,Annamayya,CRITICAL_GROUNDWATER,3
+Andhra Pradesh,Annamayya,DEPLETION_WARNING,4
+Andhra Pradesh,Annamayya,RECOVERY_SIGNAL,12
+Andhra Pradesh,Annamayya,SUDDEN_DROP,9
+Andhra Pradesh,Bapatla,CRITICAL_GROUNDWATER,9
+Andhra Pradesh,Bapatla,DEPLETION_WARNING,2
+Andhra Pradesh,Bapatla,RECOVERY_SIGNAL,2
+Andhra Pradesh,Chittoor,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Chittoor,RECOVERY_SIGNAL,5
+Andhra Pradesh,Chittoor,SUDDEN_DROP,4
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAinavilli,CRITICAL_GROUNDWATER,2
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAinavilli,DEPLETION_WARNING,3
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAinavilli,RECOVERY_SIGNAL,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAinavilli,SUDDEN_DROP,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAmalapuram,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAmalapuram,DEPLETION_WARNING,2
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAmalapuram,RECOVERY_SIGNAL,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAmbajipeta,CRITICAL_GROUNDWATER,4
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAmbajipeta,DEPLETION_WARNING,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaAtreyapuram,SUDDEN_DROP,2
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaI. Polavaram,CRITICAL_GROUNDWATER,7
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaKothapeta,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaKothapeta,RECOVERY_SIGNAL,4
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaKothapeta,SUDDEN_DROP,4
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaMalikipuram,SUDDEN_DROP,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaMamidikuduru,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaMandapeta,DEPLETION_WARNING,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaMummidivaram,CRITICAL_GROUNDWATER,2
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaPamarru,RECOVERY_SIGNAL,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaPamarru,SUDDEN_DROP,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaRavulapalem,CRITICAL_GROUNDWATER,5
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaRavulapalem,RECOVERY_SIGNAL,2
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaRazole,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaSakhinetipalle,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Dr. B.R. Ambedkar KonaseemaSakhinetipalle,DEPLETION_WARNING,1
+Andhra Pradesh,East Godavari,CRITICAL_GROUNDWATER,5
+Andhra Pradesh,East Godavari,DEPLETION_WARNING,6
+Andhra Pradesh,East Godavari,RECOVERY_SIGNAL,5
+Andhra Pradesh,East Godavari,SUDDEN_DROP,2
+Andhra Pradesh,East GodavariGokavaram,CRITICAL_GROUNDWATER,2
+Andhra Pradesh,East GodavariGokavaram,RECOVERY_SIGNAL,1
+Andhra Pradesh,East GodavariGokavaram,SUDDEN_DROP,1
+Andhra Pradesh,Eluru,CRITICAL_GROUNDWATER,2
+Andhra Pradesh,Eluru,DEPLETION_WARNING,3
+Andhra Pradesh,Eluru,RECOVERY_SIGNAL,5
+Andhra Pradesh,Eluru,SUDDEN_DROP,2
+Andhra Pradesh,Guntur,CRITICAL_GROUNDWATER,7
+Andhra Pradesh,Guntur,DEPLETION_WARNING,4
+Andhra Pradesh,Guntur,RECOVERY_SIGNAL,4
+Andhra Pradesh,Guntur,SUDDEN_DROP,5
+Andhra Pradesh,Kakinada,CRITICAL_GROUNDWATER,8
+Andhra Pradesh,Kakinada,DEPLETION_WARNING,9
+Andhra Pradesh,Kakinada,RECOVERY_SIGNAL,12
+Andhra Pradesh,Kakinada,SUDDEN_DROP,2
+Andhra Pradesh,Krishna,CRITICAL_GROUNDWATER,4
+Andhra Pradesh,Krishna,DEPLETION_WARNING,1
+Andhra Pradesh,Krishna,RECOVERY_SIGNAL,2
+Andhra Pradesh,Krishna,SUDDEN_DROP,2
+Andhra Pradesh,Kurnool,CRITICAL_GROUNDWATER,6
+Andhra Pradesh,Kurnool,DEPLETION_WARNING,7
+Andhra Pradesh,Kurnool,RECOVERY_SIGNAL,5
+Andhra Pradesh,Kurnool,SUDDEN_DROP,7
+Andhra Pradesh,Nandyal,CRITICAL_GROUNDWATER,2
+Andhra Pradesh,Nandyal,DEPLETION_WARNING,3
+Andhra Pradesh,Nandyal,RECOVERY_SIGNAL,2
+Andhra Pradesh,Nandyal,SUDDEN_DROP,5
+Andhra Pradesh,Ntr,CRITICAL_GROUNDWATER,6
+Andhra Pradesh,Ntr,DEPLETION_WARNING,6
+Andhra Pradesh,Ntr,RECOVERY_SIGNAL,5
+Andhra Pradesh,Ntr,SUDDEN_DROP,2
+Andhra Pradesh,Palnadu,CRITICAL_GROUNDWATER,9
+Andhra Pradesh,Palnadu,DEPLETION_WARNING,4
+Andhra Pradesh,Palnadu,RECOVERY_SIGNAL,8
+Andhra Pradesh,Palnadu,SUDDEN_DROP,8
+Andhra Pradesh,Parvathipuram Manyam,CRITICAL_GROUNDWATER,7
+Andhra Pradesh,Parvathipuram Manyam,DEPLETION_WARNING,2
+Andhra Pradesh,Parvathipuram Manyam,RECOVERY_SIGNAL,7
+Andhra Pradesh,Parvathipuram Manyam,SUDDEN_DROP,7
+Andhra Pradesh,Prakasam,CRITICAL_GROUNDWATER,11
+Andhra Pradesh,Prakasam,DEPLETION_WARNING,2
+Andhra Pradesh,Prakasam,RECOVERY_SIGNAL,9
+Andhra Pradesh,Prakasam,SUDDEN_DROP,9
+Andhra Pradesh,Sri Potti Sriramulu Nellore,CRITICAL_GROUNDWATER,9
+Andhra Pradesh,Sri Potti Sriramulu Nellore,DEPLETION_WARNING,3
+Andhra Pradesh,Sri Potti Sriramulu Nellore,RECOVERY_SIGNAL,17
+Andhra Pradesh,Sri Potti Sriramulu Nellore,SUDDEN_DROP,15
+Andhra Pradesh,Sri Potti Sriramulu Nellore Manubolu,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Sri Potti Sriramulu Nellore Manubolu,DEPLETION_WARNING,1
+Andhra Pradesh,Sri Potti Sriramulu Nellore Manubolu,RECOVERY_SIGNAL,1
+Andhra Pradesh,Sri Potti Sriramulu Nellore Manubolu,SUDDEN_DROP,1
+Andhra Pradesh,Sri Potti Sriramulu Nellore Marripadu,RECOVERY_SIGNAL,1
+Andhra Pradesh,Sri Potti Sriramulu Nellore Marripadu,SUDDEN_DROP,2
+Andhra Pradesh,Sri Potti Sriramulu Nellore Muthukur,CRITICAL_GROUNDWATER,6
+Andhra Pradesh,Sri Potti Sriramulu Nellore Muthukur,DEPLETION_WARNING,1
+Andhra Pradesh,Sri Potti Sriramulu Nellore Muthukur,RECOVERY_SIGNAL,1
+Andhra Pradesh,Sri Sathya Sai,CRITICAL_GROUNDWATER,2
+Andhra Pradesh,Sri Sathya Sai,DEPLETION_WARNING,2
+Andhra Pradesh,Sri Sathya Sai,RECOVERY_SIGNAL,2
+Andhra Pradesh,Sri Sathya Sai,SUDDEN_DROP,2
+Andhra Pradesh,Srikakulam,CRITICAL_GROUNDWATER,9
+Andhra Pradesh,Srikakulam,DEPLETION_WARNING,2
+Andhra Pradesh,Srikakulam,RECOVERY_SIGNAL,5
+Andhra Pradesh,Srikakulam,SUDDEN_DROP,3
+Andhra Pradesh,Tirupati,CRITICAL_GROUNDWATER,5
+Andhra Pradesh,Tirupati,DEPLETION_WARNING,3
+Andhra Pradesh,Tirupati,RECOVERY_SIGNAL,10
+Andhra Pradesh,Tirupati,SUDDEN_DROP,8
+Andhra Pradesh,Visakhapatnam,CRITICAL_GROUNDWATER,9
+Andhra Pradesh,Visakhapatnam,DEPLETION_WARNING,7
+Andhra Pradesh,Visakhapatnam,RECOVERY_SIGNAL,13
+Andhra Pradesh,Visakhapatnam,SUDDEN_DROP,10
+Andhra Pradesh,Vizianagaram,CRITICAL_GROUNDWATER,1
+Andhra Pradesh,Vizianagaram,DEPLETION_WARNING,2
+Andhra Pradesh,Vizianagaram,RECOVERY_SIGNAL,18
+Andhra Pradesh,Vizianagaram,SUDDEN_DROP,9
+Andhra Pradesh,West Godavari,CRITICAL_GROUNDWATER,5
+Andhra Pradesh,West Godavari,RECOVERY_SIGNAL,2
+Andhra Pradesh,West Godavari,SUDDEN_DROP,1
+Andhra Pradesh,Y.S.R.,CRITICAL_GROUNDWATER,4
+Andhra Pradesh,Y.S.R.,DEPLETION_WARNING,6
+Andhra Pradesh,Y.S.R.,RECOVERY_SIGNAL,10
+Andhra Pradesh,Y.S.R.,SUDDEN_DROP,8
+Arunachal Pradesh,Changlang,CRITICAL_GROUNDWATER,12
+Arunachal Pradesh,Changlang,DEPLETION_WARNING,5
+Arunachal Pradesh,East Siang,CRITICAL_GROUNDWATER,4
+Arunachal Pradesh,East Siang,DEPLETION_WARNING,1
+Arunachal Pradesh,East Siang,RECOVERY_SIGNAL,1
+Arunachal Pradesh,Lower Subansiri,CRITICAL_GROUNDWATER,1
+Arunachal Pradesh,Lower Subansiri,DEPLETION_WARNING,2
+Arunachal Pradesh,Lower Subansiri,RECOVERY_SIGNAL,1
+Arunachal Pradesh,Namsai,CRITICAL_GROUNDWATER,1
+Arunachal Pradesh,Namsai,SUDDEN_DROP,1
+Arunachal Pradesh,Papum Pare,CRITICAL_GROUNDWATER,13
+Arunachal Pradesh,Papum Pare,DEPLETION_WARNING,1
+Arunachal Pradesh,Papum Pare,RECOVERY_SIGNAL,1
+Arunachal Pradesh,Papum Pare,SUDDEN_DROP,1
+Arunachal Pradesh,Tirap,CRITICAL_GROUNDWATER,3
+Arunachal Pradesh,Tirap,DEPLETION_WARNING,3
+Assam,Bajali,CRITICAL_GROUNDWATER,4
+Assam,Bajali,DEPLETION_WARNING,3
+Assam,Barpeta,CRITICAL_GROUNDWATER,4
+Assam,Barpeta,DEPLETION_WARNING,2
+Assam,Barpeta,RECOVERY_SIGNAL,2
+Assam,Barpeta,SUDDEN_DROP,3
+Assam,Biswanath,CRITICAL_GROUNDWATER,26
+Assam,Biswanath,DEPLETION_WARNING,5
+Assam,Biswanath,SUDDEN_DROP,1
+Assam,Bongaigaon,CRITICAL_GROUNDWATER,9
+Assam,Bongaigaon,DEPLETION_WARNING,6
+Assam,Bongaigaon,RECOVERY_SIGNAL,5
+Assam,Bongaigaon,SUDDEN_DROP,5
+Assam,Cachar,CRITICAL_GROUNDWATER,5
+Assam,Cachar,DEPLETION_WARNING,6
+Assam,Cachar,RECOVERY_SIGNAL,5
+Assam,Cachar,SUDDEN_DROP,1
+Assam,Charaideo,CRITICAL_GROUNDWATER,1
+Assam,Charaideo,RECOVERY_SIGNAL,1
+Assam,Chirang,RECOVERY_SIGNAL,1
+Assam,Chirang,SUDDEN_DROP,1
+Assam,Darrang,CRITICAL_GROUNDWATER,1
+Assam,Darrang,DEPLETION_WARNING,2
+Assam,Darrang,RECOVERY_SIGNAL,2
+Assam,Darrang,SUDDEN_DROP,1
+Assam,Dhemaji,CRITICAL_GROUNDWATER,6
+Assam,Dhemaji,DEPLETION_WARNING,9
+Assam,Dhubri,CRITICAL_GROUNDWATER,4
+Assam,Dhubri,DEPLETION_WARNING,5
+Assam,Dhubri,RECOVERY_SIGNAL,7
+Assam,Dhubri,SUDDEN_DROP,1
+Assam,Dibrugarh,CRITICAL_GROUNDWATER,5
+Assam,Goalpara,CRITICAL_GROUNDWATER,19
+Assam,Goalpara,DEPLETION_WARNING,10
+Assam,Goalpara,RECOVERY_SIGNAL,2
+Assam,Goalpara,SUDDEN_DROP,2
+Assam,Golaghat,CRITICAL_GROUNDWATER,12
+Assam,Golaghat,DEPLETION_WARNING,4
+Assam,Golaghat,RECOVERY_SIGNAL,1
+Assam,Golaghat,SUDDEN_DROP,3
+Assam,Hailakandi,CRITICAL_GROUNDWATER,7
+Assam,Hailakandi,DEPLETION_WARNING,2
+Assam,Hailakandi,RECOVERY_SIGNAL,1
+Assam,Hailakandi,SUDDEN_DROP,2
+Assam,Hojai,CRITICAL_GROUNDWATER,2
+Assam,Hojai,DEPLETION_WARNING,3
+Assam,Hojai,RECOVERY_SIGNAL,3
+Assam,Hojai,SUDDEN_DROP,2
+Assam,Jorhat,CRITICAL_GROUNDWATER,9
+Assam,Jorhat,DEPLETION_WARNING,6
+Assam,Jorhat,RECOVERY_SIGNAL,5
+Assam,Jorhat,SUDDEN_DROP,2
+Assam,Kamrup,CRITICAL_GROUNDWATER,12
+Assam,Kamrup,DEPLETION_WARNING,5
+Assam,Kamrup,RECOVERY_SIGNAL,2
+Assam,Kamrup,SUDDEN_DROP,1
+Assam,Kamrup Metro,CRITICAL_GROUNDWATER,11
+Assam,Kamrup Metro,DEPLETION_WARNING,3
+Assam,Kamrup Metro,RECOVERY_SIGNAL,2
+Assam,Kamrup Metro,SUDDEN_DROP,1
+Assam,Karbi Anglong,CRITICAL_GROUNDWATER,25
+Assam,Karbi Anglong,DEPLETION_WARNING,14
+Assam,Karbi Anglong,RECOVERY_SIGNAL,20
+Assam,Karbi Anglong,SUDDEN_DROP,29
+Assam,Karimganj,CRITICAL_GROUNDWATER,12
+Assam,Karimganj,DEPLETION_WARNING,5
+Assam,Karimganj,RECOVERY_SIGNAL,2
+Assam,Lakhimpur,CRITICAL_GROUNDWATER,28
+Assam,Lakhimpur,DEPLETION_WARNING,6
+Assam,Lakhimpur,RECOVERY_SIGNAL,2
+Assam,Marigaon,CRITICAL_GROUNDWATER,7
+Assam,Marigaon,DEPLETION_WARNING,10
+Assam,Marigaon,RECOVERY_SIGNAL,4
+Assam,Marigaon,SUDDEN_DROP,2
+Assam,Nagaon,CRITICAL_GROUNDWATER,17
+Assam,Nagaon,DEPLETION_WARNING,10
+Assam,Nagaon,RECOVERY_SIGNAL,4
+Assam,Nagaon,SUDDEN_DROP,3
+Assam,Nalbari,RECOVERY_SIGNAL,1
+Assam,Nalbari,SUDDEN_DROP,1
+Assam,Sivasagar,CRITICAL_GROUNDWATER,4
+Assam,Sivasagar,RECOVERY_SIGNAL,3
+Assam,Sivasagar,SUDDEN_DROP,3
+Assam,Sonitpur,CRITICAL_GROUNDWATER,6
+Assam,Sonitpur,DEPLETION_WARNING,5
+Assam,Sonitpur,RECOVERY_SIGNAL,2
+Assam,Sonitpur,SUDDEN_DROP,1
+Assam,Tamulpur,CRITICAL_GROUNDWATER,2
+Assam,Tamulpur,DEPLETION_WARNING,2
+Assam,Tinsukia,CRITICAL_GROUNDWATER,19
+Assam,Tinsukia,DEPLETION_WARNING,8
+Assam,Tinsukia,RECOVERY_SIGNAL,1
+Assam,Tinsukia,SUDDEN_DROP,2
+Assam,Udalguri,CRITICAL_GROUNDWATER,3
+Assam,Udalguri,DEPLETION_WARNING,3
+Assam,Udalguri,RECOVERY_SIGNAL,4
+Assam,Udalguri,SUDDEN_DROP,4
+Assam,West Karbi Anglong,CRITICAL_GROUNDWATER,2
+Assam,West Karbi Anglong,DEPLETION_WARNING,4
+Assam,West Karbi Anglong,RECOVERY_SIGNAL,1
+Assam,West Karbi Anglong,SUDDEN_DROP,3
+Bihar,Araria,CRITICAL_GROUNDWATER,2
+Bihar,Arwal,CRITICAL_GROUNDWATER,8
+Bihar,Arwal,DEPLETION_WARNING,2
+Bihar,Arwal,RECOVERY_SIGNAL,4
+Bihar,Arwal,SUDDEN_DROP,3
+Bihar,Aurangabad,CRITICAL_GROUNDWATER,8
+Bihar,Aurangabad,DEPLETION_WARNING,6
+Bihar,Aurangabad,RECOVERY_SIGNAL,4
+Bihar,Aurangabad,SUDDEN_DROP,6
+Bihar,Banka,CRITICAL_GROUNDWATER,7
+Bihar,Banka,DEPLETION_WARNING,5
+Bihar,Banka,RECOVERY_SIGNAL,6
+Bihar,Banka,SUDDEN_DROP,4
+Bihar,Begusarai,CRITICAL_GROUNDWATER,38
+Bihar,Begusarai,DEPLETION_WARNING,25
+Bihar,Begusarai,RECOVERY_SIGNAL,18
+Bihar,Begusarai,SUDDEN_DROP,21
+Bihar,Bhagalpur,CRITICAL_GROUNDWATER,6
+Bihar,Bhagalpur,DEPLETION_WARNING,8
+Bihar,Bhagalpur,RECOVERY_SIGNAL,10
+Bihar,Bhagalpur,SUDDEN_DROP,10
+Bihar,Bhojpur,CRITICAL_GROUNDWATER,8
+Bihar,Bhojpur,DEPLETION_WARNING,6
+Bihar,Bhojpur,RECOVERY_SIGNAL,7
+Bihar,Bhojpur,SUDDEN_DROP,9
+Bihar,Buxar,CRITICAL_GROUNDWATER,12
+Bihar,Buxar,DEPLETION_WARNING,6
+Bihar,Buxar,RECOVERY_SIGNAL,15
+Bihar,Buxar,SUDDEN_DROP,17
+Bihar,Darbhanga,CRITICAL_GROUNDWATER,1
+Bihar,Darbhanga,DEPLETION_WARNING,4
+Bihar,Darbhanga,RECOVERY_SIGNAL,1
+Bihar,Darbhanga,SUDDEN_DROP,4
+Bihar,Gaya,RECOVERY_SIGNAL,5
+Bihar,Gaya,SUDDEN_DROP,4
+Bihar,Gopalganj,CRITICAL_GROUNDWATER,4
+Bihar,Gopalganj,DEPLETION_WARNING,7
+Bihar,Gopalganj,RECOVERY_SIGNAL,4
+Bihar,Gopalganj,SUDDEN_DROP,1
+Bihar,Jamui,CRITICAL_GROUNDWATER,6
+Bihar,Jamui,DEPLETION_WARNING,9
+Bihar,Jamui,RECOVERY_SIGNAL,13
+Bihar,Jamui,SUDDEN_DROP,10
+Bihar,Jehanabad,CRITICAL_GROUNDWATER,3
+Bihar,Jehanabad,DEPLETION_WARNING,3
+Bihar,Jehanabad,RECOVERY_SIGNAL,7
+Bihar,Jehanabad,SUDDEN_DROP,4
+Bihar,Kaimur (Bhabua),CRITICAL_GROUNDWATER,8
+Bihar,Kaimur (Bhabua),DEPLETION_WARNING,4
+Bihar,Kaimur (Bhabua),RECOVERY_SIGNAL,7
+Bihar,Kaimur (Bhabua),SUDDEN_DROP,12
+Bihar,Katihar,CRITICAL_GROUNDWATER,8
+Bihar,Katihar,DEPLETION_WARNING,7
+Bihar,Katihar,RECOVERY_SIGNAL,4
+Bihar,Katihar,SUDDEN_DROP,4
+Bihar,Khagaria,CRITICAL_GROUNDWATER,23
+Bihar,Khagaria,DEPLETION_WARNING,19
+Bihar,Khagaria,RECOVERY_SIGNAL,20
+Bihar,Khagaria,SUDDEN_DROP,15
+Bihar,Kishanganj,CRITICAL_GROUNDWATER,2
+Bihar,Kishanganj,RECOVERY_SIGNAL,1
+Bihar,Lakhisarai,CRITICAL_GROUNDWATER,12
+Bihar,Lakhisarai,DEPLETION_WARNING,4
+Bihar,Lakhisarai,RECOVERY_SIGNAL,7
+Bihar,Lakhisarai,SUDDEN_DROP,4
+Bihar,Madhepura,CRITICAL_GROUNDWATER,13
+Bihar,Madhepura,DEPLETION_WARNING,8
+Bihar,Madhepura,RECOVERY_SIGNAL,5
+Bihar,Madhepura,SUDDEN_DROP,6
+Bihar,Madhubani,CRITICAL_GROUNDWATER,1
+Bihar,Madhubani,DEPLETION_WARNING,4
+Bihar,Madhubani,SUDDEN_DROP,1
+Bihar,Munger,CRITICAL_GROUNDWATER,4
+Bihar,Munger,DEPLETION_WARNING,9
+Bihar,Munger,RECOVERY_SIGNAL,11
+Bihar,Munger,SUDDEN_DROP,8
+Bihar,Muzaffarpur,CRITICAL_GROUNDWATER,11
+Bihar,Muzaffarpur,DEPLETION_WARNING,5
+Bihar,Muzaffarpur,RECOVERY_SIGNAL,5
+Bihar,Muzaffarpur,SUDDEN_DROP,4
+Bihar,Nalanda,CRITICAL_GROUNDWATER,17
+Bihar,Nalanda,DEPLETION_WARNING,9
+Bihar,Nalanda,RECOVERY_SIGNAL,11
+Bihar,Nalanda,SUDDEN_DROP,10
+Bihar,Nawada,CRITICAL_GROUNDWATER,2
+Bihar,Nawada,DEPLETION_WARNING,2
+Bihar,Nawada,RECOVERY_SIGNAL,9
+Bihar,Nawada,SUDDEN_DROP,4
+Bihar,Pashchim Champaran,CRITICAL_GROUNDWATER,16
+Bihar,Pashchim Champaran,DEPLETION_WARNING,6
+Bihar,Patna,CRITICAL_GROUNDWATER,5
+Bihar,Patna,DEPLETION_WARNING,5
+Bihar,Patna,RECOVERY_SIGNAL,4
+Bihar,Patna,SUDDEN_DROP,6
+Bihar,Purbi Champaran,CRITICAL_GROUNDWATER,12
+Bihar,Purbi Champaran,DEPLETION_WARNING,2
+Bihar,Purbi Champaran,RECOVERY_SIGNAL,7
+Bihar,Purbi Champaran,SUDDEN_DROP,4
+Bihar,Purnia,CRITICAL_GROUNDWATER,1
+Bihar,Purnia,DEPLETION_WARNING,4
+Bihar,Purnia,RECOVERY_SIGNAL,2
+Bihar,Purnia,SUDDEN_DROP,1
+Bihar,Rohtas,CRITICAL_GROUNDWATER,9
+Bihar,Rohtas,DEPLETION_WARNING,4
+Bihar,Rohtas,RECOVERY_SIGNAL,7
+Bihar,Rohtas,SUDDEN_DROP,13
+Bihar,Saharsa,CRITICAL_GROUNDWATER,14
+Bihar,Saharsa,DEPLETION_WARNING,8
+Bihar,Saharsa,RECOVERY_SIGNAL,12
+Bihar,Saharsa,SUDDEN_DROP,2
+Bihar,Samastipur,CRITICAL_GROUNDWATER,6
+Bihar,Samastipur,DEPLETION_WARNING,5
+Bihar,Samastipur,RECOVERY_SIGNAL,7
+Bihar,Samastipur,SUDDEN_DROP,10
+Bihar,Saran,CRITICAL_GROUNDWATER,7
+Bihar,Saran,DEPLETION_WARNING,4
+Bihar,Saran,RECOVERY_SIGNAL,10
+Bihar,Saran,SUDDEN_DROP,7
+Bihar,Sheikhpura,CRITICAL_GROUNDWATER,10
+Bihar,Sheikhpura,DEPLETION_WARNING,4
+Bihar,Sheikhpura,RECOVERY_SIGNAL,4
+Bihar,Sheikhpura,SUDDEN_DROP,7
+Bihar,Sheohar,CRITICAL_GROUNDWATER,1
+Bihar,Sheohar,RECOVERY_SIGNAL,2
+Bihar,Sitamarhi,CRITICAL_GROUNDWATER,5
+Bihar,Sitamarhi,DEPLETION_WARNING,5
+Bihar,Sitamarhi,RECOVERY_SIGNAL,8
+Bihar,Sitamarhi,SUDDEN_DROP,3
+Bihar,Siwan,CRITICAL_GROUNDWATER,12
+Bihar,Siwan,DEPLETION_WARNING,2
+Bihar,Siwan,RECOVERY_SIGNAL,2
+Bihar,Siwan,SUDDEN_DROP,1
+Bihar,Supaul,CRITICAL_GROUNDWATER,27
+Bihar,Supaul,DEPLETION_WARNING,11
+Bihar,Supaul,RECOVERY_SIGNAL,8
+Bihar,Supaul,SUDDEN_DROP,5
+Bihar,Vaishali,CRITICAL_GROUNDWATER,15
+Bihar,Vaishali,DEPLETION_WARNING,10
+Bihar,Vaishali,RECOVERY_SIGNAL,9
+Bihar,Vaishali,SUDDEN_DROP,5
+Chandigarh,Chandigarh,CRITICAL_GROUNDWATER,16
+Chandigarh,Chandigarh,DEPLETION_WARNING,3
+Chandigarh,Chandigarh,RECOVERY_SIGNAL,2
+Chandigarh,Chandigarh,SUDDEN_DROP,4
+Chhattisgarh,Balod,CRITICAL_GROUNDWATER,21
+Chhattisgarh,Balod,DEPLETION_WARNING,11
+Chhattisgarh,Balod,RECOVERY_SIGNAL,24
+Chhattisgarh,Balod,SUDDEN_DROP,33
+Chhattisgarh,Balodabazar-Bhatapara,CRITICAL_GROUNDWATER,28
+Chhattisgarh,Balodabazar-Bhatapara,DEPLETION_WARNING,21
+Chhattisgarh,Balodabazar-Bhatapara,RECOVERY_SIGNAL,27
+Chhattisgarh,Balodabazar-Bhatapara,SUDDEN_DROP,30
+Chhattisgarh,Balrampur Ramanujganj,CRITICAL_GROUNDWATER,9
+Chhattisgarh,Balrampur Ramanujganj,DEPLETION_WARNING,9
+Chhattisgarh,Balrampur Ramanujganj,RECOVERY_SIGNAL,10
+Chhattisgarh,Balrampur Ramanujganj,SUDDEN_DROP,15
+Chhattisgarh,Bastar,CRITICAL_GROUNDWATER,13
+Chhattisgarh,Bastar,DEPLETION_WARNING,9
+Chhattisgarh,Bastar,RECOVERY_SIGNAL,12
+Chhattisgarh,Bastar,SUDDEN_DROP,23
+Chhattisgarh,Bemetara,CRITICAL_GROUNDWATER,34
+Chhattisgarh,Bemetara,DEPLETION_WARNING,13
+Chhattisgarh,Bemetara,RECOVERY_SIGNAL,23
+Chhattisgarh,Bemetara,SUDDEN_DROP,41
+Chhattisgarh,Bilaspur,CRITICAL_GROUNDWATER,32
+Chhattisgarh,Bilaspur,DEPLETION_WARNING,33
+Chhattisgarh,Bilaspur,RECOVERY_SIGNAL,47
+Chhattisgarh,Bilaspur,SUDDEN_DROP,48
+Chhattisgarh,Dhamtari,CRITICAL_GROUNDWATER,23
+Chhattisgarh,Dhamtari,DEPLETION_WARNING,21
+Chhattisgarh,Dhamtari,RECOVERY_SIGNAL,32
+Chhattisgarh,Dhamtari,SUDDEN_DROP,41
+Chhattisgarh,Durg,CRITICAL_GROUNDWATER,17
+Chhattisgarh,Durg,DEPLETION_WARNING,11
+Chhattisgarh,Durg,RECOVERY_SIGNAL,28
+Chhattisgarh,Durg,SUDDEN_DROP,38
+Chhattisgarh,Gariyaband,CRITICAL_GROUNDWATER,7
+Chhattisgarh,Gariyaband,DEPLETION_WARNING,2
+Chhattisgarh,Gariyaband,RECOVERY_SIGNAL,5
+Chhattisgarh,Gariyaband,SUDDEN_DROP,10
+Chhattisgarh,Gaurela Pendra Marwahi,CRITICAL_GROUNDWATER,20
+Chhattisgarh,Gaurela Pendra Marwahi,DEPLETION_WARNING,4
+Chhattisgarh,Gaurela Pendra Marwahi,RECOVERY_SIGNAL,19
+Chhattisgarh,Gaurela Pendra Marwahi,SUDDEN_DROP,18
+Chhattisgarh,Janjgir-Champa,CRITICAL_GROUNDWATER,36
+Chhattisgarh,Janjgir-Champa,DEPLETION_WARNING,23
+Chhattisgarh,Janjgir-Champa,RECOVERY_SIGNAL,19
+Chhattisgarh,Janjgir-Champa,SUDDEN_DROP,34
+Chhattisgarh,Jashpur,CRITICAL_GROUNDWATER,48
+Chhattisgarh,Jashpur,DEPLETION_WARNING,28
+Chhattisgarh,Jashpur,RECOVERY_SIGNAL,27
+Chhattisgarh,Jashpur,SUDDEN_DROP,34
+Chhattisgarh,JashpurKunkuri,DEPLETION_WARNING,1
+Chhattisgarh,JashpurKunkuri,RECOVERY_SIGNAL,1
+Chhattisgarh,JashpurKunkuri,SUDDEN_DROP,1
+Chhattisgarh,Kabeerdham,CRITICAL_GROUNDWATER,6
+Chhattisgarh,Kabeerdham,RECOVERY_SIGNAL,1
+Chhattisgarh,Kabeerdham,SUDDEN_DROP,4
+Chhattisgarh,KabeerdhamBodla,SUDDEN_DROP,1
+Chhattisgarh,KabeerdhamKawardha,CRITICAL_GROUNDWATER,4
+Chhattisgarh,KabeerdhamKawardha,DEPLETION_WARNING,2
+Chhattisgarh,KabeerdhamKawardha,RECOVERY_SIGNAL,5
+Chhattisgarh,KabeerdhamKawardha,SUDDEN_DROP,6
+Chhattisgarh,KabeerdhamPandariya,RECOVERY_SIGNAL,1
+Chhattisgarh,KabeerdhamPandariya,SUDDEN_DROP,3
+Chhattisgarh,KabeerdhamS.Lohara,CRITICAL_GROUNDWATER,1
+Chhattisgarh,KabeerdhamS.Lohara,DEPLETION_WARNING,2
+Chhattisgarh,KabeerdhamS.Lohara,RECOVERY_SIGNAL,4
+Chhattisgarh,KabeerdhamS.Lohara,SUDDEN_DROP,3
+Chhattisgarh,Khairagarh Chhuikhadan GandaiChhuikhadan,CRITICAL_GROUNDWATER,2
+Chhattisgarh,Khairagarh Chhuikhadan GandaiChhuikhadan,RECOVERY_SIGNAL,2
+Chhattisgarh,Khairagarh Chhuikhadan GandaiChhuikhadan,SUDDEN_DROP,3
+Chhattisgarh,Khairagarh Chhuikhadan GandaiKhairagarh,CRITICAL_GROUNDWATER,4
+Chhattisgarh,Khairagarh Chhuikhadan GandaiKhairagarh,DEPLETION_WARNING,5
+Chhattisgarh,Khairagarh Chhuikhadan GandaiKhairagarh,RECOVERY_SIGNAL,2
+Chhattisgarh,Khairagarh Chhuikhadan GandaiKhairagarh,SUDDEN_DROP,3
+Chhattisgarh,Kondagaon,CRITICAL_GROUNDWATER,3
+Chhattisgarh,KondagaonKeshkal,CRITICAL_GROUNDWATER,2
+Chhattisgarh,KondagaonKeshkal,DEPLETION_WARNING,1
+Chhattisgarh,KondagaonKeshkal,RECOVERY_SIGNAL,1
+Chhattisgarh,KondagaonKondagaon,CRITICAL_GROUNDWATER,1
+Chhattisgarh,KondagaonKondagaon,DEPLETION_WARNING,2
+Chhattisgarh,KondagaonKondagaon,RECOVERY_SIGNAL,2
+Chhattisgarh,KondagaonKondagaon,SUDDEN_DROP,3
+Chhattisgarh,KondagaonPharasgaon,CRITICAL_GROUNDWATER,1
+Chhattisgarh,KondagaonPharasgaon,DEPLETION_WARNING,2
+Chhattisgarh,KondagaonPharasgaon,RECOVERY_SIGNAL,1
+Chhattisgarh,Korba,CRITICAL_GROUNDWATER,49
+Chhattisgarh,Korba,DEPLETION_WARNING,38
+Chhattisgarh,Korba,RECOVERY_SIGNAL,29
+Chhattisgarh,Korba,SUDDEN_DROP,34
+Chhattisgarh,KorbaKartala,CRITICAL_GROUNDWATER,2
+Chhattisgarh,KorbaKartala,DEPLETION_WARNING,1
+Chhattisgarh,KorbaKartala,RECOVERY_SIGNAL,2
+Chhattisgarh,KorbaKartala,SUDDEN_DROP,2
+Chhattisgarh,KorbaKorba,CRITICAL_GROUNDWATER,1
+Chhattisgarh,Korea,CRITICAL_GROUNDWATER,33
+Chhattisgarh,Korea,DEPLETION_WARNING,22
+Chhattisgarh,Korea,RECOVERY_SIGNAL,13
+Chhattisgarh,Korea,SUDDEN_DROP,17
+Chhattisgarh,Mahasamund,CRITICAL_GROUNDWATER,23
+Chhattisgarh,Mahasamund,DEPLETION_WARNING,9
+Chhattisgarh,Mahasamund,RECOVERY_SIGNAL,9
+Chhattisgarh,Mahasamund,SUDDEN_DROP,15
+Chhattisgarh,MahasamundBagbahara,RECOVERY_SIGNAL,1
+Chhattisgarh,MahasamundBasna,CRITICAL_GROUNDWATER,1
+Chhattisgarh,MahasamundMahasamund,DEPLETION_WARNING,1
+Chhattisgarh,MahasamundMahasamund,RECOVERY_SIGNAL,1
+Chhattisgarh,MahasamundPithora,CRITICAL_GROUNDWATER,1
+Chhattisgarh,MahasamundPithora,DEPLETION_WARNING,2
+Chhattisgarh,MahasamundPithora,RECOVERY_SIGNAL,1
+Chhattisgarh,MahasamundSaraipali,DEPLETION_WARNING,1
+Chhattisgarh,MahasamundSaraipali,RECOVERY_SIGNAL,2
+Chhattisgarh,MahasamundSaraipali,SUDDEN_DROP,2
+Chhattisgarh,Manendragarh Chirmiri Bharatpur Mcb,CRITICAL_GROUNDWATER,2
+Chhattisgarh,Manendragarh Chirmiri Bharatpur Mcb,SUDDEN_DROP,2
+Chhattisgarh,Manendragarh Chirmiri Bharatpur McbManendragarh,CRITICAL_GROUNDWATER,9
+Chhattisgarh,Manendragarh Chirmiri Bharatpur McbManendragarh,DEPLETION_WARNING,3
+Chhattisgarh,Manendragarh Chirmiri Bharatpur McbManendragarh,RECOVERY_SIGNAL,3
+Chhattisgarh,Manendragarh Chirmiri Bharatpur McbManendragarh,SUDDEN_DROP,3
+Chhattisgarh,Mohla Manpur Ambagarh ChoukiA.Chowki (Td),RECOVERY_SIGNAL,2
+Chhattisgarh,Mohla Manpur Ambagarh ChoukiA.Chowki (Td),SUDDEN_DROP,1
+Chhattisgarh,Mungeli,DEPLETION_WARNING,2
+Chhattisgarh,Mungeli,RECOVERY_SIGNAL,5
+Chhattisgarh,Mungeli,SUDDEN_DROP,2
+Chhattisgarh,MungeliLormi,CRITICAL_GROUNDWATER,5
+Chhattisgarh,MungeliLormi,DEPLETION_WARNING,2
+Chhattisgarh,MungeliLormi,RECOVERY_SIGNAL,3
+Chhattisgarh,MungeliLormi,SUDDEN_DROP,5
+Chhattisgarh,MungeliMungeli,CRITICAL_GROUNDWATER,1
+Chhattisgarh,MungeliMungeli,RECOVERY_SIGNAL,3
+Chhattisgarh,MungeliMungeli,SUDDEN_DROP,3
+Chhattisgarh,MungeliPathariya,RECOVERY_SIGNAL,2
+Chhattisgarh,MungeliPathariya,SUDDEN_DROP,1
+Chhattisgarh,Narayanpur,CRITICAL_GROUNDWATER,1
+Chhattisgarh,NarayanpurNarayanpur,CRITICAL_GROUNDWATER,1
+Chhattisgarh,Raigarh,CRITICAL_GROUNDWATER,38
+Chhattisgarh,Raigarh,DEPLETION_WARNING,40
+Chhattisgarh,Raigarh,RECOVERY_SIGNAL,35
+Chhattisgarh,Raigarh,SUDDEN_DROP,48
+Chhattisgarh,RaigarhDharamjaigarh,DEPLETION_WARNING,2
+Chhattisgarh,RaigarhDharamjaigarh,RECOVERY_SIGNAL,2
+Chhattisgarh,RaigarhDharamjaigarh,SUDDEN_DROP,2
+Chhattisgarh,Raipur,CRITICAL_GROUNDWATER,28
+Chhattisgarh,Raipur,DEPLETION_WARNING,12
+Chhattisgarh,Raipur,RECOVERY_SIGNAL,34
+Chhattisgarh,Raipur,SUDDEN_DROP,45
+Chhattisgarh,Rajnandgaon,CRITICAL_GROUNDWATER,22
+Chhattisgarh,Rajnandgaon,DEPLETION_WARNING,22
+Chhattisgarh,Rajnandgaon,RECOVERY_SIGNAL,30
+Chhattisgarh,Rajnandgaon,SUDDEN_DROP,35
+Chhattisgarh,Sakti,CRITICAL_GROUNDWATER,6
+Chhattisgarh,Sakti,DEPLETION_WARNING,6
+Chhattisgarh,Sakti,RECOVERY_SIGNAL,3
+Chhattisgarh,Sakti,SUDDEN_DROP,4
+Chhattisgarh,Sarangarh Bilaigarh,CRITICAL_GROUNDWATER,14
+Chhattisgarh,Sarangarh Bilaigarh,DEPLETION_WARNING,10
+Chhattisgarh,Sarangarh Bilaigarh,RECOVERY_SIGNAL,11
+Chhattisgarh,Sarangarh Bilaigarh,SUDDEN_DROP,15
+Chhattisgarh,Surajpur,CRITICAL_GROUNDWATER,36
+Chhattisgarh,Surajpur,DEPLETION_WARNING,17
+Chhattisgarh,Surajpur,RECOVERY_SIGNAL,22
+Chhattisgarh,Surajpur,SUDDEN_DROP,27
+Chhattisgarh,Surguja,CRITICAL_GROUNDWATER,47
+Chhattisgarh,Surguja,DEPLETION_WARNING,16
+Chhattisgarh,Surguja,RECOVERY_SIGNAL,26
+Chhattisgarh,Surguja,SUDDEN_DROP,32
+Chhattisgarh,Uttar Bastar Kanker,CRITICAL_GROUNDWATER,16
+Chhattisgarh,Uttar Bastar Kanker,DEPLETION_WARNING,8
+Chhattisgarh,Uttar Bastar Kanker,RECOVERY_SIGNAL,6
+Chhattisgarh,Uttar Bastar Kanker,SUDDEN_DROP,11
+Delhi,Central,CRITICAL_GROUNDWATER,4
+Delhi,Central,DEPLETION_WARNING,4
+Delhi,Central,RECOVERY_SIGNAL,1
+Delhi,Central,SUDDEN_DROP,3
+Delhi,East,CRITICAL_GROUNDWATER,9
+Delhi,East,DEPLETION_WARNING,2
+Delhi,East,RECOVERY_SIGNAL,5
+Delhi,Nazul Land,RECOVERY_SIGNAL,1
+Delhi,Nazul Land,SUDDEN_DROP,1
+Delhi,New Delhi,CRITICAL_GROUNDWATER,13
+Delhi,New Delhi,DEPLETION_WARNING,9
+Delhi,New Delhi,RECOVERY_SIGNAL,4
+Delhi,New Delhi,SUDDEN_DROP,8
+Delhi,North,CRITICAL_GROUNDWATER,11
+Delhi,North,DEPLETION_WARNING,7
+Delhi,North,RECOVERY_SIGNAL,5
+Delhi,North,SUDDEN_DROP,2
+Delhi,North West,CRITICAL_GROUNDWATER,12
+Delhi,North West,DEPLETION_WARNING,6
+Delhi,North West,RECOVERY_SIGNAL,1
+Delhi,North West,SUDDEN_DROP,2
+Delhi,Shahdara,CRITICAL_GROUNDWATER,2
+Delhi,Shahdara,SUDDEN_DROP,1
+Delhi,South,CRITICAL_GROUNDWATER,6
+Delhi,South,DEPLETION_WARNING,3
+Delhi,South,RECOVERY_SIGNAL,1
+Delhi,South,SUDDEN_DROP,7
+Delhi,South East,CRITICAL_GROUNDWATER,2
+Delhi,South East,RECOVERY_SIGNAL,1
+Delhi,South East,SUDDEN_DROP,1
+Delhi,South West,CRITICAL_GROUNDWATER,27
+Delhi,South West,DEPLETION_WARNING,12
+Delhi,South West,RECOVERY_SIGNAL,1
+Delhi,South West,SUDDEN_DROP,6
+Delhi,West,CRITICAL_GROUNDWATER,15
+Delhi,West,DEPLETION_WARNING,10
+Delhi,West,RECOVERY_SIGNAL,6
+Delhi,West,SUDDEN_DROP,5
+Goa,North Goa,CRITICAL_GROUNDWATER,48
+Goa,North Goa,DEPLETION_WARNING,33
+Goa,North Goa,RECOVERY_SIGNAL,14
+Goa,North Goa,SUDDEN_DROP,12
+Goa,South Goa,CRITICAL_GROUNDWATER,48
+Goa,South Goa,DEPLETION_WARNING,13
+Goa,South Goa,RECOVERY_SIGNAL,11
+Goa,South Goa,SUDDEN_DROP,10
+Gujarat,Ahmedabad,CRITICAL_GROUNDWATER,17
+Gujarat,Ahmedabad,DEPLETION_WARNING,15
+Gujarat,Ahmedabad,RECOVERY_SIGNAL,4
+Gujarat,Ahmedabad,SUDDEN_DROP,3
+Gujarat,Amreli,CRITICAL_GROUNDWATER,26
+Gujarat,Amreli,DEPLETION_WARNING,13
+Gujarat,Amreli,RECOVERY_SIGNAL,24
+Gujarat,Amreli,SUDDEN_DROP,38
+Gujarat,Anand,CRITICAL_GROUNDWATER,16
+Gujarat,Anand,DEPLETION_WARNING,3
+Gujarat,Anand,RECOVERY_SIGNAL,10
+Gujarat,Anand,SUDDEN_DROP,13
+Gujarat,Arvalli,CRITICAL_GROUNDWATER,9
+Gujarat,Arvalli,DEPLETION_WARNING,12
+Gujarat,Arvalli,RECOVERY_SIGNAL,16
+Gujarat,Arvalli,SUDDEN_DROP,24
+Gujarat,Banas Kantha,CRITICAL_GROUNDWATER,19
+Gujarat,Banas Kantha,DEPLETION_WARNING,11
+Gujarat,Banas Kantha,RECOVERY_SIGNAL,22
+Gujarat,Banas Kantha,SUDDEN_DROP,20
+Gujarat,Bharuch,CRITICAL_GROUNDWATER,15
+Gujarat,Bharuch,DEPLETION_WARNING,9
+Gujarat,Bharuch,RECOVERY_SIGNAL,32
+Gujarat,Bharuch,SUDDEN_DROP,25
+Gujarat,Bhavnagar,CRITICAL_GROUNDWATER,10
+Gujarat,Bhavnagar,DEPLETION_WARNING,8
+Gujarat,Bhavnagar,RECOVERY_SIGNAL,17
+Gujarat,Bhavnagar,SUDDEN_DROP,21
+Gujarat,Botad,CRITICAL_GROUNDWATER,20
+Gujarat,Botad,DEPLETION_WARNING,5
+Gujarat,Botad,RECOVERY_SIGNAL,6
+Gujarat,Botad,SUDDEN_DROP,20
+Gujarat,Chhotaudepur,CRITICAL_GROUNDWATER,25
+Gujarat,Chhotaudepur,DEPLETION_WARNING,21
+Gujarat,Chhotaudepur,RECOVERY_SIGNAL,21
+Gujarat,Chhotaudepur,SUDDEN_DROP,33
+Gujarat,Dahod,CRITICAL_GROUNDWATER,12
+Gujarat,Dahod,DEPLETION_WARNING,12
+Gujarat,Dahod,RECOVERY_SIGNAL,22
+Gujarat,Dahod,SUDDEN_DROP,21
+Gujarat,Dangs,CRITICAL_GROUNDWATER,18
+Gujarat,Dangs,DEPLETION_WARNING,13
+Gujarat,Dangs,RECOVERY_SIGNAL,12
+Gujarat,Dangs,SUDDEN_DROP,10
+Gujarat,Devbhumi Dwarka,CRITICAL_GROUNDWATER,39
+Gujarat,Devbhumi Dwarka,DEPLETION_WARNING,19
+Gujarat,Devbhumi Dwarka,RECOVERY_SIGNAL,27
+Gujarat,Devbhumi Dwarka,SUDDEN_DROP,41
+Gujarat,Gandhinagar,CRITICAL_GROUNDWATER,8
+Gujarat,Gandhinagar,DEPLETION_WARNING,5
+Gujarat,Gandhinagar,RECOVERY_SIGNAL,4
+Gujarat,Gandhinagar,SUDDEN_DROP,5
+Gujarat,Gir Somnath,CRITICAL_GROUNDWATER,11
+Gujarat,Gir Somnath,DEPLETION_WARNING,2
+Gujarat,Gir Somnath,RECOVERY_SIGNAL,37
+Gujarat,Gir Somnath,SUDDEN_DROP,39
+Gujarat,Jamnagar,CRITICAL_GROUNDWATER,23
+Gujarat,Jamnagar,DEPLETION_WARNING,16
+Gujarat,Jamnagar,RECOVERY_SIGNAL,28
+Gujarat,Jamnagar,SUDDEN_DROP,35
+Gujarat,Junagadh,CRITICAL_GROUNDWATER,10
+Gujarat,Junagadh,DEPLETION_WARNING,11
+Gujarat,Junagadh,RECOVERY_SIGNAL,27
+Gujarat,Junagadh,SUDDEN_DROP,29
+Gujarat,Kachchh,CRITICAL_GROUNDWATER,32
+Gujarat,Kachchh,DEPLETION_WARNING,10
+Gujarat,Kachchh,RECOVERY_SIGNAL,21
+Gujarat,Kachchh,SUDDEN_DROP,28
+Gujarat,Kheda,CRITICAL_GROUNDWATER,7
+Gujarat,Kheda,DEPLETION_WARNING,4
+Gujarat,Kheda,RECOVERY_SIGNAL,11
+Gujarat,Kheda,SUDDEN_DROP,10
+Gujarat,Mahesana,CRITICAL_GROUNDWATER,13
+Gujarat,Mahesana,DEPLETION_WARNING,14
+Gujarat,Mahesana,RECOVERY_SIGNAL,16
+Gujarat,Mahesana,SUDDEN_DROP,11
+Gujarat,Mahisagar,CRITICAL_GROUNDWATER,14
+Gujarat,Mahisagar,DEPLETION_WARNING,9
+Gujarat,Mahisagar,RECOVERY_SIGNAL,16
+Gujarat,Mahisagar,SUDDEN_DROP,22
+Gujarat,Morbi,CRITICAL_GROUNDWATER,10
+Gujarat,Morbi,DEPLETION_WARNING,6
+Gujarat,Morbi,RECOVERY_SIGNAL,15
+Gujarat,Morbi,SUDDEN_DROP,26
+Gujarat,Narmada,CRITICAL_GROUNDWATER,24
+Gujarat,Narmada,DEPLETION_WARNING,11
+Gujarat,Narmada,RECOVERY_SIGNAL,12
+Gujarat,Narmada,SUDDEN_DROP,23
+Gujarat,Navsari,CRITICAL_GROUNDWATER,6
+Gujarat,Navsari,DEPLETION_WARNING,19
+Gujarat,Navsari,RECOVERY_SIGNAL,20
+Gujarat,Navsari,SUDDEN_DROP,15
+Gujarat,Panch Mahals,CRITICAL_GROUNDWATER,17
+Gujarat,Panch Mahals,DEPLETION_WARNING,7
+Gujarat,Panch Mahals,RECOVERY_SIGNAL,15
+Gujarat,Panch Mahals,SUDDEN_DROP,29
+Gujarat,Patan,CRITICAL_GROUNDWATER,6
+Gujarat,Patan,DEPLETION_WARNING,3
+Gujarat,Patan,RECOVERY_SIGNAL,6
+Gujarat,Patan,SUDDEN_DROP,7
+Gujarat,Porbandar,CRITICAL_GROUNDWATER,38
+Gujarat,Porbandar,DEPLETION_WARNING,17
+Gujarat,Porbandar,RECOVERY_SIGNAL,37
+Gujarat,Porbandar,SUDDEN_DROP,50
+Gujarat,Rajkot,CRITICAL_GROUNDWATER,16
+Gujarat,Rajkot,DEPLETION_WARNING,9
+Gujarat,Rajkot,RECOVERY_SIGNAL,20
+Gujarat,Rajkot,SUDDEN_DROP,34
+Gujarat,Sabar Kantha,CRITICAL_GROUNDWATER,24
+Gujarat,Sabar Kantha,DEPLETION_WARNING,15
+Gujarat,Sabar Kantha,RECOVERY_SIGNAL,31
+Gujarat,Sabar Kantha,SUDDEN_DROP,44
+Gujarat,Surat,CRITICAL_GROUNDWATER,29
+Gujarat,Surat,DEPLETION_WARNING,19
+Gujarat,Surat,RECOVERY_SIGNAL,16
+Gujarat,Surat,SUDDEN_DROP,18
+Gujarat,Surendranagar,CRITICAL_GROUNDWATER,28
+Gujarat,Surendranagar,DEPLETION_WARNING,11
+Gujarat,Surendranagar,RECOVERY_SIGNAL,16
+Gujarat,Surendranagar,SUDDEN_DROP,27
+Gujarat,Tapi,CRITICAL_GROUNDWATER,16
+Gujarat,Tapi,DEPLETION_WARNING,6
+Gujarat,Tapi,RECOVERY_SIGNAL,2
+Gujarat,Tapi,SUDDEN_DROP,10
+Gujarat,Vadodara,CRITICAL_GROUNDWATER,32
+Gujarat,Vadodara,DEPLETION_WARNING,12
+Gujarat,Vadodara,RECOVERY_SIGNAL,18
+Gujarat,Vadodara,SUDDEN_DROP,20
+Gujarat,Valsad,CRITICAL_GROUNDWATER,40
+Gujarat,Valsad,DEPLETION_WARNING,20
+Gujarat,Valsad,RECOVERY_SIGNAL,8
+Gujarat,Valsad,SUDDEN_DROP,9
+Haryana,Ambala,CRITICAL_GROUNDWATER,14
+Haryana,Ambala,DEPLETION_WARNING,7
+Haryana,Ambala,RECOVERY_SIGNAL,4
+Haryana,Ambala,SUDDEN_DROP,4
+Haryana,Bhiwani,CRITICAL_GROUNDWATER,30
+Haryana,Bhiwani,DEPLETION_WARNING,13
+Haryana,Bhiwani,RECOVERY_SIGNAL,12
+Haryana,Bhiwani,SUDDEN_DROP,12
+Haryana,Charki Dadri,CRITICAL_GROUNDWATER,1
+Haryana,Charki Dadri,DEPLETION_WARNING,1
+Haryana,Faridabad,CRITICAL_GROUNDWATER,3
+Haryana,Faridabad,DEPLETION_WARNING,1
+Haryana,Faridabad,RECOVERY_SIGNAL,2
+Haryana,Fatehabad,CRITICAL_GROUNDWATER,2
+Haryana,Fatehabad,DEPLETION_WARNING,2
+Haryana,Fatehabad,RECOVERY_SIGNAL,3
+Haryana,Fatehabad,SUDDEN_DROP,3
+Haryana,Gurugram,CRITICAL_GROUNDWATER,3
+Haryana,Gurugram,DEPLETION_WARNING,1
+Haryana,Gurugram,RECOVERY_SIGNAL,3
+Haryana,Gurugram,SUDDEN_DROP,1
+Haryana,Hisar,CRITICAL_GROUNDWATER,21
+Haryana,Hisar,DEPLETION_WARNING,10
+Haryana,Hisar,RECOVERY_SIGNAL,6
+Haryana,Hisar,SUDDEN_DROP,9
+Haryana,Jhajjar,CRITICAL_GROUNDWATER,12
+Haryana,Jhajjar,DEPLETION_WARNING,10
+Haryana,Jhajjar,RECOVERY_SIGNAL,5
+Haryana,Jhajjar,SUDDEN_DROP,5
+Haryana,Jind,CRITICAL_GROUNDWATER,19
+Haryana,Jind,DEPLETION_WARNING,4
+Haryana,Jind,RECOVERY_SIGNAL,9
+Haryana,Jind,SUDDEN_DROP,4
+Haryana,Kaithal,CRITICAL_GROUNDWATER,3
+Haryana,Kaithal,DEPLETION_WARNING,3
+Haryana,Kaithal,RECOVERY_SIGNAL,5
+Haryana,Kaithal,SUDDEN_DROP,7
+Haryana,Karnal,CRITICAL_GROUNDWATER,8
+Haryana,Karnal,RECOVERY_SIGNAL,7
+Haryana,Karnal,SUDDEN_DROP,4
+Haryana,Kurukshetra,CRITICAL_GROUNDWATER,2
+Haryana,Kurukshetra,DEPLETION_WARNING,4
+Haryana,Kurukshetra,RECOVERY_SIGNAL,2
+Haryana,Mahendragarh,RECOVERY_SIGNAL,2
+Haryana,Mahendragarh,SUDDEN_DROP,2
+Haryana,Nuh,CRITICAL_GROUNDWATER,9
+Haryana,Nuh,DEPLETION_WARNING,4
+Haryana,Nuh,RECOVERY_SIGNAL,3
+Haryana,Nuh,SUDDEN_DROP,5
+Haryana,Palwal,CRITICAL_GROUNDWATER,3
+Haryana,Palwal,DEPLETION_WARNING,1
+Haryana,Palwal,RECOVERY_SIGNAL,4
+Haryana,Palwal,SUDDEN_DROP,5
+Haryana,Panchkula,CRITICAL_GROUNDWATER,13
+Haryana,Panchkula,DEPLETION_WARNING,6
+Haryana,Panchkula,RECOVERY_SIGNAL,1
+Haryana,Panchkula,SUDDEN_DROP,6
+Haryana,Panipat,CRITICAL_GROUNDWATER,8
+Haryana,Panipat,DEPLETION_WARNING,6
+Haryana,Panipat,RECOVERY_SIGNAL,6
+Haryana,Rewari,CRITICAL_GROUNDWATER,4
+Haryana,Rewari,DEPLETION_WARNING,3
+Haryana,Rewari,RECOVERY_SIGNAL,2
+Haryana,Rewari,SUDDEN_DROP,4
+Haryana,Rohtak,CRITICAL_GROUNDWATER,12
+Haryana,Rohtak,DEPLETION_WARNING,9
+Haryana,Rohtak,RECOVERY_SIGNAL,3
+Haryana,Rohtak,SUDDEN_DROP,3
+Haryana,Sirsa,CRITICAL_GROUNDWATER,39
+Haryana,Sirsa,DEPLETION_WARNING,12
+Haryana,Sirsa,RECOVERY_SIGNAL,9
+Haryana,Sirsa,SUDDEN_DROP,7
+Haryana,Sonipat,CRITICAL_GROUNDWATER,21
+Haryana,Sonipat,DEPLETION_WARNING,4
+Haryana,Sonipat,RECOVERY_SIGNAL,7
+Haryana,Sonipat,SUDDEN_DROP,5
+Haryana,Yamunanagar,CRITICAL_GROUNDWATER,5
+Haryana,Yamunanagar,DEPLETION_WARNING,8
+Haryana,Yamunanagar,RECOVERY_SIGNAL,5
+Haryana,Yamunanagar,SUDDEN_DROP,7
+Himachal Pradesh,Hamirpur,CRITICAL_GROUNDWATER,5
+Himachal Pradesh,Hamirpur,DEPLETION_WARNING,1
+Himachal Pradesh,Hamirpur,RECOVERY_SIGNAL,1
+Himachal Pradesh,Hamirpur,SUDDEN_DROP,2
+Himachal Pradesh,Kangra,CRITICAL_GROUNDWATER,18
+Himachal Pradesh,Kangra,DEPLETION_WARNING,15
+Himachal Pradesh,Kangra,RECOVERY_SIGNAL,3
+Himachal Pradesh,Kangra,SUDDEN_DROP,4
+Himachal Pradesh,Kullu,CRITICAL_GROUNDWATER,3
+Himachal Pradesh,Kullu,RECOVERY_SIGNAL,1
+Himachal Pradesh,Kullu,SUDDEN_DROP,2
+Himachal Pradesh,Mandi,CRITICAL_GROUNDWATER,6
+Himachal Pradesh,Mandi,DEPLETION_WARNING,2
+Himachal Pradesh,Mandi,RECOVERY_SIGNAL,2
+Himachal Pradesh,Sirmaur,CRITICAL_GROUNDWATER,8
+Himachal Pradesh,Sirmaur,DEPLETION_WARNING,2
+Himachal Pradesh,Sirmaur,RECOVERY_SIGNAL,2
+Himachal Pradesh,Sirmaur,SUDDEN_DROP,8
+Himachal Pradesh,Solan,CRITICAL_GROUNDWATER,22
+Himachal Pradesh,Solan,DEPLETION_WARNING,5
+Himachal Pradesh,Solan,RECOVERY_SIGNAL,5
+Himachal Pradesh,Solan,SUDDEN_DROP,12
+Himachal Pradesh,Una,CRITICAL_GROUNDWATER,31
+Himachal Pradesh,Una,DEPLETION_WARNING,23
+Himachal Pradesh,Una,RECOVERY_SIGNAL,16
+Himachal Pradesh,Una,SUDDEN_DROP,15
+Jammu and Kashmir,Jammu,CRITICAL_GROUNDWATER,56
+Jammu and Kashmir,Jammu,DEPLETION_WARNING,21
+Jammu and Kashmir,Jammu,RECOVERY_SIGNAL,13
+Jammu and Kashmir,Jammu,SUDDEN_DROP,9
+Jammu and Kashmir,Kathua,CRITICAL_GROUNDWATER,25
+Jammu and Kashmir,Kathua,DEPLETION_WARNING,11
+Jammu and Kashmir,Kathua,RECOVERY_SIGNAL,8
+Jammu and Kashmir,Kathua,SUDDEN_DROP,7
+Jammu and Kashmir,Rajouri,CRITICAL_GROUNDWATER,15
+Jammu and Kashmir,Rajouri,DEPLETION_WARNING,3
+Jammu and Kashmir,Rajouri,RECOVERY_SIGNAL,8
+Jammu and Kashmir,Rajouri,SUDDEN_DROP,7
+Jammu and Kashmir,Reasi,CRITICAL_GROUNDWATER,3
+Jammu and Kashmir,Reasi,DEPLETION_WARNING,6
+Jammu and Kashmir,Reasi,RECOVERY_SIGNAL,1
+Jammu and Kashmir,Reasi,SUDDEN_DROP,2
+Jammu and Kashmir,Samba,CRITICAL_GROUNDWATER,20
+Jammu and Kashmir,Samba,DEPLETION_WARNING,15
+Jammu and Kashmir,Samba,RECOVERY_SIGNAL,11
+Jammu and Kashmir,Samba,SUDDEN_DROP,10
+Jammu and Kashmir,Udhampur,CRITICAL_GROUNDWATER,9
+Jammu and Kashmir,Udhampur,DEPLETION_WARNING,4
+Jammu and Kashmir,Udhampur,RECOVERY_SIGNAL,4
+Jammu and Kashmir,Udhampur,SUDDEN_DROP,3
+Jharkhand,Bokaro,CRITICAL_GROUNDWATER,2
+Jharkhand,Bokaro,DEPLETION_WARNING,2
+Jharkhand,Bokaro,RECOVERY_SIGNAL,2
+Jharkhand,Bokaro,SUDDEN_DROP,3
+Jharkhand,Chatra,CRITICAL_GROUNDWATER,6
+Jharkhand,Chatra,DEPLETION_WARNING,2
+Jharkhand,Chatra,RECOVERY_SIGNAL,1
+Jharkhand,Chatra,SUDDEN_DROP,2
+Jharkhand,Deoghar,CRITICAL_GROUNDWATER,1
+Jharkhand,Deoghar,DEPLETION_WARNING,2
+Jharkhand,Dhanbad,CRITICAL_GROUNDWATER,2
+Jharkhand,Dhanbad,DEPLETION_WARNING,9
+Jharkhand,Dhanbad,RECOVERY_SIGNAL,6
+Jharkhand,Dhanbad,SUDDEN_DROP,4
+Jharkhand,Dumka,CRITICAL_GROUNDWATER,8
+Jharkhand,Dumka,DEPLETION_WARNING,12
+Jharkhand,Dumka,RECOVERY_SIGNAL,6
+Jharkhand,Dumka,SUDDEN_DROP,3
+Jharkhand,East Singhbum,CRITICAL_GROUNDWATER,6
+Jharkhand,East Singhbum,DEPLETION_WARNING,4
+Jharkhand,East Singhbum,RECOVERY_SIGNAL,5
+Jharkhand,East Singhbum,SUDDEN_DROP,7
+Jharkhand,Giridih,CRITICAL_GROUNDWATER,3
+Jharkhand,Giridih,DEPLETION_WARNING,4
+Jharkhand,Giridih,RECOVERY_SIGNAL,11
+Jharkhand,Giridih,SUDDEN_DROP,11
+Jharkhand,Godda,CRITICAL_GROUNDWATER,1
+Jharkhand,Godda,RECOVERY_SIGNAL,1
+Jharkhand,Godda,SUDDEN_DROP,2
+Jharkhand,Gumla,CRITICAL_GROUNDWATER,3
+Jharkhand,Gumla,DEPLETION_WARNING,6
+Jharkhand,Gumla,RECOVERY_SIGNAL,2
+Jharkhand,Gumla,SUDDEN_DROP,4
+Jharkhand,Hazaribagh,CRITICAL_GROUNDWATER,14
+Jharkhand,Hazaribagh,DEPLETION_WARNING,5
+Jharkhand,Hazaribagh,RECOVERY_SIGNAL,4
+Jharkhand,Hazaribagh,SUDDEN_DROP,9
+Jharkhand,Jamtara,CRITICAL_GROUNDWATER,9
+Jharkhand,Jamtara,DEPLETION_WARNING,7
+Jharkhand,Jamtara,RECOVERY_SIGNAL,3
+Jharkhand,Jamtara,SUDDEN_DROP,8
+Jharkhand,Koderma,CRITICAL_GROUNDWATER,6
+Jharkhand,Koderma,DEPLETION_WARNING,3
+Jharkhand,Koderma,RECOVERY_SIGNAL,5
+Jharkhand,Koderma,SUDDEN_DROP,6
+Jharkhand,Latehar,CRITICAL_GROUNDWATER,3
+Jharkhand,Latehar,DEPLETION_WARNING,3
+Jharkhand,Latehar,RECOVERY_SIGNAL,5
+Jharkhand,Latehar,SUDDEN_DROP,6
+Jharkhand,Lohardaga,CRITICAL_GROUNDWATER,5
+Jharkhand,Lohardaga,DEPLETION_WARNING,3
+Jharkhand,Lohardaga,RECOVERY_SIGNAL,7
+Jharkhand,Lohardaga,SUDDEN_DROP,7
+Jharkhand,Pakur,CRITICAL_GROUNDWATER,10
+Jharkhand,Pakur,DEPLETION_WARNING,3
+Jharkhand,Pakur,RECOVERY_SIGNAL,5
+Jharkhand,Pakur,SUDDEN_DROP,4
+Jharkhand,Palamu,CRITICAL_GROUNDWATER,2
+Jharkhand,Palamu,DEPLETION_WARNING,5
+Jharkhand,Palamu,RECOVERY_SIGNAL,3
+Jharkhand,Palamu,SUDDEN_DROP,4
+Jharkhand,Ramgarh,CRITICAL_GROUNDWATER,19
+Jharkhand,Ramgarh,DEPLETION_WARNING,6
+Jharkhand,Ramgarh,RECOVERY_SIGNAL,4
+Jharkhand,Ramgarh,SUDDEN_DROP,7
+Jharkhand,Ranchi,CRITICAL_GROUNDWATER,1
+Jharkhand,Ranchi,DEPLETION_WARNING,1
+Jharkhand,Sahebganj,CRITICAL_GROUNDWATER,7
+Jharkhand,Sahebganj,DEPLETION_WARNING,4
+Jharkhand,Sahebganj,RECOVERY_SIGNAL,5
+Jharkhand,Sahebganj,SUDDEN_DROP,2
+Jharkhand,Saraikela Kharsawan,CRITICAL_GROUNDWATER,5
+Jharkhand,Saraikela Kharsawan,DEPLETION_WARNING,2
+Jharkhand,Saraikela Kharsawan,RECOVERY_SIGNAL,5
+Jharkhand,Saraikela Kharsawan,SUDDEN_DROP,4
+Jharkhand,Simdega,CRITICAL_GROUNDWATER,3
+Jharkhand,Simdega,DEPLETION_WARNING,7
+Jharkhand,Simdega,RECOVERY_SIGNAL,5
+Jharkhand,Simdega,SUDDEN_DROP,3
+Jharkhand,West Singhbhum,CRITICAL_GROUNDWATER,5
+Jharkhand,West Singhbhum,DEPLETION_WARNING,2
+Jharkhand,West Singhbhum,RECOVERY_SIGNAL,7
+Jharkhand,West Singhbhum,SUDDEN_DROP,6
+Karnataka,Bagalkote,CRITICAL_GROUNDWATER,10
+Karnataka,Bagalkote,DEPLETION_WARNING,2
+Karnataka,Bagalkote,RECOVERY_SIGNAL,13
+Karnataka,Bagalkote,SUDDEN_DROP,13
+Karnataka,Ballari,CRITICAL_GROUNDWATER,7
+Karnataka,Ballari,DEPLETION_WARNING,4
+Karnataka,Ballari,RECOVERY_SIGNAL,10
+Karnataka,Ballari,SUDDEN_DROP,10
+Karnataka,Belagavi,CRITICAL_GROUNDWATER,30
+Karnataka,Belagavi,DEPLETION_WARNING,12
+Karnataka,Belagavi,RECOVERY_SIGNAL,39
+Karnataka,Belagavi,SUDDEN_DROP,29
+Karnataka,Bengaluru Rural,CRITICAL_GROUNDWATER,9
+Karnataka,Bengaluru Rural,DEPLETION_WARNING,3
+Karnataka,Bengaluru Rural,RECOVERY_SIGNAL,11
+Karnataka,Bengaluru Rural,SUDDEN_DROP,9
+Karnataka,Bengaluru Urban,CRITICAL_GROUNDWATER,9
+Karnataka,Bengaluru Urban,DEPLETION_WARNING,6
+Karnataka,Bengaluru Urban,RECOVERY_SIGNAL,22
+Karnataka,Bengaluru Urban,SUDDEN_DROP,13
+Karnataka,Bidar,CRITICAL_GROUNDWATER,17
+Karnataka,Bidar,DEPLETION_WARNING,5
+Karnataka,Bidar,RECOVERY_SIGNAL,11
+Karnataka,Bidar,SUDDEN_DROP,23
+Karnataka,Chamarajanagara,CRITICAL_GROUNDWATER,12
+Karnataka,Chamarajanagara,DEPLETION_WARNING,5
+Karnataka,Chamarajanagara,RECOVERY_SIGNAL,23
+Karnataka,Chamarajanagara,SUDDEN_DROP,29
+Karnataka,Chikkaballapura,CRITICAL_GROUNDWATER,3
+Karnataka,Chikkaballapura,DEPLETION_WARNING,2
+Karnataka,Chikkaballapura,RECOVERY_SIGNAL,17
+Karnataka,Chikkaballapura,SUDDEN_DROP,17
+Karnataka,Chikkamagaluru,CRITICAL_GROUNDWATER,33
+Karnataka,Chikkamagaluru,DEPLETION_WARNING,23
+Karnataka,Chikkamagaluru,RECOVERY_SIGNAL,25
+Karnataka,Chikkamagaluru,SUDDEN_DROP,20
+Karnataka,Chitradurga,CRITICAL_GROUNDWATER,21
+Karnataka,Chitradurga,DEPLETION_WARNING,13
+Karnataka,Chitradurga,RECOVERY_SIGNAL,36
+Karnataka,Chitradurga,SUDDEN_DROP,30
+Karnataka,Dakshina Kannada,CRITICAL_GROUNDWATER,93
+Karnataka,Dakshina Kannada,DEPLETION_WARNING,66
+Karnataka,Dakshina Kannada,RECOVERY_SIGNAL,41
+Karnataka,Dakshina Kannada,SUDDEN_DROP,44
+Karnataka,Davangere,CRITICAL_GROUNDWATER,35
+Karnataka,Davangere,DEPLETION_WARNING,20
+Karnataka,Davangere,RECOVERY_SIGNAL,59
+Karnataka,Davangere,SUDDEN_DROP,36
+Karnataka,Dharwad,CRITICAL_GROUNDWATER,21
+Karnataka,Dharwad,DEPLETION_WARNING,22
+Karnataka,Dharwad,RECOVERY_SIGNAL,22
+Karnataka,Dharwad,SUDDEN_DROP,36
+Karnataka,Gadag,CRITICAL_GROUNDWATER,20
+Karnataka,Gadag,DEPLETION_WARNING,4
+Karnataka,Gadag,RECOVERY_SIGNAL,20
+Karnataka,Gadag,SUDDEN_DROP,22
+Karnataka,Hassan,CRITICAL_GROUNDWATER,47
+Karnataka,Hassan,DEPLETION_WARNING,22
+Karnataka,Hassan,RECOVERY_SIGNAL,52
+Karnataka,Hassan,SUDDEN_DROP,46
+Karnataka,Haveri,CRITICAL_GROUNDWATER,16
+Karnataka,Haveri,DEPLETION_WARNING,8
+Karnataka,Haveri,RECOVERY_SIGNAL,49
+Karnataka,Haveri,SUDDEN_DROP,37
+Karnataka,Kalaburagi,CRITICAL_GROUNDWATER,31
+Karnataka,Kalaburagi,DEPLETION_WARNING,9
+Karnataka,Kalaburagi,RECOVERY_SIGNAL,49
+Karnataka,Kalaburagi,SUDDEN_DROP,54
+Karnataka,Kodagu,CRITICAL_GROUNDWATER,86
+Karnataka,Kodagu,DEPLETION_WARNING,35
+Karnataka,Kodagu,RECOVERY_SIGNAL,57
+Karnataka,Kodagu,SUDDEN_DROP,67
+Karnataka,Kolar,CRITICAL_GROUNDWATER,10
+Karnataka,Kolar,DEPLETION_WARNING,8
+Karnataka,Kolar,RECOVERY_SIGNAL,45
+Karnataka,Kolar,SUDDEN_DROP,43
+Karnataka,Koppal,CRITICAL_GROUNDWATER,14
+Karnataka,Koppal,DEPLETION_WARNING,6
+Karnataka,Koppal,RECOVERY_SIGNAL,18
+Karnataka,Koppal,SUDDEN_DROP,18
+Karnataka,Mandya,CRITICAL_GROUNDWATER,12
+Karnataka,Mandya,DEPLETION_WARNING,20
+Karnataka,Mandya,RECOVERY_SIGNAL,32
+Karnataka,Mandya,SUDDEN_DROP,39
+Karnataka,Mysuru,CRITICAL_GROUNDWATER,25
+Karnataka,Mysuru,DEPLETION_WARNING,12
+Karnataka,Mysuru,RECOVERY_SIGNAL,46
+Karnataka,Mysuru,SUDDEN_DROP,54
+Karnataka,Raichur,CRITICAL_GROUNDWATER,30
+Karnataka,Raichur,DEPLETION_WARNING,6
+Karnataka,Raichur,RECOVERY_SIGNAL,49
+Karnataka,Raichur,SUDDEN_DROP,44
+Karnataka,Ramanagara,CRITICAL_GROUNDWATER,15
+Karnataka,Ramanagara,DEPLETION_WARNING,13
+Karnataka,Ramanagara,RECOVERY_SIGNAL,27
+Karnataka,Ramanagara,SUDDEN_DROP,31
+Karnataka,Shivamogga,CRITICAL_GROUNDWATER,28
+Karnataka,Shivamogga,DEPLETION_WARNING,15
+Karnataka,Shivamogga,RECOVERY_SIGNAL,42
+Karnataka,Shivamogga,SUDDEN_DROP,33
+Karnataka,Tumakuru,CRITICAL_GROUNDWATER,15
+Karnataka,Tumakuru,DEPLETION_WARNING,5
+Karnataka,Tumakuru,RECOVERY_SIGNAL,35
+Karnataka,Tumakuru,SUDDEN_DROP,27
+Karnataka,Udupi,CRITICAL_GROUNDWATER,28
+Karnataka,Udupi,DEPLETION_WARNING,29
+Karnataka,Udupi,RECOVERY_SIGNAL,24
+Karnataka,Udupi,SUDDEN_DROP,14
+Karnataka,Uttara Kannada,CRITICAL_GROUNDWATER,15
+Karnataka,Uttara Kannada,DEPLETION_WARNING,10
+Karnataka,Uttara Kannada,RECOVERY_SIGNAL,16
+Karnataka,Uttara Kannada,SUDDEN_DROP,7
+Karnataka,Vijayanagar,CRITICAL_GROUNDWATER,26
+Karnataka,Vijayanagar,DEPLETION_WARNING,9
+Karnataka,Vijayanagar,RECOVERY_SIGNAL,28
+Karnataka,Vijayanagar,SUDDEN_DROP,23
+Karnataka,Vijayapura,CRITICAL_GROUNDWATER,33
+Karnataka,Vijayapura,DEPLETION_WARNING,17
+Karnataka,Vijayapura,RECOVERY_SIGNAL,27
+Karnataka,Vijayapura,SUDDEN_DROP,23
+Karnataka,Yadgir,CRITICAL_GROUNDWATER,12
+Karnataka,Yadgir,DEPLETION_WARNING,7
+Karnataka,Yadgir,RECOVERY_SIGNAL,20
+Karnataka,Yadgir,SUDDEN_DROP,20
+Kerala,Alappuzha,CRITICAL_GROUNDWATER,66
+Kerala,Alappuzha,DEPLETION_WARNING,20
+Kerala,Alappuzha,RECOVERY_SIGNAL,8
+Kerala,Alappuzha,SUDDEN_DROP,17
+Kerala,Ernakulam,CRITICAL_GROUNDWATER,54
+Kerala,Ernakulam,DEPLETION_WARNING,16
+Kerala,Ernakulam,RECOVERY_SIGNAL,7
+Kerala,Ernakulam,SUDDEN_DROP,23
+Kerala,Idukki,CRITICAL_GROUNDWATER,93
+Kerala,Idukki,DEPLETION_WARNING,26
+Kerala,Idukki,RECOVERY_SIGNAL,6
+Kerala,Idukki,SUDDEN_DROP,20
+Kerala,Kannur,CRITICAL_GROUNDWATER,57
+Kerala,Kannur,DEPLETION_WARNING,37
+Kerala,Kannur,RECOVERY_SIGNAL,15
+Kerala,Kannur,SUDDEN_DROP,26
+Kerala,Kasaragod,CRITICAL_GROUNDWATER,194
+Kerala,Kasaragod,DEPLETION_WARNING,51
+Kerala,Kasaragod,RECOVERY_SIGNAL,54
+Kerala,Kasaragod,SUDDEN_DROP,82
+Kerala,Kollam,CRITICAL_GROUNDWATER,79
+Kerala,Kollam,DEPLETION_WARNING,38
+Kerala,Kollam,RECOVERY_SIGNAL,24
+Kerala,Kollam,SUDDEN_DROP,29
+Kerala,Kottayam,CRITICAL_GROUNDWATER,68
+Kerala,Kottayam,DEPLETION_WARNING,31
+Kerala,Kottayam,RECOVERY_SIGNAL,10
+Kerala,Kottayam,SUDDEN_DROP,23
+Kerala,Kozhikode,CRITICAL_GROUNDWATER,123
+Kerala,Kozhikode,DEPLETION_WARNING,16
+Kerala,Kozhikode,RECOVERY_SIGNAL,10
+Kerala,Kozhikode,SUDDEN_DROP,21
+Kerala,Malappuram,CRITICAL_GROUNDWATER,74
+Kerala,Malappuram,DEPLETION_WARNING,34
+Kerala,Malappuram,RECOVERY_SIGNAL,17
+Kerala,Malappuram,SUDDEN_DROP,37
+Kerala,Palakkad,CRITICAL_GROUNDWATER,47
+Kerala,Palakkad,DEPLETION_WARNING,35
+Kerala,Palakkad,RECOVERY_SIGNAL,44
+Kerala,Palakkad,SUDDEN_DROP,35
+Kerala,Pathanamthitta,CRITICAL_GROUNDWATER,105
+Kerala,Pathanamthitta,DEPLETION_WARNING,34
+Kerala,Pathanamthitta,RECOVERY_SIGNAL,16
+Kerala,Pathanamthitta,SUDDEN_DROP,16
+Kerala,Thiruvananthapuram,CRITICAL_GROUNDWATER,49
+Kerala,Thiruvananthapuram,DEPLETION_WARNING,44
+Kerala,Thiruvananthapuram,RECOVERY_SIGNAL,25
+Kerala,Thiruvananthapuram,SUDDEN_DROP,45
+Kerala,Thrissur,CRITICAL_GROUNDWATER,71
+Kerala,Thrissur,DEPLETION_WARNING,12
+Kerala,Thrissur,RECOVERY_SIGNAL,8
+Kerala,Thrissur,SUDDEN_DROP,18
+Kerala,Wayanad,CRITICAL_GROUNDWATER,163
+Kerala,Wayanad,DEPLETION_WARNING,40
+Kerala,Wayanad,RECOVERY_SIGNAL,52
+Kerala,Wayanad,SUDDEN_DROP,58
+Madhya Pradesh,Agar-Malwa,CRITICAL_GROUNDWATER,12
+Madhya Pradesh,Agar-Malwa,DEPLETION_WARNING,17
+Madhya Pradesh,Agar-Malwa,RECOVERY_SIGNAL,18
+Madhya Pradesh,Agar-Malwa,SUDDEN_DROP,24
+Madhya Pradesh,Alirajpur,CRITICAL_GROUNDWATER,14
+Madhya Pradesh,Alirajpur,DEPLETION_WARNING,9
+Madhya Pradesh,Alirajpur,RECOVERY_SIGNAL,15
+Madhya Pradesh,Alirajpur,SUDDEN_DROP,22
+Madhya Pradesh,Anuppur,CRITICAL_GROUNDWATER,24
+Madhya Pradesh,Anuppur,DEPLETION_WARNING,11
+Madhya Pradesh,Anuppur,RECOVERY_SIGNAL,17
+Madhya Pradesh,Anuppur,SUDDEN_DROP,18
+Madhya Pradesh,Ashoknagar,CRITICAL_GROUNDWATER,34
+Madhya Pradesh,Ashoknagar,DEPLETION_WARNING,16
+Madhya Pradesh,Ashoknagar,RECOVERY_SIGNAL,13
+Madhya Pradesh,Ashoknagar,SUDDEN_DROP,18
+Madhya Pradesh,Balaghat,CRITICAL_GROUNDWATER,20
+Madhya Pradesh,Balaghat,DEPLETION_WARNING,16
+Madhya Pradesh,Balaghat,RECOVERY_SIGNAL,16
+Madhya Pradesh,Balaghat,SUDDEN_DROP,21
+Madhya Pradesh,Barwani,CRITICAL_GROUNDWATER,1
+Madhya Pradesh,Barwani,DEPLETION_WARNING,3
+Madhya Pradesh,Barwani,RECOVERY_SIGNAL,11
+Madhya Pradesh,Barwani,SUDDEN_DROP,11
+Madhya Pradesh,Betul,CRITICAL_GROUNDWATER,20
+Madhya Pradesh,Betul,DEPLETION_WARNING,11
+Madhya Pradesh,Betul,RECOVERY_SIGNAL,21
+Madhya Pradesh,Betul,SUDDEN_DROP,32
+Madhya Pradesh,Bhind,CRITICAL_GROUNDWATER,31
+Madhya Pradesh,Bhind,DEPLETION_WARNING,16
+Madhya Pradesh,Bhind,RECOVERY_SIGNAL,18
+Madhya Pradesh,Bhind,SUDDEN_DROP,27
+Madhya Pradesh,Bhopal,CRITICAL_GROUNDWATER,23
+Madhya Pradesh,Bhopal,DEPLETION_WARNING,15
+Madhya Pradesh,Bhopal,RECOVERY_SIGNAL,16
+Madhya Pradesh,Bhopal,SUDDEN_DROP,22
+Madhya Pradesh,Burhanpur,CRITICAL_GROUNDWATER,27
+Madhya Pradesh,Burhanpur,DEPLETION_WARNING,5
+Madhya Pradesh,Burhanpur,RECOVERY_SIGNAL,14
+Madhya Pradesh,Burhanpur,SUDDEN_DROP,26
+Madhya Pradesh,Chhatarpur,CRITICAL_GROUNDWATER,40
+Madhya Pradesh,Chhatarpur,DEPLETION_WARNING,18
+Madhya Pradesh,Chhatarpur,RECOVERY_SIGNAL,32
+Madhya Pradesh,Chhatarpur,SUDDEN_DROP,38
+Madhya Pradesh,Chhindwara,CRITICAL_GROUNDWATER,27
+Madhya Pradesh,Chhindwara,DEPLETION_WARNING,9
+Madhya Pradesh,Chhindwara,RECOVERY_SIGNAL,13
+Madhya Pradesh,Chhindwara,SUDDEN_DROP,19
+Madhya Pradesh,Damoh,CRITICAL_GROUNDWATER,14
+Madhya Pradesh,Damoh,DEPLETION_WARNING,11
+Madhya Pradesh,Damoh,RECOVERY_SIGNAL,17
+Madhya Pradesh,Damoh,SUDDEN_DROP,18
+Madhya Pradesh,Datia,CRITICAL_GROUNDWATER,16
+Madhya Pradesh,Datia,DEPLETION_WARNING,10
+Madhya Pradesh,Datia,RECOVERY_SIGNAL,16
+Madhya Pradesh,Datia,SUDDEN_DROP,14
+Madhya Pradesh,Dewas,CRITICAL_GROUNDWATER,18
+Madhya Pradesh,Dewas,DEPLETION_WARNING,10
+Madhya Pradesh,Dewas,RECOVERY_SIGNAL,32
+Madhya Pradesh,Dewas,SUDDEN_DROP,36
+Madhya Pradesh,Dhar,CRITICAL_GROUNDWATER,23
+Madhya Pradesh,Dhar,DEPLETION_WARNING,15
+Madhya Pradesh,Dhar,RECOVERY_SIGNAL,17
+Madhya Pradesh,Dhar,SUDDEN_DROP,21
+Madhya Pradesh,Dindori,CRITICAL_GROUNDWATER,23
+Madhya Pradesh,Dindori,DEPLETION_WARNING,4
+Madhya Pradesh,Dindori,RECOVERY_SIGNAL,5
+Madhya Pradesh,Dindori,SUDDEN_DROP,11
+Madhya Pradesh,Guna,CRITICAL_GROUNDWATER,29
+Madhya Pradesh,Guna,DEPLETION_WARNING,14
+Madhya Pradesh,Guna,RECOVERY_SIGNAL,25
+Madhya Pradesh,Guna,SUDDEN_DROP,30
+Madhya Pradesh,Gwalior,CRITICAL_GROUNDWATER,42
+Madhya Pradesh,Gwalior,DEPLETION_WARNING,15
+Madhya Pradesh,Gwalior,RECOVERY_SIGNAL,18
+Madhya Pradesh,Gwalior,SUDDEN_DROP,28
+Madhya Pradesh,Harda,CRITICAL_GROUNDWATER,7
+Madhya Pradesh,Harda,DEPLETION_WARNING,6
+Madhya Pradesh,Harda,RECOVERY_SIGNAL,17
+Madhya Pradesh,Harda,SUDDEN_DROP,16
+Madhya Pradesh,Indore,CRITICAL_GROUNDWATER,33
+Madhya Pradesh,Indore,DEPLETION_WARNING,23
+Madhya Pradesh,Indore,RECOVERY_SIGNAL,37
+Madhya Pradesh,Indore,SUDDEN_DROP,59
+Madhya Pradesh,Jabalpur,CRITICAL_GROUNDWATER,41
+Madhya Pradesh,Jabalpur,DEPLETION_WARNING,20
+Madhya Pradesh,Jabalpur,RECOVERY_SIGNAL,21
+Madhya Pradesh,Jabalpur,SUDDEN_DROP,22
+Madhya Pradesh,Jhabua,CRITICAL_GROUNDWATER,19
+Madhya Pradesh,Jhabua,DEPLETION_WARNING,9
+Madhya Pradesh,Jhabua,RECOVERY_SIGNAL,6
+Madhya Pradesh,Jhabua,SUDDEN_DROP,8
+Madhya Pradesh,Katni,CRITICAL_GROUNDWATER,16
+Madhya Pradesh,Katni,DEPLETION_WARNING,16
+Madhya Pradesh,Katni,RECOVERY_SIGNAL,20
+Madhya Pradesh,Katni,SUDDEN_DROP,21
+Madhya Pradesh,Khandwa (East Nimar),CRITICAL_GROUNDWATER,18
+Madhya Pradesh,Khandwa (East Nimar),DEPLETION_WARNING,10
+Madhya Pradesh,Khandwa (East Nimar),RECOVERY_SIGNAL,22
+Madhya Pradesh,Khandwa (East Nimar),SUDDEN_DROP,22
+Madhya Pradesh,Khargone (West Nimar),CRITICAL_GROUNDWATER,8
+Madhya Pradesh,Khargone (West Nimar),DEPLETION_WARNING,13
+Madhya Pradesh,Khargone (West Nimar),RECOVERY_SIGNAL,14
+Madhya Pradesh,Khargone (West Nimar),SUDDEN_DROP,23
+Madhya Pradesh,Maihar,CRITICAL_GROUNDWATER,26
+Madhya Pradesh,Maihar,DEPLETION_WARNING,14
+Madhya Pradesh,Maihar,RECOVERY_SIGNAL,26
+Madhya Pradesh,Maihar,SUDDEN_DROP,31
+Madhya Pradesh,Mandla,CRITICAL_GROUNDWATER,14
+Madhya Pradesh,Mandla,DEPLETION_WARNING,6
+Madhya Pradesh,Mandla,RECOVERY_SIGNAL,11
+Madhya Pradesh,Mandla,SUDDEN_DROP,20
+Madhya Pradesh,Mandsaur,CRITICAL_GROUNDWATER,36
+Madhya Pradesh,Mandsaur,DEPLETION_WARNING,27
+Madhya Pradesh,Mandsaur,RECOVERY_SIGNAL,42
+Madhya Pradesh,Mandsaur,SUDDEN_DROP,67
+Madhya Pradesh,Mauganj,CRITICAL_GROUNDWATER,16
+Madhya Pradesh,Mauganj,DEPLETION_WARNING,6
+Madhya Pradesh,Mauganj,RECOVERY_SIGNAL,11
+Madhya Pradesh,Mauganj,SUDDEN_DROP,15
+Madhya Pradesh,Morena,CRITICAL_GROUNDWATER,19
+Madhya Pradesh,Morena,DEPLETION_WARNING,5
+Madhya Pradesh,Morena,RECOVERY_SIGNAL,10
+Madhya Pradesh,Morena,SUDDEN_DROP,10
+Madhya Pradesh,Narmadapuram,CRITICAL_GROUNDWATER,11
+Madhya Pradesh,Narmadapuram,DEPLETION_WARNING,11
+Madhya Pradesh,Narmadapuram,RECOVERY_SIGNAL,8
+Madhya Pradesh,Narmadapuram,SUDDEN_DROP,9
+Madhya Pradesh,Narsimhapur,CRITICAL_GROUNDWATER,17
+Madhya Pradesh,Narsimhapur,DEPLETION_WARNING,7
+Madhya Pradesh,Narsimhapur,RECOVERY_SIGNAL,13
+Madhya Pradesh,Narsimhapur,SUDDEN_DROP,23
+Madhya Pradesh,Neemuch,CRITICAL_GROUNDWATER,31
+Madhya Pradesh,Neemuch,DEPLETION_WARNING,14
+Madhya Pradesh,Neemuch,RECOVERY_SIGNAL,56
+Madhya Pradesh,Neemuch,SUDDEN_DROP,74
+Madhya Pradesh,Niwari,CRITICAL_GROUNDWATER,6
+Madhya Pradesh,Niwari,DEPLETION_WARNING,3
+Madhya Pradesh,Niwari,RECOVERY_SIGNAL,15
+Madhya Pradesh,Niwari,SUDDEN_DROP,21
+Madhya Pradesh,Pandhurna,CRITICAL_GROUNDWATER,13
+Madhya Pradesh,Pandhurna,DEPLETION_WARNING,3
+Madhya Pradesh,Pandhurna,RECOVERY_SIGNAL,14
+Madhya Pradesh,Pandhurna,SUDDEN_DROP,20
+Madhya Pradesh,Panna,CRITICAL_GROUNDWATER,33
+Madhya Pradesh,Panna,DEPLETION_WARNING,16
+Madhya Pradesh,Panna,RECOVERY_SIGNAL,27
+Madhya Pradesh,Panna,SUDDEN_DROP,30
+Madhya Pradesh,Raisen,CRITICAL_GROUNDWATER,29
+Madhya Pradesh,Raisen,DEPLETION_WARNING,14
+Madhya Pradesh,Raisen,RECOVERY_SIGNAL,26
+Madhya Pradesh,Raisen,SUDDEN_DROP,26
+Madhya Pradesh,Rajgarh,CRITICAL_GROUNDWATER,29
+Madhya Pradesh,Rajgarh,DEPLETION_WARNING,17
+Madhya Pradesh,Rajgarh,RECOVERY_SIGNAL,36
+Madhya Pradesh,Rajgarh,SUDDEN_DROP,33
+Madhya Pradesh,Ratlam,CRITICAL_GROUNDWATER,35
+Madhya Pradesh,Ratlam,DEPLETION_WARNING,18
+Madhya Pradesh,Ratlam,RECOVERY_SIGNAL,61
+Madhya Pradesh,Ratlam,SUDDEN_DROP,74
+Madhya Pradesh,Rewa,CRITICAL_GROUNDWATER,24
+Madhya Pradesh,Rewa,DEPLETION_WARNING,6
+Madhya Pradesh,Rewa,RECOVERY_SIGNAL,31
+Madhya Pradesh,Rewa,SUDDEN_DROP,30
+Madhya Pradesh,Sagar,CRITICAL_GROUNDWATER,22
+Madhya Pradesh,Sagar,DEPLETION_WARNING,14
+Madhya Pradesh,Sagar,RECOVERY_SIGNAL,20
+Madhya Pradesh,Sagar,SUDDEN_DROP,23
+Madhya Pradesh,Satna,CRITICAL_GROUNDWATER,51
+Madhya Pradesh,Satna,DEPLETION_WARNING,6
+Madhya Pradesh,Satna,RECOVERY_SIGNAL,22
+Madhya Pradesh,Satna,SUDDEN_DROP,27
+Madhya Pradesh,Sehore,CRITICAL_GROUNDWATER,18
+Madhya Pradesh,Sehore,DEPLETION_WARNING,18
+Madhya Pradesh,Sehore,RECOVERY_SIGNAL,30
+Madhya Pradesh,Sehore,SUDDEN_DROP,30
+Madhya Pradesh,Seoni,CRITICAL_GROUNDWATER,27
+Madhya Pradesh,Seoni,DEPLETION_WARNING,15
+Madhya Pradesh,Seoni,RECOVERY_SIGNAL,19
+Madhya Pradesh,Seoni,SUDDEN_DROP,26
+Madhya Pradesh,Shahdol,CRITICAL_GROUNDWATER,38
+Madhya Pradesh,Shahdol,DEPLETION_WARNING,14
+Madhya Pradesh,Shahdol,RECOVERY_SIGNAL,25
+Madhya Pradesh,Shahdol,SUDDEN_DROP,42
+Madhya Pradesh,Shajapur,CRITICAL_GROUNDWATER,22
+Madhya Pradesh,Shajapur,DEPLETION_WARNING,7
+Madhya Pradesh,Shajapur,RECOVERY_SIGNAL,31
+Madhya Pradesh,Shajapur,SUDDEN_DROP,25
+Madhya Pradesh,Sheopur,CRITICAL_GROUNDWATER,31
+Madhya Pradesh,Sheopur,DEPLETION_WARNING,14
+Madhya Pradesh,Sheopur,RECOVERY_SIGNAL,26
+Madhya Pradesh,Sheopur,SUDDEN_DROP,29
+Madhya Pradesh,Shivpuri,CRITICAL_GROUNDWATER,17
+Madhya Pradesh,Shivpuri,DEPLETION_WARNING,11
+Madhya Pradesh,Shivpuri,RECOVERY_SIGNAL,25
+Madhya Pradesh,Shivpuri,SUDDEN_DROP,34
+Madhya Pradesh,Sidhi,CRITICAL_GROUNDWATER,24
+Madhya Pradesh,Sidhi,DEPLETION_WARNING,18
+Madhya Pradesh,Sidhi,RECOVERY_SIGNAL,41
+Madhya Pradesh,Sidhi,SUDDEN_DROP,33
+Madhya Pradesh,Singrauli,CRITICAL_GROUNDWATER,5
+Madhya Pradesh,Singrauli,DEPLETION_WARNING,14
+Madhya Pradesh,Singrauli,RECOVERY_SIGNAL,29
+Madhya Pradesh,Singrauli,SUDDEN_DROP,21
+Madhya Pradesh,Tikamgarh,CRITICAL_GROUNDWATER,18
+Madhya Pradesh,Tikamgarh,DEPLETION_WARNING,8
+Madhya Pradesh,Tikamgarh,RECOVERY_SIGNAL,21
+Madhya Pradesh,Tikamgarh,SUDDEN_DROP,29
+Madhya Pradesh,Ujjain,CRITICAL_GROUNDWATER,35
+Madhya Pradesh,Ujjain,DEPLETION_WARNING,18
+Madhya Pradesh,Ujjain,RECOVERY_SIGNAL,32
+Madhya Pradesh,Ujjain,SUDDEN_DROP,50
+Madhya Pradesh,Umaria,CRITICAL_GROUNDWATER,14
+Madhya Pradesh,Umaria,DEPLETION_WARNING,11
+Madhya Pradesh,Umaria,RECOVERY_SIGNAL,14
+Madhya Pradesh,Umaria,SUDDEN_DROP,15
+Madhya Pradesh,Vidisha,CRITICAL_GROUNDWATER,18
+Madhya Pradesh,Vidisha,DEPLETION_WARNING,9
+Madhya Pradesh,Vidisha,RECOVERY_SIGNAL,23
+Madhya Pradesh,Vidisha,SUDDEN_DROP,25
+Maharashtra,Ahmednagar,CRITICAL_GROUNDWATER,26
+Maharashtra,Ahmednagar,DEPLETION_WARNING,7
+Maharashtra,Ahmednagar,RECOVERY_SIGNAL,46
+Maharashtra,Ahmednagar,SUDDEN_DROP,59
+Maharashtra,Akola,CRITICAL_GROUNDWATER,46
+Maharashtra,Akola,DEPLETION_WARNING,20
+Maharashtra,Akola,RECOVERY_SIGNAL,20
+Maharashtra,Akola,SUDDEN_DROP,33
+Maharashtra,Amravati,CRITICAL_GROUNDWATER,30
+Maharashtra,Amravati,DEPLETION_WARNING,24
+Maharashtra,Amravati,RECOVERY_SIGNAL,30
+Maharashtra,Amravati,SUDDEN_DROP,26
+Maharashtra,Beed,CRITICAL_GROUNDWATER,21
+Maharashtra,Beed,DEPLETION_WARNING,12
+Maharashtra,Beed,RECOVERY_SIGNAL,46
+Maharashtra,Beed,SUDDEN_DROP,63
+Maharashtra,Bhandara,CRITICAL_GROUNDWATER,27
+Maharashtra,Bhandara,DEPLETION_WARNING,18
+Maharashtra,Bhandara,RECOVERY_SIGNAL,26
+Maharashtra,Bhandara,SUDDEN_DROP,27
+Maharashtra,Buldhana,CRITICAL_GROUNDWATER,29
+Maharashtra,Buldhana,DEPLETION_WARNING,17
+Maharashtra,Buldhana,RECOVERY_SIGNAL,32
+Maharashtra,Buldhana,SUDDEN_DROP,43
+Maharashtra,Chandrapur,CRITICAL_GROUNDWATER,24
+Maharashtra,Chandrapur,DEPLETION_WARNING,25
+Maharashtra,Chandrapur,RECOVERY_SIGNAL,26
+Maharashtra,Chandrapur,SUDDEN_DROP,30
+Maharashtra,Chhatrapati Sambhajinagar Aurangabad,CRITICAL_GROUNDWATER,1
+Maharashtra,Chhatrapati Sambhajinagar Aurangabad,DEPLETION_WARNING,3
+Maharashtra,Chhatrapati Sambhajinagar Aurangabad,RECOVERY_SIGNAL,7
+Maharashtra,Chhatrapati Sambhajinagar Aurangabad,SUDDEN_DROP,6
+Maharashtra,Chhatrapati Sambhajinagar Gangapur,CRITICAL_GROUNDWATER,5
+Maharashtra,Chhatrapati Sambhajinagar Gangapur,DEPLETION_WARNING,1
+Maharashtra,Chhatrapati Sambhajinagar Gangapur,RECOVERY_SIGNAL,2
+Maharashtra,Chhatrapati Sambhajinagar Gangapur,SUDDEN_DROP,3
+Maharashtra,Chhatrapati Sambhajinagar Kanand,DEPLETION_WARNING,4
+Maharashtra,Chhatrapati Sambhajinagar Kanand,RECOVERY_SIGNAL,7
+Maharashtra,Chhatrapati Sambhajinagar Kanand,SUDDEN_DROP,5
+Maharashtra,Chhatrapati Sambhajinagar Khultabad,CRITICAL_GROUNDWATER,7
+Maharashtra,Chhatrapati Sambhajinagar Khultabad,DEPLETION_WARNING,2
+Maharashtra,Chhatrapati Sambhajinagar Khultabad,RECOVERY_SIGNAL,2
+Maharashtra,Chhatrapati Sambhajinagar Khultabad,SUDDEN_DROP,5
+Maharashtra,Chhatrapati Sambhajinagar Paithan,CRITICAL_GROUNDWATER,9
+Maharashtra,Chhatrapati Sambhajinagar Paithan,DEPLETION_WARNING,2
+Maharashtra,Chhatrapati Sambhajinagar Paithan,RECOVERY_SIGNAL,6
+Maharashtra,Chhatrapati Sambhajinagar Paithan,SUDDEN_DROP,8
+Maharashtra,Chhatrapati Sambhajinagar Sillod,CRITICAL_GROUNDWATER,2
+Maharashtra,Chhatrapati Sambhajinagar Sillod,DEPLETION_WARNING,3
+Maharashtra,Chhatrapati Sambhajinagar Sillod,RECOVERY_SIGNAL,6
+Maharashtra,Chhatrapati Sambhajinagar Sillod,SUDDEN_DROP,6
+Maharashtra,Chhatrapati Sambhajinagar Soegaon,CRITICAL_GROUNDWATER,9
+Maharashtra,Chhatrapati Sambhajinagar Soegaon,DEPLETION_WARNING,2
+Maharashtra,Chhatrapati Sambhajinagar Soegaon,RECOVERY_SIGNAL,4
+Maharashtra,Chhatrapati Sambhajinagar Soegaon,SUDDEN_DROP,4
+Maharashtra,Chhatrapati Sambhajinagar Vaijapur,CRITICAL_GROUNDWATER,31
+Maharashtra,Chhatrapati Sambhajinagar Vaijapur,DEPLETION_WARNING,1
+Maharashtra,Chhatrapati Sambhajinagar Vaijapur,RECOVERY_SIGNAL,8
+Maharashtra,Chhatrapati Sambhajinagar Vaijapur,SUDDEN_DROP,9
+Maharashtra,Dharashiv,CRITICAL_GROUNDWATER,152
+Maharashtra,Dharashiv,DEPLETION_WARNING,23
+Maharashtra,Dharashiv,RECOVERY_SIGNAL,40
+Maharashtra,Dharashiv,SUDDEN_DROP,63
+Maharashtra,DharashivKalamb,RECOVERY_SIGNAL,1
+Maharashtra,DharashivKalamb,SUDDEN_DROP,1
+Maharashtra,Dhule,CRITICAL_GROUNDWATER,33
+Maharashtra,Dhule,DEPLETION_WARNING,20
+Maharashtra,Dhule,RECOVERY_SIGNAL,52
+Maharashtra,Dhule,SUDDEN_DROP,48
+Maharashtra,Gadchiroli,CRITICAL_GROUNDWATER,27
+Maharashtra,Gadchiroli,DEPLETION_WARNING,30
+Maharashtra,Gadchiroli,RECOVERY_SIGNAL,19
+Maharashtra,Gadchiroli,SUDDEN_DROP,15
+Maharashtra,Gondia,CRITICAL_GROUNDWATER,22
+Maharashtra,Gondia,DEPLETION_WARNING,13
+Maharashtra,Gondia,RECOVERY_SIGNAL,10
+Maharashtra,Gondia,SUDDEN_DROP,14
+Maharashtra,Hingoli,CRITICAL_GROUNDWATER,32
+Maharashtra,Hingoli,DEPLETION_WARNING,19
+Maharashtra,Hingoli,RECOVERY_SIGNAL,39
+Maharashtra,Hingoli,SUDDEN_DROP,57
+Maharashtra,Jalgaon,CRITICAL_GROUNDWATER,8
+Maharashtra,Jalgaon,DEPLETION_WARNING,3
+Maharashtra,Jalgaon,RECOVERY_SIGNAL,12
+Maharashtra,Jalgaon,SUDDEN_DROP,15
+Maharashtra,Jalna,CRITICAL_GROUNDWATER,41
+Maharashtra,Jalna,DEPLETION_WARNING,21
+Maharashtra,Jalna,RECOVERY_SIGNAL,73
+Maharashtra,Jalna,SUDDEN_DROP,79
+Maharashtra,Kolhapur,CRITICAL_GROUNDWATER,32
+Maharashtra,Kolhapur,DEPLETION_WARNING,15
+Maharashtra,Kolhapur,RECOVERY_SIGNAL,5
+Maharashtra,Kolhapur,SUDDEN_DROP,15
+Maharashtra,Latur,CRITICAL_GROUNDWATER,15
+Maharashtra,Latur,DEPLETION_WARNING,12
+Maharashtra,Latur,RECOVERY_SIGNAL,53
+Maharashtra,Latur,SUDDEN_DROP,61
+Maharashtra,Mumbai,CRITICAL_GROUNDWATER,4
+Maharashtra,Mumbai,DEPLETION_WARNING,1
+Maharashtra,Mumbai,RECOVERY_SIGNAL,2
+Maharashtra,Mumbai,SUDDEN_DROP,1
+Maharashtra,Mumbai Suburban,CRITICAL_GROUNDWATER,17
+Maharashtra,Mumbai Suburban,DEPLETION_WARNING,7
+Maharashtra,Mumbai Suburban,RECOVERY_SIGNAL,8
+Maharashtra,Mumbai Suburban,SUDDEN_DROP,5
+Maharashtra,Nagpur,CRITICAL_GROUNDWATER,43
+Maharashtra,Nagpur,DEPLETION_WARNING,24
+Maharashtra,Nagpur,RECOVERY_SIGNAL,29
+Maharashtra,Nagpur,SUDDEN_DROP,34
+Maharashtra,Nanded,CRITICAL_GROUNDWATER,22
+Maharashtra,Nanded,DEPLETION_WARNING,15
+Maharashtra,Nanded,RECOVERY_SIGNAL,36
+Maharashtra,Nanded,SUDDEN_DROP,52
+Maharashtra,Nandurbar,CRITICAL_GROUNDWATER,28
+Maharashtra,Nandurbar,DEPLETION_WARNING,14
+Maharashtra,Nandurbar,RECOVERY_SIGNAL,21
+Maharashtra,Nandurbar,SUDDEN_DROP,33
+Maharashtra,Nashik,CRITICAL_GROUNDWATER,16
+Maharashtra,Nashik,DEPLETION_WARNING,13
+Maharashtra,Nashik,RECOVERY_SIGNAL,36
+Maharashtra,Nashik,SUDDEN_DROP,45
+Maharashtra,Palghar,CRITICAL_GROUNDWATER,20
+Maharashtra,Palghar,DEPLETION_WARNING,11
+Maharashtra,Palghar,RECOVERY_SIGNAL,9
+Maharashtra,Palghar,SUDDEN_DROP,7
+Maharashtra,Parbhani,CRITICAL_GROUNDWATER,27
+Maharashtra,Parbhani,DEPLETION_WARNING,20
+Maharashtra,Parbhani,RECOVERY_SIGNAL,74
+Maharashtra,Parbhani,SUDDEN_DROP,73
+Maharashtra,Pune,CRITICAL_GROUNDWATER,24
+Maharashtra,Pune,DEPLETION_WARNING,13
+Maharashtra,Pune,RECOVERY_SIGNAL,13
+Maharashtra,Pune,SUDDEN_DROP,23
+Maharashtra,Raigad,CRITICAL_GROUNDWATER,18
+Maharashtra,Raigad,DEPLETION_WARNING,15
+Maharashtra,Raigad,RECOVERY_SIGNAL,4
+Maharashtra,Raigad,SUDDEN_DROP,7
+Maharashtra,Ratnagiri,CRITICAL_GROUNDWATER,27
+Maharashtra,Ratnagiri,DEPLETION_WARNING,15
+Maharashtra,Ratnagiri,RECOVERY_SIGNAL,4
+Maharashtra,Ratnagiri,SUDDEN_DROP,3
+Maharashtra,Sangli,CRITICAL_GROUNDWATER,17
+Maharashtra,Sangli,DEPLETION_WARNING,14
+Maharashtra,Sangli,RECOVERY_SIGNAL,40
+Maharashtra,Sangli,SUDDEN_DROP,41
+Maharashtra,Satara,CRITICAL_GROUNDWATER,14
+Maharashtra,Satara,DEPLETION_WARNING,18
+Maharashtra,Satara,RECOVERY_SIGNAL,26
+Maharashtra,Satara,SUDDEN_DROP,31
+Maharashtra,Sindhudurg,CRITICAL_GROUNDWATER,68
+Maharashtra,Sindhudurg,DEPLETION_WARNING,34
+Maharashtra,Sindhudurg,RECOVERY_SIGNAL,25
+Maharashtra,Sindhudurg,SUDDEN_DROP,18
+Maharashtra,Solapur,CRITICAL_GROUNDWATER,19
+Maharashtra,Solapur,DEPLETION_WARNING,11
+Maharashtra,Solapur,RECOVERY_SIGNAL,25
+Maharashtra,Solapur,SUDDEN_DROP,39
+Maharashtra,Thane,CRITICAL_GROUNDWATER,20
+Maharashtra,Thane,DEPLETION_WARNING,12
+Maharashtra,Thane,RECOVERY_SIGNAL,10
+Maharashtra,Thane,SUDDEN_DROP,9
+Maharashtra,Wardha,CRITICAL_GROUNDWATER,41
+Maharashtra,Wardha,DEPLETION_WARNING,21
+Maharashtra,Wardha,RECOVERY_SIGNAL,22
+Maharashtra,Wardha,SUDDEN_DROP,32
+Maharashtra,Washim,CRITICAL_GROUNDWATER,35
+Maharashtra,Washim,DEPLETION_WARNING,22
+Maharashtra,Washim,RECOVERY_SIGNAL,30
+Maharashtra,Washim,SUDDEN_DROP,53
+Maharashtra,Yavatmal,CRITICAL_GROUNDWATER,26
+Maharashtra,Yavatmal,DEPLETION_WARNING,15
+Maharashtra,Yavatmal,RECOVERY_SIGNAL,42
+Maharashtra,Yavatmal,SUDDEN_DROP,46
+Meghalaya,East Garo Hills,CRITICAL_GROUNDWATER,11
+Meghalaya,East Garo Hills,DEPLETION_WARNING,5
+Meghalaya,East Garo Hills,RECOVERY_SIGNAL,4
+Meghalaya,East Garo Hills,SUDDEN_DROP,5
+Meghalaya,East Khasi Hills,CRITICAL_GROUNDWATER,2
+Meghalaya,East Khasi Hills,DEPLETION_WARNING,2
+Meghalaya,East Khasi Hills,RECOVERY_SIGNAL,2
+Meghalaya,East Khasi Hills,SUDDEN_DROP,4
+Meghalaya,North Garo Hills,CRITICAL_GROUNDWATER,4
+Meghalaya,North Garo Hills,DEPLETION_WARNING,2
+Meghalaya,North Garo Hills,RECOVERY_SIGNAL,4
+Meghalaya,North Garo Hills,SUDDEN_DROP,2
+Meghalaya,Ri Bhoi,CRITICAL_GROUNDWATER,4
+Meghalaya,Ri Bhoi,DEPLETION_WARNING,4
+Meghalaya,West Garo Hills,DEPLETION_WARNING,2
+Meghalaya,West Jaintia Hills,CRITICAL_GROUNDWATER,1
+Meghalaya,West Jaintia Hills,DEPLETION_WARNING,2
+Nagaland,Dimapur,CRITICAL_GROUNDWATER,11
+Nagaland,Dimapur,DEPLETION_WARNING,7
+Nagaland,Dimapur,RECOVERY_SIGNAL,6
+Nagaland,Dimapur,SUDDEN_DROP,9
+Odisha,Anugul,CRITICAL_GROUNDWATER,21
+Odisha,Anugul,DEPLETION_WARNING,24
+Odisha,Anugul,RECOVERY_SIGNAL,10
+Odisha,Anugul,SUDDEN_DROP,16
+Odisha,Balangir,CRITICAL_GROUNDWATER,46
+Odisha,Balangir,DEPLETION_WARNING,24
+Odisha,Balangir,RECOVERY_SIGNAL,15
+Odisha,Balangir,SUDDEN_DROP,14
+Odisha,Baleshwar,CRITICAL_GROUNDWATER,4
+Odisha,Baleshwar,RECOVERY_SIGNAL,1
+Odisha,Bargarh,CRITICAL_GROUNDWATER,26
+Odisha,Bargarh,DEPLETION_WARNING,31
+Odisha,Bargarh,RECOVERY_SIGNAL,15
+Odisha,Bargarh,SUDDEN_DROP,13
+Odisha,Bhadrak,CRITICAL_GROUNDWATER,4
+Odisha,Bhadrak,DEPLETION_WARNING,7
+Odisha,Bhadrak,RECOVERY_SIGNAL,1
+Odisha,Boudh,CRITICAL_GROUNDWATER,54
+Odisha,Boudh,DEPLETION_WARNING,29
+Odisha,Boudh,RECOVERY_SIGNAL,19
+Odisha,Boudh,SUDDEN_DROP,16
+Odisha,Cuttack,CRITICAL_GROUNDWATER,35
+Odisha,Cuttack,DEPLETION_WARNING,17
+Odisha,Cuttack,RECOVERY_SIGNAL,9
+Odisha,Cuttack,SUDDEN_DROP,5
+Odisha,Deogarh,CRITICAL_GROUNDWATER,19
+Odisha,Deogarh,DEPLETION_WARNING,8
+Odisha,Deogarh,RECOVERY_SIGNAL,4
+Odisha,Deogarh,SUDDEN_DROP,3
+Odisha,Dhenkanal,CRITICAL_GROUNDWATER,28
+Odisha,Dhenkanal,DEPLETION_WARNING,21
+Odisha,Dhenkanal,RECOVERY_SIGNAL,16
+Odisha,Dhenkanal,SUDDEN_DROP,11
+Odisha,Gajapati,CRITICAL_GROUNDWATER,35
+Odisha,Gajapati,DEPLETION_WARNING,16
+Odisha,Gajapati,RECOVERY_SIGNAL,16
+Odisha,Gajapati,SUDDEN_DROP,14
+Odisha,Ganjam,CRITICAL_GROUNDWATER,23
+Odisha,Ganjam,DEPLETION_WARNING,21
+Odisha,Ganjam,RECOVERY_SIGNAL,17
+Odisha,Ganjam,SUDDEN_DROP,7
+Odisha,Jagatsinghapur,CRITICAL_GROUNDWATER,12
+Odisha,Jagatsinghapur,DEPLETION_WARNING,6
+Odisha,Jagatsinghapur,RECOVERY_SIGNAL,2
+Odisha,Jagatsinghapur,SUDDEN_DROP,1
+Odisha,Jajapur,CRITICAL_GROUNDWATER,11
+Odisha,Jajapur,DEPLETION_WARNING,10
+Odisha,Jajapur,RECOVERY_SIGNAL,10
+Odisha,Jajapur,SUDDEN_DROP,8
+Odisha,Jharsuguda,CRITICAL_GROUNDWATER,12
+Odisha,Jharsuguda,DEPLETION_WARNING,7
+Odisha,Jharsuguda,RECOVERY_SIGNAL,2
+Odisha,Jharsuguda,SUDDEN_DROP,4
+Odisha,Kalahandi,CRITICAL_GROUNDWATER,18
+Odisha,Kalahandi,DEPLETION_WARNING,16
+Odisha,Kalahandi,RECOVERY_SIGNAL,13
+Odisha,Kalahandi,SUDDEN_DROP,12
+Odisha,Kandhamal,CRITICAL_GROUNDWATER,6
+Odisha,Kandhamal,DEPLETION_WARNING,1
+Odisha,Kandhamal,RECOVERY_SIGNAL,3
+Odisha,Kandhamal,SUDDEN_DROP,2
+Odisha,Kendrapara,CRITICAL_GROUNDWATER,9
+Odisha,Kendrapara,DEPLETION_WARNING,5
+Odisha,Kendrapara,RECOVERY_SIGNAL,3
+Odisha,Kendrapara,SUDDEN_DROP,1
+Odisha,Kendujhar,CRITICAL_GROUNDWATER,22
+Odisha,Kendujhar,DEPLETION_WARNING,9
+Odisha,Kendujhar,RECOVERY_SIGNAL,4
+Odisha,Kendujhar,SUDDEN_DROP,7
+Odisha,Khordha,CRITICAL_GROUNDWATER,86
+Odisha,Khordha,DEPLETION_WARNING,48
+Odisha,Khordha,RECOVERY_SIGNAL,5
+Odisha,Khordha,SUDDEN_DROP,23
+Odisha,Koraput,CRITICAL_GROUNDWATER,95
+Odisha,Koraput,DEPLETION_WARNING,20
+Odisha,Koraput,RECOVERY_SIGNAL,12
+Odisha,Koraput,SUDDEN_DROP,28
+Odisha,Malkangiri,CRITICAL_GROUNDWATER,28
+Odisha,Malkangiri,DEPLETION_WARNING,17
+Odisha,Malkangiri,RECOVERY_SIGNAL,6
+Odisha,Malkangiri,SUDDEN_DROP,7
+Odisha,Mayurbhanj,CRITICAL_GROUNDWATER,22
+Odisha,Mayurbhanj,DEPLETION_WARNING,11
+Odisha,Mayurbhanj,RECOVERY_SIGNAL,10
+Odisha,Mayurbhanj,SUDDEN_DROP,10
+Odisha,Nabarangpur,CRITICAL_GROUNDWATER,17
+Odisha,Nabarangpur,DEPLETION_WARNING,3
+Odisha,Nabarangpur,RECOVERY_SIGNAL,6
+Odisha,Nabarangpur,SUDDEN_DROP,6
+Odisha,Nayagarh,CRITICAL_GROUNDWATER,25
+Odisha,Nayagarh,DEPLETION_WARNING,14
+Odisha,Nayagarh,RECOVERY_SIGNAL,16
+Odisha,Nayagarh,SUDDEN_DROP,2
+Odisha,Nuapada,CRITICAL_GROUNDWATER,19
+Odisha,Nuapada,DEPLETION_WARNING,20
+Odisha,Nuapada,RECOVERY_SIGNAL,22
+Odisha,Nuapada,SUDDEN_DROP,15
+Odisha,Puri,CRITICAL_GROUNDWATER,34
+Odisha,Puri,DEPLETION_WARNING,9
+Odisha,Puri,RECOVERY_SIGNAL,2
+Odisha,Puri,SUDDEN_DROP,4
+Odisha,Rayagada,CRITICAL_GROUNDWATER,11
+Odisha,Rayagada,DEPLETION_WARNING,2
+Odisha,Rayagada,RECOVERY_SIGNAL,3
+Odisha,Rayagada,SUDDEN_DROP,4
+Odisha,Sambalpur,CRITICAL_GROUNDWATER,34
+Odisha,Sambalpur,DEPLETION_WARNING,28
+Odisha,Sambalpur,RECOVERY_SIGNAL,8
+Odisha,Sambalpur,SUDDEN_DROP,7
+Odisha,Sonepur,CRITICAL_GROUNDWATER,30
+Odisha,Sonepur,DEPLETION_WARNING,29
+Odisha,Sonepur,RECOVERY_SIGNAL,15
+Odisha,Sonepur,SUDDEN_DROP,7
+Odisha,Sundargarh,CRITICAL_GROUNDWATER,61
+Odisha,Sundargarh,DEPLETION_WARNING,31
+Odisha,Sundargarh,RECOVERY_SIGNAL,10
+Odisha,Sundargarh,SUDDEN_DROP,20
+Puducherry,Karaikal,CRITICAL_GROUNDWATER,2
+Puducherry,Karaikal,DEPLETION_WARNING,1
+Puducherry,Karaikal,RECOVERY_SIGNAL,1
+Puducherry,Karaikal,SUDDEN_DROP,5
+Puducherry,Pondicherry,CRITICAL_GROUNDWATER,10
+Puducherry,Pondicherry,DEPLETION_WARNING,1
+Puducherry,Pondicherry,RECOVERY_SIGNAL,1
+Puducherry,Pondicherry,SUDDEN_DROP,2
+Punjab,Amritsar,CRITICAL_GROUNDWATER,13
+Punjab,Amritsar,DEPLETION_WARNING,6
+Punjab,Amritsar,RECOVERY_SIGNAL,3
+Punjab,Amritsar,SUDDEN_DROP,4
+Punjab,Barnala,CRITICAL_GROUNDWATER,6
+Punjab,Barnala,RECOVERY_SIGNAL,15
+Punjab,Barnala,SUDDEN_DROP,1
+Punjab,Bathinda,CRITICAL_GROUNDWATER,15
+Punjab,Bathinda,DEPLETION_WARNING,9
+Punjab,Bathinda,RECOVERY_SIGNAL,20
+Punjab,Faridkot,CRITICAL_GROUNDWATER,21
+Punjab,Faridkot,DEPLETION_WARNING,7
+Punjab,Faridkot,RECOVERY_SIGNAL,8
+Punjab,Faridkot,SUDDEN_DROP,1
+Punjab,Fatehgarh Sahib,CRITICAL_GROUNDWATER,8
+Punjab,Fatehgarh Sahib,DEPLETION_WARNING,10
+Punjab,Fatehgarh Sahib,RECOVERY_SIGNAL,7
+Punjab,Fatehgarh Sahib,SUDDEN_DROP,1
+Punjab,Fazilka,CRITICAL_GROUNDWATER,7
+Punjab,Fazilka,DEPLETION_WARNING,7
+Punjab,Fazilka,RECOVERY_SIGNAL,4
+Punjab,Fazilka,SUDDEN_DROP,3
+Punjab,Ferozepur,CRITICAL_GROUNDWATER,12
+Punjab,Ferozepur,DEPLETION_WARNING,3
+Punjab,Ferozepur,RECOVERY_SIGNAL,2
+Punjab,Ferozepur,SUDDEN_DROP,2
+Punjab,Gurdaspur,CRITICAL_GROUNDWATER,10
+Punjab,Gurdaspur,DEPLETION_WARNING,4
+Punjab,Gurdaspur,RECOVERY_SIGNAL,1
+Punjab,Gurdaspur,SUDDEN_DROP,3
+Punjab,Hoshiarpur,CRITICAL_GROUNDWATER,25
+Punjab,Hoshiarpur,DEPLETION_WARNING,9
+Punjab,Hoshiarpur,RECOVERY_SIGNAL,9
+Punjab,Hoshiarpur,SUDDEN_DROP,9
+Punjab,Jalandhar,CRITICAL_GROUNDWATER,16
+Punjab,Jalandhar,DEPLETION_WARNING,6
+Punjab,Jalandhar,RECOVERY_SIGNAL,12
+Punjab,Jalandhar,SUDDEN_DROP,1
+Punjab,Kapurthala,CRITICAL_GROUNDWATER,7
+Punjab,Kapurthala,DEPLETION_WARNING,6
+Punjab,Kapurthala,RECOVERY_SIGNAL,5
+Punjab,Kapurthala,SUDDEN_DROP,6
+Punjab,Ludhiana,CRITICAL_GROUNDWATER,15
+Punjab,Ludhiana,DEPLETION_WARNING,9
+Punjab,Ludhiana,RECOVERY_SIGNAL,5
+Punjab,Ludhiana,SUDDEN_DROP,1
+Punjab,Malerkotla,CRITICAL_GROUNDWATER,2
+Punjab,Malerkotla,DEPLETION_WARNING,1
+Punjab,Malerkotla,RECOVERY_SIGNAL,3
+Punjab,Mansa,CRITICAL_GROUNDWATER,8
+Punjab,Mansa,DEPLETION_WARNING,3
+Punjab,Mansa,RECOVERY_SIGNAL,8
+Punjab,Mansa,SUDDEN_DROP,1
+Punjab,Moga,CRITICAL_GROUNDWATER,8
+Punjab,Moga,DEPLETION_WARNING,2
+Punjab,Moga,RECOVERY_SIGNAL,14
+Punjab,Pathankot,CRITICAL_GROUNDWATER,22
+Punjab,Pathankot,DEPLETION_WARNING,8
+Punjab,Pathankot,RECOVERY_SIGNAL,10
+Punjab,Pathankot,SUDDEN_DROP,4
+Punjab,Patiala,CRITICAL_GROUNDWATER,22
+Punjab,Patiala,DEPLETION_WARNING,6
+Punjab,Patiala,RECOVERY_SIGNAL,9
+Punjab,Patiala,SUDDEN_DROP,4
+Punjab,Rupnagar,CRITICAL_GROUNDWATER,12
+Punjab,Rupnagar,DEPLETION_WARNING,9
+Punjab,Rupnagar,RECOVERY_SIGNAL,4
+Punjab,Rupnagar,SUDDEN_DROP,4
+Punjab,S.A.S Nagar,CRITICAL_GROUNDWATER,5
+Punjab,S.A.S Nagar,DEPLETION_WARNING,6
+Punjab,S.A.S Nagar,RECOVERY_SIGNAL,1
+Punjab,S.A.S Nagar,SUDDEN_DROP,3
+Punjab,Sangrur,CRITICAL_GROUNDWATER,6
+Punjab,Sangrur,DEPLETION_WARNING,1
+Punjab,Sangrur,RECOVERY_SIGNAL,12
+Punjab,SangrurSangrur,RECOVERY_SIGNAL,1
+Punjab,SangrurSunam,RECOVERY_SIGNAL,1
+Punjab,Shahid Bhagat Singh Nagar Aur,CRITICAL_GROUNDWATER,6
+Punjab,Shahid Bhagat Singh Nagar Aur,RECOVERY_SIGNAL,3
+Punjab,Shahid Bhagat Singh Nagar Aur,SUDDEN_DROP,10
+Punjab,Shahid Bhagat Singh Nagar Nawanshahr,CRITICAL_GROUNDWATER,7
+Punjab,Shahid Bhagat Singh Nagar Nawanshahr,DEPLETION_WARNING,1
+Punjab,Sri Muktsar Sahib,CRITICAL_GROUNDWATER,10
+Punjab,Sri Muktsar Sahib,DEPLETION_WARNING,7
+Punjab,Sri Muktsar Sahib,RECOVERY_SIGNAL,2
+Punjab,Sri Muktsar Sahib,SUDDEN_DROP,2
+Punjab,Tarn Taran,CRITICAL_GROUNDWATER,6
+Punjab,Tarn Taran,DEPLETION_WARNING,2
+Punjab,Tarn Taran,RECOVERY_SIGNAL,7
+Punjab,Tarn Taran,SUDDEN_DROP,1
+Rajasthan,Ajmer,CRITICAL_GROUNDWATER,17
+Rajasthan,Ajmer,DEPLETION_WARNING,10
+Rajasthan,Ajmer,RECOVERY_SIGNAL,12
+Rajasthan,Ajmer,SUDDEN_DROP,24
+Rajasthan,Alwar,CRITICAL_GROUNDWATER,12
+Rajasthan,Alwar,DEPLETION_WARNING,3
+Rajasthan,Alwar,RECOVERY_SIGNAL,21
+Rajasthan,Alwar,SUDDEN_DROP,10
+Rajasthan,Anupgarh,CRITICAL_GROUNDWATER,6
+Rajasthan,Anupgarh,DEPLETION_WARNING,2
+Rajasthan,Anupgarh,RECOVERY_SIGNAL,5
+Rajasthan,Anupgarh,SUDDEN_DROP,2
+Rajasthan,Balotra,CRITICAL_GROUNDWATER,2
+Rajasthan,Balotra,DEPLETION_WARNING,5
+Rajasthan,Balotra,RECOVERY_SIGNAL,7
+Rajasthan,Balotra,SUDDEN_DROP,6
+Rajasthan,Banswara,CRITICAL_GROUNDWATER,25
+Rajasthan,Banswara,DEPLETION_WARNING,19
+Rajasthan,Banswara,RECOVERY_SIGNAL,27
+Rajasthan,Banswara,SUDDEN_DROP,30
+Rajasthan,Baran,CRITICAL_GROUNDWATER,20
+Rajasthan,Baran,DEPLETION_WARNING,6
+Rajasthan,Baran,RECOVERY_SIGNAL,10
+Rajasthan,Baran,SUDDEN_DROP,21
+Rajasthan,Barmer,CRITICAL_GROUNDWATER,43
+Rajasthan,Barmer,DEPLETION_WARNING,12
+Rajasthan,Barmer,RECOVERY_SIGNAL,22
+Rajasthan,Barmer,SUDDEN_DROP,35
+Rajasthan,Beawar,CRITICAL_GROUNDWATER,7
+Rajasthan,Beawar,DEPLETION_WARNING,9
+Rajasthan,Beawar,RECOVERY_SIGNAL,22
+Rajasthan,Beawar,SUDDEN_DROP,34
+Rajasthan,Bharatpur,CRITICAL_GROUNDWATER,11
+Rajasthan,Bharatpur,DEPLETION_WARNING,10
+Rajasthan,Bharatpur,RECOVERY_SIGNAL,26
+Rajasthan,Bharatpur,SUDDEN_DROP,14
+Rajasthan,Bhilwara,CRITICAL_GROUNDWATER,16
+Rajasthan,Bhilwara,DEPLETION_WARNING,9
+Rajasthan,Bhilwara,RECOVERY_SIGNAL,28
+Rajasthan,Bhilwara,SUDDEN_DROP,32
+Rajasthan,Bikaner,CRITICAL_GROUNDWATER,37
+Rajasthan,Bikaner,DEPLETION_WARNING,18
+Rajasthan,Bikaner,RECOVERY_SIGNAL,14
+Rajasthan,Bikaner,SUDDEN_DROP,24
+Rajasthan,Bundi,CRITICAL_GROUNDWATER,5
+Rajasthan,Bundi,DEPLETION_WARNING,4
+Rajasthan,Bundi,RECOVERY_SIGNAL,18
+Rajasthan,Bundi,SUDDEN_DROP,12
+Rajasthan,Chittorgarh,CRITICAL_GROUNDWATER,17
+Rajasthan,Chittorgarh,DEPLETION_WARNING,5
+Rajasthan,Chittorgarh,RECOVERY_SIGNAL,16
+Rajasthan,Chittorgarh,SUDDEN_DROP,26
+Rajasthan,Churu,CRITICAL_GROUNDWATER,13
+Rajasthan,Churu,DEPLETION_WARNING,10
+Rajasthan,Churu,RECOVERY_SIGNAL,14
+Rajasthan,Churu,SUDDEN_DROP,21
+Rajasthan,Dausa,CRITICAL_GROUNDWATER,15
+Rajasthan,Dausa,DEPLETION_WARNING,7
+Rajasthan,Dausa,RECOVERY_SIGNAL,21
+Rajasthan,Dausa,SUDDEN_DROP,16
+Rajasthan,Deeg,CRITICAL_GROUNDWATER,6
+Rajasthan,Deeg,DEPLETION_WARNING,6
+Rajasthan,Deeg,RECOVERY_SIGNAL,20
+Rajasthan,Deeg,SUDDEN_DROP,10
+Rajasthan,Dholpur,CRITICAL_GROUNDWATER,18
+Rajasthan,Dholpur,DEPLETION_WARNING,15
+Rajasthan,Dholpur,RECOVERY_SIGNAL,15
+Rajasthan,Dholpur,SUDDEN_DROP,20
+Rajasthan,Didwana-Kuchaman,CRITICAL_GROUNDWATER,7
+Rajasthan,Didwana-Kuchaman,DEPLETION_WARNING,6
+Rajasthan,Didwana-Kuchaman,RECOVERY_SIGNAL,22
+Rajasthan,Didwana-Kuchaman,SUDDEN_DROP,16
+Rajasthan,Dudu,CRITICAL_GROUNDWATER,23
+Rajasthan,Dudu,DEPLETION_WARNING,8
+Rajasthan,Dudu,RECOVERY_SIGNAL,33
+Rajasthan,Dudu,SUDDEN_DROP,45
+Rajasthan,Dungarpur,CRITICAL_GROUNDWATER,11
+Rajasthan,Dungarpur,DEPLETION_WARNING,8
+Rajasthan,Dungarpur,RECOVERY_SIGNAL,27
+Rajasthan,Dungarpur,SUDDEN_DROP,22
+Rajasthan,Ganganagar,CRITICAL_GROUNDWATER,16
+Rajasthan,Ganganagar,DEPLETION_WARNING,11
+Rajasthan,Ganganagar,RECOVERY_SIGNAL,8
+Rajasthan,Ganganagar,SUDDEN_DROP,12
+Rajasthan,Gangapurcity,CRITICAL_GROUNDWATER,6
+Rajasthan,Gangapurcity,DEPLETION_WARNING,5
+Rajasthan,Gangapurcity,RECOVERY_SIGNAL,8
+Rajasthan,Gangapurcity,SUDDEN_DROP,8
+Rajasthan,Hanumangarh,CRITICAL_GROUNDWATER,13
+Rajasthan,Hanumangarh,DEPLETION_WARNING,9
+Rajasthan,Hanumangarh,RECOVERY_SIGNAL,43
+Rajasthan,Hanumangarh,SUDDEN_DROP,17
+Rajasthan,Jaipur,CRITICAL_GROUNDWATER,2
+Rajasthan,Jaipur,DEPLETION_WARNING,3
+Rajasthan,Jaipur,RECOVERY_SIGNAL,2
+Rajasthan,Jaipur,SUDDEN_DROP,4
+Rajasthan,Jaipur (Gramin),CRITICAL_GROUNDWATER,9
+Rajasthan,Jaipur (Gramin),DEPLETION_WARNING,1
+Rajasthan,Jaipur (Gramin),RECOVERY_SIGNAL,13
+Rajasthan,Jaipur (Gramin),SUDDEN_DROP,12
+Rajasthan,Jaisalmer,CRITICAL_GROUNDWATER,52
+Rajasthan,Jaisalmer,DEPLETION_WARNING,36
+Rajasthan,Jaisalmer,RECOVERY_SIGNAL,30
+Rajasthan,Jaisalmer,SUDDEN_DROP,32
+Rajasthan,Jalore,DEPLETION_WARNING,1
+Rajasthan,Jalore,RECOVERY_SIGNAL,9
+Rajasthan,Jalore,SUDDEN_DROP,6
+Rajasthan,Jhalawar,CRITICAL_GROUNDWATER,29
+Rajasthan,Jhalawar,DEPLETION_WARNING,10
+Rajasthan,Jhalawar,RECOVERY_SIGNAL,41
+Rajasthan,Jhalawar,SUDDEN_DROP,52
+Rajasthan,Jhunjhunu,RECOVERY_SIGNAL,2
+Rajasthan,Jodhpur,CRITICAL_GROUNDWATER,2
+Rajasthan,Jodhpur,DEPLETION_WARNING,4
+Rajasthan,Jodhpur,RECOVERY_SIGNAL,7
+Rajasthan,Jodhpur,SUDDEN_DROP,3
+Rajasthan,Jodhpur (Gramin),CRITICAL_GROUNDWATER,15
+Rajasthan,Jodhpur (Gramin),DEPLETION_WARNING,16
+Rajasthan,Jodhpur (Gramin),RECOVERY_SIGNAL,26
+Rajasthan,Jodhpur (Gramin),SUDDEN_DROP,29
+Rajasthan,Karauli,CRITICAL_GROUNDWATER,12
+Rajasthan,Karauli,DEPLETION_WARNING,11
+Rajasthan,Karauli,RECOVERY_SIGNAL,22
+Rajasthan,Karauli,SUDDEN_DROP,20
+Rajasthan,Kekri,CRITICAL_GROUNDWATER,3
+Rajasthan,Kekri,DEPLETION_WARNING,3
+Rajasthan,Kekri,RECOVERY_SIGNAL,16
+Rajasthan,Kekri,SUDDEN_DROP,16
+Rajasthan,Khairthal-Tijara,CRITICAL_GROUNDWATER,5
+Rajasthan,Khairthal-Tijara,DEPLETION_WARNING,4
+Rajasthan,Khairthal-Tijara,RECOVERY_SIGNAL,13
+Rajasthan,Khairthal-Tijara,SUDDEN_DROP,3
+Rajasthan,Kota,CRITICAL_GROUNDWATER,16
+Rajasthan,Kota,DEPLETION_WARNING,8
+Rajasthan,Kota,RECOVERY_SIGNAL,17
+Rajasthan,Kota,SUDDEN_DROP,15
+Rajasthan,Kotputli-Behror,CRITICAL_GROUNDWATER,8
+Rajasthan,Kotputli-Behror,DEPLETION_WARNING,3
+Rajasthan,Kotputli-Behror,RECOVERY_SIGNAL,11
+Rajasthan,Kotputli-Behror,SUDDEN_DROP,3
+Rajasthan,Nagaur,CRITICAL_GROUNDWATER,4
+Rajasthan,Nagaur,DEPLETION_WARNING,1
+Rajasthan,Nagaur,RECOVERY_SIGNAL,1
+Rajasthan,Nagaur,SUDDEN_DROP,2
+Rajasthan,Neem Ka Thana,CRITICAL_GROUNDWATER,1
+Rajasthan,Neem Ka Thana,DEPLETION_WARNING,2
+Rajasthan,Neem Ka Thana,RECOVERY_SIGNAL,4
+Rajasthan,Neem Ka Thana,SUDDEN_DROP,3
+Rajasthan,Pali,CRITICAL_GROUNDWATER,1
+Rajasthan,Pali,DEPLETION_WARNING,3
+Rajasthan,Pali,RECOVERY_SIGNAL,7
+Rajasthan,Pali,SUDDEN_DROP,19
+Rajasthan,Phalodi,CRITICAL_GROUNDWATER,2
+Rajasthan,Phalodi,RECOVERY_SIGNAL,1
+Rajasthan,Pratapgarh,CRITICAL_GROUNDWATER,14
+Rajasthan,Pratapgarh,DEPLETION_WARNING,13
+Rajasthan,Pratapgarh,RECOVERY_SIGNAL,26
+Rajasthan,Pratapgarh,SUDDEN_DROP,29
+Rajasthan,Rajsamand,CRITICAL_GROUNDWATER,22
+Rajasthan,Rajsamand,DEPLETION_WARNING,14
+Rajasthan,Rajsamand,RECOVERY_SIGNAL,34
+Rajasthan,Rajsamand,SUDDEN_DROP,45
+Rajasthan,Salumbar,CRITICAL_GROUNDWATER,9
+Rajasthan,Salumbar,DEPLETION_WARNING,5
+Rajasthan,Salumbar,RECOVERY_SIGNAL,14
+Rajasthan,Salumbar,SUDDEN_DROP,17
+Rajasthan,Sanchore,CRITICAL_GROUNDWATER,7
+Rajasthan,Sanchore,DEPLETION_WARNING,2
+Rajasthan,Sanchore,RECOVERY_SIGNAL,7
+Rajasthan,Sanchore,SUDDEN_DROP,6
+Rajasthan,Sawai Madhopur,CRITICAL_GROUNDWATER,11
+Rajasthan,Sawai Madhopur,DEPLETION_WARNING,13
+Rajasthan,Sawai Madhopur,RECOVERY_SIGNAL,20
+Rajasthan,Sawai Madhopur,SUDDEN_DROP,24
+Rajasthan,Shahpura,CRITICAL_GROUNDWATER,7
+Rajasthan,Shahpura,DEPLETION_WARNING,3
+Rajasthan,Shahpura,RECOVERY_SIGNAL,8
+Rajasthan,Shahpura,SUDDEN_DROP,14
+Rajasthan,Sikar,CRITICAL_GROUNDWATER,18
+Rajasthan,Sikar,DEPLETION_WARNING,1
+Rajasthan,Sikar,RECOVERY_SIGNAL,9
+Rajasthan,Sikar,SUDDEN_DROP,7
+Rajasthan,Sirohi,CRITICAL_GROUNDWATER,12
+Rajasthan,Sirohi,DEPLETION_WARNING,8
+Rajasthan,Sirohi,RECOVERY_SIGNAL,14
+Rajasthan,Sirohi,SUDDEN_DROP,32
+Rajasthan,Tonk,CRITICAL_GROUNDWATER,6
+Rajasthan,Tonk,DEPLETION_WARNING,8
+Rajasthan,Tonk,RECOVERY_SIGNAL,23
+Rajasthan,Tonk,SUDDEN_DROP,20
+Rajasthan,Udaipur,CRITICAL_GROUNDWATER,17
+Rajasthan,Udaipur,DEPLETION_WARNING,14
+Rajasthan,Udaipur,RECOVERY_SIGNAL,30
+Rajasthan,Udaipur,SUDDEN_DROP,38
+Tamil Nadu,Ariyalur,CRITICAL_GROUNDWATER,5
+Tamil Nadu,Ariyalur,DEPLETION_WARNING,14
+Tamil Nadu,Ariyalur,RECOVERY_SIGNAL,13
+Tamil Nadu,Ariyalur,SUDDEN_DROP,7
+Tamil Nadu,Chengalpattu,CRITICAL_GROUNDWATER,10
+Tamil Nadu,Chengalpattu,DEPLETION_WARNING,6
+Tamil Nadu,Chengalpattu,RECOVERY_SIGNAL,33
+Tamil Nadu,Chengalpattu,SUDDEN_DROP,34
+Tamil Nadu,Chennai,CRITICAL_GROUNDWATER,16
+Tamil Nadu,Chennai,DEPLETION_WARNING,14
+Tamil Nadu,Chennai,RECOVERY_SIGNAL,21
+Tamil Nadu,Chennai,SUDDEN_DROP,27
+Tamil Nadu,Coimbatore,CRITICAL_GROUNDWATER,19
+Tamil Nadu,Coimbatore,DEPLETION_WARNING,5
+Tamil Nadu,Coimbatore,RECOVERY_SIGNAL,18
+Tamil Nadu,Coimbatore,SUDDEN_DROP,18
+Tamil Nadu,Cuddalore,CRITICAL_GROUNDWATER,11
+Tamil Nadu,Cuddalore,DEPLETION_WARNING,7
+Tamil Nadu,Cuddalore,RECOVERY_SIGNAL,14
+Tamil Nadu,Cuddalore,SUDDEN_DROP,10
+Tamil Nadu,Dharmapuri,CRITICAL_GROUNDWATER,20
+Tamil Nadu,Dharmapuri,DEPLETION_WARNING,14
+Tamil Nadu,Dharmapuri,RECOVERY_SIGNAL,30
+Tamil Nadu,Dharmapuri,SUDDEN_DROP,46
+Tamil Nadu,Dindigul,CRITICAL_GROUNDWATER,13
+Tamil Nadu,Dindigul,DEPLETION_WARNING,10
+Tamil Nadu,Dindigul,RECOVERY_SIGNAL,15
+Tamil Nadu,Dindigul,SUDDEN_DROP,15
+Tamil Nadu,Erode,CRITICAL_GROUNDWATER,22
+Tamil Nadu,Erode,DEPLETION_WARNING,12
+Tamil Nadu,Erode,RECOVERY_SIGNAL,29
+Tamil Nadu,Erode,SUDDEN_DROP,33
+Tamil Nadu,Kallakurichi,RECOVERY_SIGNAL,3
+Tamil Nadu,Kallakurichi,SUDDEN_DROP,3
+Tamil Nadu,Kanniyakumari,CRITICAL_GROUNDWATER,1
+Tamil Nadu,Kanniyakumari,DEPLETION_WARNING,1
+Tamil Nadu,Kanniyakumari,RECOVERY_SIGNAL,4
+Tamil Nadu,Kanniyakumari,SUDDEN_DROP,4
+Tamil Nadu,Karur,CRITICAL_GROUNDWATER,4
+Tamil Nadu,Karur,DEPLETION_WARNING,3
+Tamil Nadu,Karur,RECOVERY_SIGNAL,4
+Tamil Nadu,Karur,SUDDEN_DROP,8
+Tamil Nadu,Krishnagiri,CRITICAL_GROUNDWATER,1
+Tamil Nadu,Krishnagiri,DEPLETION_WARNING,1
+Tamil Nadu,Krishnagiri,RECOVERY_SIGNAL,1
+Tamil Nadu,Krishnagiri,SUDDEN_DROP,2
+Tamil Nadu,Madurai,CRITICAL_GROUNDWATER,8
+Tamil Nadu,Madurai,DEPLETION_WARNING,6
+Tamil Nadu,Madurai,RECOVERY_SIGNAL,4
+Tamil Nadu,Madurai,SUDDEN_DROP,10
+Tamil Nadu,Mayiladuthurai,CRITICAL_GROUNDWATER,3
+Tamil Nadu,Mayiladuthurai,DEPLETION_WARNING,2
+Tamil Nadu,Mayiladuthurai,RECOVERY_SIGNAL,4
+Tamil Nadu,Mayiladuthurai,SUDDEN_DROP,2
+Tamil Nadu,Nagapattinam,CRITICAL_GROUNDWATER,6
+Tamil Nadu,Nagapattinam,DEPLETION_WARNING,4
+Tamil Nadu,Nagapattinam,RECOVERY_SIGNAL,7
+Tamil Nadu,Nagapattinam,SUDDEN_DROP,10
+Tamil Nadu,Namakkal,CRITICAL_GROUNDWATER,7
+Tamil Nadu,Namakkal,DEPLETION_WARNING,4
+Tamil Nadu,Namakkal,RECOVERY_SIGNAL,2
+Tamil Nadu,Namakkal,SUDDEN_DROP,8
+Tamil Nadu,Perambalur,CRITICAL_GROUNDWATER,20
+Tamil Nadu,Perambalur,DEPLETION_WARNING,4
+Tamil Nadu,Perambalur,RECOVERY_SIGNAL,16
+Tamil Nadu,Perambalur,SUDDEN_DROP,21
+Tamil Nadu,Pudukkottai,CRITICAL_GROUNDWATER,15
+Tamil Nadu,Pudukkottai,DEPLETION_WARNING,8
+Tamil Nadu,Pudukkottai,RECOVERY_SIGNAL,9
+Tamil Nadu,Pudukkottai,SUDDEN_DROP,10
+Tamil Nadu,Ramanathapuram,CRITICAL_GROUNDWATER,14
+Tamil Nadu,Ramanathapuram,DEPLETION_WARNING,8
+Tamil Nadu,Ramanathapuram,RECOVERY_SIGNAL,3
+Tamil Nadu,Ramanathapuram,SUDDEN_DROP,11
+Tamil Nadu,Salem,CRITICAL_GROUNDWATER,2
+Tamil Nadu,Salem,DEPLETION_WARNING,2
+Tamil Nadu,Salem,RECOVERY_SIGNAL,7
+Tamil Nadu,Salem,SUDDEN_DROP,5
+Tamil Nadu,Tenkasi,RECOVERY_SIGNAL,2
+Tamil Nadu,Tenkasi,SUDDEN_DROP,2
+Tamil Nadu,The Nilgiris,CRITICAL_GROUNDWATER,5
+Tamil Nadu,The Nilgiris,DEPLETION_WARNING,5
+Tamil Nadu,The Nilgiris,RECOVERY_SIGNAL,3
+Tamil Nadu,The Nilgiris,SUDDEN_DROP,2
+Tamil Nadu,Theni,CRITICAL_GROUNDWATER,11
+Tamil Nadu,Theni,DEPLETION_WARNING,13
+Tamil Nadu,Theni,RECOVERY_SIGNAL,12
+Tamil Nadu,Theni,SUDDEN_DROP,14
+Tamil Nadu,Thiruvallur,CRITICAL_GROUNDWATER,12
+Tamil Nadu,Thiruvallur,DEPLETION_WARNING,10
+Tamil Nadu,Thiruvallur,RECOVERY_SIGNAL,10
+Tamil Nadu,Thiruvallur,SUDDEN_DROP,13
+Tamil Nadu,Thiruvarur,CRITICAL_GROUNDWATER,4
+Tamil Nadu,Thiruvarur,DEPLETION_WARNING,7
+Tamil Nadu,Thiruvarur,RECOVERY_SIGNAL,3
+Tamil Nadu,Thiruvarur,SUDDEN_DROP,3
+Tamil Nadu,Thoothukkudi,CRITICAL_GROUNDWATER,21
+Tamil Nadu,Thoothukkudi,DEPLETION_WARNING,9
+Tamil Nadu,Thoothukkudi,RECOVERY_SIGNAL,22
+Tamil Nadu,Thoothukkudi,SUDDEN_DROP,27
+Tamil Nadu,Tiruchirappalli,CRITICAL_GROUNDWATER,28
+Tamil Nadu,Tiruchirappalli,DEPLETION_WARNING,12
+Tamil Nadu,Tiruchirappalli,RECOVERY_SIGNAL,20
+Tamil Nadu,Tiruchirappalli,SUDDEN_DROP,24
+Tamil Nadu,Tirupathur,CRITICAL_GROUNDWATER,5
+Tamil Nadu,Tirupathur,DEPLETION_WARNING,5
+Tamil Nadu,Tirupathur,RECOVERY_SIGNAL,6
+Tamil Nadu,Tirupathur,SUDDEN_DROP,17
+Tamil Nadu,Tiruppur,CRITICAL_GROUNDWATER,22
+Tamil Nadu,Tiruppur,DEPLETION_WARNING,11
+Tamil Nadu,Tiruppur,RECOVERY_SIGNAL,27
+Tamil Nadu,Tiruppur,SUDDEN_DROP,33
+Tamil Nadu,Tiruvannamalai,CRITICAL_GROUNDWATER,11
+Tamil Nadu,Tiruvannamalai,DEPLETION_WARNING,5
+Tamil Nadu,Tiruvannamalai,RECOVERY_SIGNAL,11
+Tamil Nadu,Tiruvannamalai,SUDDEN_DROP,16
+Tamil Nadu,Vellore,CRITICAL_GROUNDWATER,8
+Tamil Nadu,Vellore,DEPLETION_WARNING,4
+Tamil Nadu,Vellore,RECOVERY_SIGNAL,14
+Tamil Nadu,Vellore,SUDDEN_DROP,15
+Tamil Nadu,Viluppuram,CRITICAL_GROUNDWATER,10
+Tamil Nadu,Viluppuram,DEPLETION_WARNING,7
+Tamil Nadu,Viluppuram,RECOVERY_SIGNAL,6
+Tamil Nadu,Viluppuram,SUDDEN_DROP,15
+Tamil Nadu,Virudhunagar,CRITICAL_GROUNDWATER,12
+Tamil Nadu,Virudhunagar,DEPLETION_WARNING,3
+Tamil Nadu,Virudhunagar,RECOVERY_SIGNAL,5
+Tamil Nadu,Virudhunagar,SUDDEN_DROP,13
+Telangana,Adilabad,DEPLETION_WARNING,1
+Telangana,Bhadradri Kothagudem,CRITICAL_GROUNDWATER,7
+Telangana,Bhadradri Kothagudem,DEPLETION_WARNING,4
+Telangana,Bhadradri Kothagudem,SUDDEN_DROP,1
+Telangana,Hanumakonda,CRITICAL_GROUNDWATER,5
+Telangana,Hanumakonda,DEPLETION_WARNING,1
+Telangana,Hanumakonda,RECOVERY_SIGNAL,5
+Telangana,Hanumakonda,SUDDEN_DROP,4
+Telangana,Jagitial,CRITICAL_GROUNDWATER,3
+Telangana,Jagitial,DEPLETION_WARNING,2
+Telangana,Jagitial,RECOVERY_SIGNAL,4
+Telangana,Jagitial,SUDDEN_DROP,6
+Telangana,Jangaon,CRITICAL_GROUNDWATER,2
+Telangana,Jangaon,DEPLETION_WARNING,3
+Telangana,Jangaon,RECOVERY_SIGNAL,9
+Telangana,Jangaon,SUDDEN_DROP,14
+Telangana,Jayashankar Bhupalapally,CRITICAL_GROUNDWATER,4
+Telangana,Jayashankar Bhupalapally,DEPLETION_WARNING,1
+Telangana,Jayashankar Bhupalapally,RECOVERY_SIGNAL,2
+Telangana,Jayashankar Bhupalapally,SUDDEN_DROP,5
+Telangana,Jogulamba Gadwal,CRITICAL_GROUNDWATER,5
+Telangana,Jogulamba Gadwal,DEPLETION_WARNING,3
+Telangana,Jogulamba Gadwal,RECOVERY_SIGNAL,1
+Telangana,Jogulamba Gadwal,SUDDEN_DROP,3
+Telangana,Kamareddy,CRITICAL_GROUNDWATER,5
+Telangana,Kamareddy,DEPLETION_WARNING,4
+Telangana,Kamareddy,RECOVERY_SIGNAL,4
+Telangana,Kamareddy,SUDDEN_DROP,8
+Telangana,Karimnagar,DEPLETION_WARNING,1
+Telangana,Karimnagar,RECOVERY_SIGNAL,8
+Telangana,Karimnagar,SUDDEN_DROP,8
+Telangana,Khammam,CRITICAL_GROUNDWATER,2
+Telangana,Khammam,DEPLETION_WARNING,2
+Telangana,Khammam,RECOVERY_SIGNAL,2
+Telangana,Khammam,SUDDEN_DROP,3
+Telangana,Kumuram Bheem Asifabad Sirpur (T),DEPLETION_WARNING,1
+Telangana,Kumuram Bheem Asifabad Sirpur (T),RECOVERY_SIGNAL,1
+Telangana,Mahabubabad,DEPLETION_WARNING,3
+Telangana,Mahabubabad,RECOVERY_SIGNAL,5
+Telangana,Mahabubabad,SUDDEN_DROP,3
+Telangana,Mahabubnagar,CRITICAL_GROUNDWATER,1
+Telangana,Mahabubnagar,RECOVERY_SIGNAL,1
+Telangana,Mahabubnagar,SUDDEN_DROP,3
+Telangana,Mancherial,CRITICAL_GROUNDWATER,1
+Telangana,Mancherial,SUDDEN_DROP,1
+Telangana,Medak,CRITICAL_GROUNDWATER,6
+Telangana,Medak,DEPLETION_WARNING,2
+Telangana,Medak,RECOVERY_SIGNAL,8
+Telangana,Medak,SUDDEN_DROP,7
+Telangana,Medchal Malkajgiri,CRITICAL_GROUNDWATER,5
+Telangana,Medchal Malkajgiri,DEPLETION_WARNING,1
+Telangana,Medchal Malkajgiri,RECOVERY_SIGNAL,9
+Telangana,Medchal Malkajgiri,SUDDEN_DROP,14
+Telangana,Mulugu,CRITICAL_GROUNDWATER,6
+Telangana,Mulugu,DEPLETION_WARNING,5
+Telangana,Mulugu,RECOVERY_SIGNAL,11
+Telangana,Mulugu,SUDDEN_DROP,11
+Telangana,Nagarkurnool,RECOVERY_SIGNAL,2
+Telangana,Nagarkurnool,SUDDEN_DROP,2
+Telangana,Nalgonda,RECOVERY_SIGNAL,3
+Telangana,Nalgonda,SUDDEN_DROP,5
+Telangana,Narayanpet,CRITICAL_GROUNDWATER,1
+Telangana,Narayanpet,RECOVERY_SIGNAL,3
+Telangana,Narayanpet,SUDDEN_DROP,4
+Telangana,Nirmal,CRITICAL_GROUNDWATER,4
+Telangana,Nirmal,DEPLETION_WARNING,7
+Telangana,Nirmal,RECOVERY_SIGNAL,5
+Telangana,Nirmal,SUDDEN_DROP,4
+Telangana,Nizamabad,CRITICAL_GROUNDWATER,1
+Telangana,Nizamabad,RECOVERY_SIGNAL,2
+Telangana,Nizamabad,SUDDEN_DROP,5
+Telangana,Peddapalli,CRITICAL_GROUNDWATER,1
+Telangana,Peddapalli,DEPLETION_WARNING,1
+Telangana,Peddapalli,RECOVERY_SIGNAL,6
+Telangana,Peddapalli,SUDDEN_DROP,7
+Telangana,Rajanna Sircilla,DEPLETION_WARNING,1
+Telangana,Rajanna Sircilla,RECOVERY_SIGNAL,2
+Telangana,Rajanna Sircilla,SUDDEN_DROP,2
+Telangana,Ranga Reddy,CRITICAL_GROUNDWATER,5
+Telangana,Ranga Reddy,DEPLETION_WARNING,1
+Telangana,Ranga Reddy,RECOVERY_SIGNAL,15
+Telangana,Ranga Reddy,SUDDEN_DROP,13
+Telangana,Sangareddy,CRITICAL_GROUNDWATER,3
+Telangana,Sangareddy,DEPLETION_WARNING,2
+Telangana,Sangareddy,RECOVERY_SIGNAL,10
+Telangana,Sangareddy,SUDDEN_DROP,15
+Telangana,Siddipet,CRITICAL_GROUNDWATER,1
+Telangana,Siddipet,DEPLETION_WARNING,2
+Telangana,Siddipet,RECOVERY_SIGNAL,9
+Telangana,Siddipet,SUDDEN_DROP,13
+Telangana,Suryapet,CRITICAL_GROUNDWATER,5
+Telangana,Suryapet,DEPLETION_WARNING,4
+Telangana,Suryapet,RECOVERY_SIGNAL,8
+Telangana,Suryapet,SUDDEN_DROP,9
+Telangana,Vikarabad,CRITICAL_GROUNDWATER,10
+Telangana,Vikarabad,DEPLETION_WARNING,3
+Telangana,Vikarabad,RECOVERY_SIGNAL,13
+Telangana,Vikarabad,SUDDEN_DROP,22
+Telangana,Wanaparthy,CRITICAL_GROUNDWATER,2
+Telangana,Wanaparthy,RECOVERY_SIGNAL,5
+Telangana,Wanaparthy,SUDDEN_DROP,2
+Telangana,Warangal,CRITICAL_GROUNDWATER,5
+Telangana,Warangal,DEPLETION_WARNING,6
+Telangana,Warangal,RECOVERY_SIGNAL,6
+Telangana,Warangal,SUDDEN_DROP,6
+Telangana,Yadadri Bhuvanagiri,CRITICAL_GROUNDWATER,11
+Telangana,Yadadri Bhuvanagiri,DEPLETION_WARNING,5
+Telangana,Yadadri Bhuvanagiri,RECOVERY_SIGNAL,10
+Telangana,Yadadri Bhuvanagiri,SUDDEN_DROP,11
+TelanganaYadadri Bhuvanagiri,Thurkapally,CRITICAL_GROUNDWATER,2
+TelanganaYadadri Bhuvanagiri,Thurkapally,DEPLETION_WARNING,1
+TelanganaYadadri Bhuvanagiri,Thurkapally,RECOVERY_SIGNAL,2
+TelanganaYadadri Bhuvanagiri,Thurkapally,SUDDEN_DROP,3
+TelanganaYadadri Bhuvanagiri,Yadagirigutta,CRITICAL_GROUNDWATER,4
+TelanganaYadadri Bhuvanagiri,Yadagirigutta,RECOVERY_SIGNAL,2
+TelanganaYadadri Bhuvanagiri,Yadagirigutta,SUDDEN_DROP,3
+The Dadra And Nagar Haveli And Daman And Diu,Dadra Nagar Haveli,CRITICAL_GROUNDWATER,3
+The Dadra And Nagar Haveli And Daman And Diu,Dadra Nagar Haveli,DEPLETION_WARNING,2
+The Dadra And Nagar Haveli And Daman And Diu,Dadra Nagar Haveli,RECOVERY_SIGNAL,2
+The Dadra And Nagar Haveli And Daman And Diu,Dadra Nagar Haveli,SUDDEN_DROP,3
+The Dadra And Nagar Haveli And Daman And Diu,Daman,RECOVERY_SIGNAL,2
+The Dadra And Nagar Haveli And Daman And Diu,Daman,SUDDEN_DROP,1
+The Dadra And Nagar Haveli And Daman And Diu,Diu,CRITICAL_GROUNDWATER,2
+The Dadra And Nagar Haveli And Daman And Diu,Diu,DEPLETION_WARNING,2
+The Dadra And Nagar Haveli And Daman And Diu,Diu,RECOVERY_SIGNAL,1
+The Dadra And Nagar Haveli And Daman And Diu,Diu,SUDDEN_DROP,1
+Tiruchirappalli,Turaiyur,CRITICAL_GROUNDWATER,1
+Tiruchirappalli,Turaiyur,DEPLETION_WARNING,2
+Tiruchirappalli,Turaiyur,RECOVERY_SIGNAL,3
+Tiruchirappalli,Turaiyur,SUDDEN_DROP,4
+Tiruchirappalli,Uppiliapuram,CRITICAL_GROUNDWATER,6
+Tiruchirappalli,Uppiliapuram,SUDDEN_DROP,4
+Tiruchirappalli,Vaiyampatti,CRITICAL_GROUNDWATER,1
+Tiruchirappalli,Vaiyampatti,DEPLETION_WARNING,1
+Tiruchirappalli,Vaiyampatti,RECOVERY_SIGNAL,3
+Tiruchirappalli,Vaiyampatti,SUDDEN_DROP,3
+Tirunelveli,Ambasamudram,CRITICAL_GROUNDWATER,1
+Tirunelveli,Ambasamudram,RECOVERY_SIGNAL,1
+Tirunelveli,Ambasamudram,SUDDEN_DROP,2
+Tirunelveli,Cheranmahadevi,DEPLETION_WARNING,1
+Tirunelveli,Cheranmahadevi,RECOVERY_SIGNAL,1
+Tirunelveli,Cheranmahadevi,SUDDEN_DROP,2
+Tirunelveli,Kalakadu,CRITICAL_GROUNDWATER,2
+Tirunelveli,Kalakadu,RECOVERY_SIGNAL,2
+Tirunelveli,Kalakadu,SUDDEN_DROP,4
+Tirunelveli,Manur,CRITICAL_GROUNDWATER,2
+Tirunelveli,Manur,DEPLETION_WARNING,1
+Tirunelveli,Manur,RECOVERY_SIGNAL,3
+Tirunelveli,Manur,SUDDEN_DROP,3
+Tirunelveli,Palayamkottai,CRITICAL_GROUNDWATER,2
+Tirunelveli,Palayamkottai,RECOVERY_SIGNAL,2
+Tirunelveli,Palayamkottai,SUDDEN_DROP,1
+Tirunelveli,Valliyoor,CRITICAL_GROUNDWATER,2
+Tirunelveli,Valliyoor,DEPLETION_WARNING,1
+Tirunelveli,Valliyoor,RECOVERY_SIGNAL,1
+Tirunelveli,Valliyoor,SUDDEN_DROP,4
+Tirupathur,Alangayan,CRITICAL_GROUNDWATER,2
+Tirupathur,Alangayan,DEPLETION_WARNING,2
+Tirupathur,Alangayan,RECOVERY_SIGNAL,2
+Tirupathur,Alangayan,SUDDEN_DROP,4
+Tripura,Dhalai,CRITICAL_GROUNDWATER,1
+Tripura,Dhalai,DEPLETION_WARNING,3
+Tripura,Dhalai,RECOVERY_SIGNAL,1
+Tripura,Dhalai,SUDDEN_DROP,2
+Tripura,Gomati,CRITICAL_GROUNDWATER,13
+Tripura,Gomati,DEPLETION_WARNING,3
+Tripura,Gomati,RECOVERY_SIGNAL,1
+Tripura,Gomati,SUDDEN_DROP,2
+Tripura,Khowai,CRITICAL_GROUNDWATER,5
+Tripura,Khowai,DEPLETION_WARNING,3
+Tripura,Khowai,RECOVERY_SIGNAL,3
+Tripura,North Tripura,CRITICAL_GROUNDWATER,4
+Tripura,North Tripura,DEPLETION_WARNING,6
+Tripura,North Tripura,RECOVERY_SIGNAL,2
+Tripura,North Tripura,SUDDEN_DROP,1
+Tripura,Sepahijala,CRITICAL_GROUNDWATER,7
+Tripura,Sepahijala,DEPLETION_WARNING,4
+Tripura,Sepahijala,RECOVERY_SIGNAL,1
+Tripura,Sepahijala,SUDDEN_DROP,1
+Tripura,South Tripura,CRITICAL_GROUNDWATER,22
+Tripura,South Tripura,DEPLETION_WARNING,11
+Tripura,South Tripura,RECOVERY_SIGNAL,4
+Tripura,South Tripura,SUDDEN_DROP,3
+Tripura,Unakoti,CRITICAL_GROUNDWATER,17
+Tripura,Unakoti,DEPLETION_WARNING,3
+Tripura,Unakoti,RECOVERY_SIGNAL,6
+Tripura,Unakoti,SUDDEN_DROP,7
+Tripura,West Tripura,CRITICAL_GROUNDWATER,6
+Tripura,West Tripura,DEPLETION_WARNING,5
+Tripura,West Tripura,RECOVERY_SIGNAL,1
+Uttar Pradesh,Agra,CRITICAL_GROUNDWATER,8
+Uttar Pradesh,Agra,DEPLETION_WARNING,3
+Uttar Pradesh,Agra,RECOVERY_SIGNAL,4
+Uttar Pradesh,Agra,SUDDEN_DROP,2
+Uttar Pradesh,Aligarh,CRITICAL_GROUNDWATER,5
+Uttar Pradesh,Aligarh,DEPLETION_WARNING,6
+Uttar Pradesh,Aligarh,RECOVERY_SIGNAL,4
+Uttar Pradesh,Aligarh,SUDDEN_DROP,2
+Uttar Pradesh,Ambedkar Nagar,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Ambedkar Nagar,DEPLETION_WARNING,3
+Uttar Pradesh,Ambedkar Nagar,RECOVERY_SIGNAL,5
+Uttar Pradesh,Amethi,CRITICAL_GROUNDWATER,8
+Uttar Pradesh,Amethi,DEPLETION_WARNING,7
+Uttar Pradesh,Amethi,RECOVERY_SIGNAL,8
+Uttar Pradesh,Amethi,SUDDEN_DROP,3
+Uttar Pradesh,Amroha,CRITICAL_GROUNDWATER,13
+Uttar Pradesh,Amroha,DEPLETION_WARNING,2
+Uttar Pradesh,Amroha,RECOVERY_SIGNAL,6
+Uttar Pradesh,Amroha,SUDDEN_DROP,2
+Uttar Pradesh,Auraiya,CRITICAL_GROUNDWATER,2
+Uttar Pradesh,Auraiya,DEPLETION_WARNING,11
+Uttar Pradesh,Auraiya,RECOVERY_SIGNAL,5
+Uttar Pradesh,Auraiya,SUDDEN_DROP,2
+Uttar Pradesh,Ayodhya,CRITICAL_GROUNDWATER,12
+Uttar Pradesh,Ayodhya,DEPLETION_WARNING,7
+Uttar Pradesh,Ayodhya,RECOVERY_SIGNAL,3
+Uttar Pradesh,Ayodhya,SUDDEN_DROP,4
+Uttar Pradesh,Azamgarh,CRITICAL_GROUNDWATER,9
+Uttar Pradesh,Azamgarh,DEPLETION_WARNING,5
+Uttar Pradesh,Azamgarh,RECOVERY_SIGNAL,5
+Uttar Pradesh,Azamgarh,SUDDEN_DROP,4
+Uttar Pradesh,Bahraich,CRITICAL_GROUNDWATER,7
+Uttar Pradesh,Bahraich,DEPLETION_WARNING,3
+Uttar Pradesh,Ballia,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Ballia,DEPLETION_WARNING,5
+Uttar Pradesh,Ballia,RECOVERY_SIGNAL,10
+Uttar Pradesh,Ballia,SUDDEN_DROP,6
+Uttar Pradesh,Balrampur,CRITICAL_GROUNDWATER,12
+Uttar Pradesh,Balrampur,DEPLETION_WARNING,12
+Uttar Pradesh,Balrampur,RECOVERY_SIGNAL,3
+Uttar Pradesh,Balrampur,SUDDEN_DROP,2
+Uttar Pradesh,Banda,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Banda,DEPLETION_WARNING,7
+Uttar Pradesh,Banda,RECOVERY_SIGNAL,6
+Uttar Pradesh,Banda,SUDDEN_DROP,6
+Uttar Pradesh,Bara Banki,CRITICAL_GROUNDWATER,5
+Uttar Pradesh,Bara Banki,DEPLETION_WARNING,5
+Uttar Pradesh,Bara Banki,RECOVERY_SIGNAL,1
+Uttar Pradesh,Bareilly,CRITICAL_GROUNDWATER,7
+Uttar Pradesh,Bareilly,DEPLETION_WARNING,1
+Uttar Pradesh,Basti,CRITICAL_GROUNDWATER,2
+Uttar Pradesh,Basti,DEPLETION_WARNING,3
+Uttar Pradesh,Basti,RECOVERY_SIGNAL,2
+Uttar Pradesh,Basti,SUDDEN_DROP,1
+Uttar Pradesh,Bhadohi,CRITICAL_GROUNDWATER,3
+Uttar Pradesh,Bhadohi,DEPLETION_WARNING,1
+Uttar Pradesh,Bhadohi,RECOVERY_SIGNAL,7
+Uttar Pradesh,Bhadohi,SUDDEN_DROP,8
+Uttar Pradesh,Bijnor,CRITICAL_GROUNDWATER,1
+Uttar Pradesh,Bijnor,DEPLETION_WARNING,1
+Uttar Pradesh,Bijnor,RECOVERY_SIGNAL,4
+Uttar Pradesh,Bijnor,SUDDEN_DROP,2
+Uttar Pradesh,Budaun,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Budaun,RECOVERY_SIGNAL,4
+Uttar Pradesh,Bulandshahr,CRITICAL_GROUNDWATER,4
+Uttar Pradesh,Bulandshahr,DEPLETION_WARNING,1
+Uttar Pradesh,Chandauli,CRITICAL_GROUNDWATER,10
+Uttar Pradesh,Chandauli,DEPLETION_WARNING,2
+Uttar Pradesh,Chandauli,RECOVERY_SIGNAL,4
+Uttar Pradesh,Chandauli,SUDDEN_DROP,8
+Uttar Pradesh,Chitrakoot,CRITICAL_GROUNDWATER,5
+Uttar Pradesh,Chitrakoot,DEPLETION_WARNING,3
+Uttar Pradesh,Chitrakoot,RECOVERY_SIGNAL,7
+Uttar Pradesh,Chitrakoot,SUDDEN_DROP,12
+Uttar Pradesh,Deoria,CRITICAL_GROUNDWATER,2
+Uttar Pradesh,Deoria,RECOVERY_SIGNAL,1
+Uttar Pradesh,Etah,CRITICAL_GROUNDWATER,8
+Uttar Pradesh,Etah,DEPLETION_WARNING,6
+Uttar Pradesh,Etah,RECOVERY_SIGNAL,4
+Uttar Pradesh,Etah,SUDDEN_DROP,2
+Uttar Pradesh,Etawah,CRITICAL_GROUNDWATER,5
+Uttar Pradesh,Etawah,DEPLETION_WARNING,4
+Uttar Pradesh,Etawah,RECOVERY_SIGNAL,1
+Uttar Pradesh,Etawah,SUDDEN_DROP,2
+Uttar Pradesh,Farrukhabad,CRITICAL_GROUNDWATER,4
+Uttar Pradesh,Farrukhabad,DEPLETION_WARNING,1
+Uttar Pradesh,Farrukhabad,RECOVERY_SIGNAL,4
+Uttar Pradesh,Farrukhabad,SUDDEN_DROP,1
+Uttar Pradesh,Fatehpur,CRITICAL_GROUNDWATER,16
+Uttar Pradesh,Fatehpur,DEPLETION_WARNING,4
+Uttar Pradesh,Fatehpur,RECOVERY_SIGNAL,5
+Uttar Pradesh,Fatehpur,SUDDEN_DROP,7
+Uttar Pradesh,Firozabad,CRITICAL_GROUNDWATER,10
+Uttar Pradesh,Firozabad,DEPLETION_WARNING,3
+Uttar Pradesh,Firozabad,RECOVERY_SIGNAL,7
+Uttar Pradesh,Firozabad,SUDDEN_DROP,1
+Uttar Pradesh,Gautam Buddha Nagar,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Gautam Buddha Nagar,DEPLETION_WARNING,4
+Uttar Pradesh,Gautam Buddha Nagar,RECOVERY_SIGNAL,10
+Uttar Pradesh,Gautam Buddha Nagar,SUDDEN_DROP,5
+Uttar Pradesh,Ghaziabad,CRITICAL_GROUNDWATER,1
+Uttar Pradesh,Ghaziabad,DEPLETION_WARNING,2
+Uttar Pradesh,Ghaziabad,RECOVERY_SIGNAL,1
+Uttar Pradesh,Ghazipur,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Ghazipur,DEPLETION_WARNING,1
+Uttar Pradesh,Ghazipur,RECOVERY_SIGNAL,7
+Uttar Pradesh,Ghazipur,SUDDEN_DROP,4
+Uttar Pradesh,Gonda,CRITICAL_GROUNDWATER,4
+Uttar Pradesh,Gonda,DEPLETION_WARNING,3
+Uttar Pradesh,Hamirpur,CRITICAL_GROUNDWATER,3
+Uttar Pradesh,Hamirpur,DEPLETION_WARNING,2
+Uttar Pradesh,Hamirpur,RECOVERY_SIGNAL,5
+Uttar Pradesh,Hamirpur,SUDDEN_DROP,5
+Uttar Pradesh,Hapur,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Hapur,DEPLETION_WARNING,4
+Uttar Pradesh,Hapur,RECOVERY_SIGNAL,2
+Uttar Pradesh,Hardoi,CRITICAL_GROUNDWATER,12
+Uttar Pradesh,Hardoi,DEPLETION_WARNING,5
+Uttar Pradesh,Hardoi,RECOVERY_SIGNAL,1
+Uttar Pradesh,Hardoi,SUDDEN_DROP,2
+Uttar Pradesh,Hathras,CRITICAL_GROUNDWATER,2
+Uttar Pradesh,Hathras,DEPLETION_WARNING,2
+Uttar Pradesh,Hathras,SUDDEN_DROP,1
+Uttar Pradesh,Jalaun,CRITICAL_GROUNDWATER,5
+Uttar Pradesh,Jalaun,DEPLETION_WARNING,11
+Uttar Pradesh,Jalaun,RECOVERY_SIGNAL,11
+Uttar Pradesh,Jalaun,SUDDEN_DROP,18
+Uttar Pradesh,Jaunpur,CRITICAL_GROUNDWATER,3
+Uttar Pradesh,Jaunpur,DEPLETION_WARNING,3
+Uttar Pradesh,Jaunpur,RECOVERY_SIGNAL,7
+Uttar Pradesh,Jaunpur,SUDDEN_DROP,9
+Uttar Pradesh,Jhansi,CRITICAL_GROUNDWATER,18
+Uttar Pradesh,Jhansi,DEPLETION_WARNING,11
+Uttar Pradesh,Jhansi,RECOVERY_SIGNAL,7
+Uttar Pradesh,Jhansi,SUDDEN_DROP,9
+Uttar Pradesh,Kannauj,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Kannauj,DEPLETION_WARNING,2
+Uttar Pradesh,Kannauj,RECOVERY_SIGNAL,4
+Uttar Pradesh,Kannauj,SUDDEN_DROP,1
+Uttar Pradesh,Kanpur Dehat,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Kanpur Dehat,DEPLETION_WARNING,3
+Uttar Pradesh,Kanpur Dehat,RECOVERY_SIGNAL,1
+Uttar Pradesh,Kanpur Dehat,SUDDEN_DROP,2
+Uttar Pradesh,Kanpur Nagar,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Kanpur Nagar,DEPLETION_WARNING,3
+Uttar Pradesh,Kanpur Nagar,RECOVERY_SIGNAL,5
+Uttar Pradesh,Kanpur Nagar,SUDDEN_DROP,3
+Uttar Pradesh,Kasganj,DEPLETION_WARNING,1
+Uttar Pradesh,Kasganj,RECOVERY_SIGNAL,2
+Uttar Pradesh,Kaushambi,CRITICAL_GROUNDWATER,8
+Uttar Pradesh,Kaushambi,DEPLETION_WARNING,3
+Uttar Pradesh,Kaushambi,RECOVERY_SIGNAL,5
+Uttar Pradesh,Kaushambi,SUDDEN_DROP,5
+Uttar Pradesh,Kheri,DEPLETION_WARNING,1
+Uttar Pradesh,Kushinagar,CRITICAL_GROUNDWATER,1
+Uttar Pradesh,Kushinagar,DEPLETION_WARNING,1
+Uttar Pradesh,Kushinagar,RECOVERY_SIGNAL,1
+Uttar Pradesh,Lalitpur,CRITICAL_GROUNDWATER,13
+Uttar Pradesh,Lalitpur,DEPLETION_WARNING,8
+Uttar Pradesh,Lalitpur,RECOVERY_SIGNAL,8
+Uttar Pradesh,Lalitpur,SUDDEN_DROP,8
+Uttar Pradesh,Lucknow,CRITICAL_GROUNDWATER,16
+Uttar Pradesh,Lucknow,DEPLETION_WARNING,13
+Uttar Pradesh,Lucknow,RECOVERY_SIGNAL,14
+Uttar Pradesh,Lucknow,SUDDEN_DROP,2
+Uttar Pradesh,Mahoba,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Mahoba,DEPLETION_WARNING,1
+Uttar Pradesh,Mahoba,RECOVERY_SIGNAL,5
+Uttar Pradesh,Mahoba,SUDDEN_DROP,8
+Uttar Pradesh,Mahrajganj,CRITICAL_GROUNDWATER,7
+Uttar Pradesh,Mahrajganj,DEPLETION_WARNING,3
+Uttar Pradesh,Mahrajganj,RECOVERY_SIGNAL,2
+Uttar Pradesh,Mahrajganj,SUDDEN_DROP,2
+Uttar Pradesh,Mainpuri,CRITICAL_GROUNDWATER,2
+Uttar Pradesh,Mainpuri,DEPLETION_WARNING,1
+Uttar Pradesh,Mainpuri,RECOVERY_SIGNAL,1
+Uttar Pradesh,Mathura,CRITICAL_GROUNDWATER,9
+Uttar Pradesh,Mathura,DEPLETION_WARNING,4
+Uttar Pradesh,Mathura,RECOVERY_SIGNAL,1
+Uttar Pradesh,Mathura,SUDDEN_DROP,3
+Uttar Pradesh,Mau,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Mau,DEPLETION_WARNING,2
+Uttar Pradesh,Mau,RECOVERY_SIGNAL,3
+Uttar Pradesh,Mau,SUDDEN_DROP,5
+Uttar Pradesh,Meerut,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Meerut,DEPLETION_WARNING,3
+Uttar Pradesh,Meerut,RECOVERY_SIGNAL,2
+Uttar Pradesh,Meerut,SUDDEN_DROP,2
+Uttar Pradesh,Mirzapur,DEPLETION_WARNING,1
+Uttar Pradesh,Mirzapur,RECOVERY_SIGNAL,4
+Uttar Pradesh,Mirzapur,SUDDEN_DROP,3
+Uttar Pradesh,Moradabad,CRITICAL_GROUNDWATER,11
+Uttar Pradesh,Moradabad,DEPLETION_WARNING,3
+Uttar Pradesh,Moradabad,RECOVERY_SIGNAL,3
+Uttar Pradesh,Moradabad,SUDDEN_DROP,1
+Uttar Pradesh,Muzaffarnagar,CRITICAL_GROUNDWATER,12
+Uttar Pradesh,Muzaffarnagar,DEPLETION_WARNING,9
+Uttar Pradesh,Muzaffarnagar,RECOVERY_SIGNAL,1
+Uttar Pradesh,Muzaffarnagar,SUDDEN_DROP,2
+Uttar Pradesh,Pilibhit,CRITICAL_GROUNDWATER,11
+Uttar Pradesh,Pilibhit,DEPLETION_WARNING,6
+Uttar Pradesh,Prayagraj,CRITICAL_GROUNDWATER,7
+Uttar Pradesh,Prayagraj,DEPLETION_WARNING,2
+Uttar Pradesh,Prayagraj,RECOVERY_SIGNAL,8
+Uttar Pradesh,Prayagraj,SUDDEN_DROP,8
+Uttar Pradesh,Rae Bareli,CRITICAL_GROUNDWATER,12
+Uttar Pradesh,Rae Bareli,DEPLETION_WARNING,5
+Uttar Pradesh,Rae Bareli,RECOVERY_SIGNAL,8
+Uttar Pradesh,Rae Bareli,SUDDEN_DROP,5
+Uttar Pradesh,Rampur,CRITICAL_GROUNDWATER,1
+Uttar Pradesh,Rampur,DEPLETION_WARNING,3
+Uttar Pradesh,Rampur,RECOVERY_SIGNAL,1
+Uttar Pradesh,Saharanpur,CRITICAL_GROUNDWATER,7
+Uttar Pradesh,Saharanpur,DEPLETION_WARNING,2
+Uttar Pradesh,Saharanpur,RECOVERY_SIGNAL,1
+Uttar Pradesh,Saharanpur,SUDDEN_DROP,2
+Uttar Pradesh,Sambhal,CRITICAL_GROUNDWATER,5
+Uttar Pradesh,Sambhal,RECOVERY_SIGNAL,2
+Uttar Pradesh,Sant Kabir Nagar,CRITICAL_GROUNDWATER,3
+Uttar Pradesh,Sant Kabir Nagar,DEPLETION_WARNING,4
+Uttar Pradesh,Sant Kabir Nagar,RECOVERY_SIGNAL,3
+Uttar Pradesh,Sant Kabir Nagar,SUDDEN_DROP,1
+Uttar Pradesh,Shahjahanpur,CRITICAL_GROUNDWATER,3
+Uttar Pradesh,Shahjahanpur,DEPLETION_WARNING,1
+Uttar Pradesh,Shahjahanpur,SUDDEN_DROP,1
+Uttar Pradesh,Shamli,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Shamli,DEPLETION_WARNING,1
+Uttar Pradesh,Shamli,RECOVERY_SIGNAL,2
+Uttar Pradesh,Shamli,SUDDEN_DROP,5
+Uttar Pradesh,Shrawasti,CRITICAL_GROUNDWATER,19
+Uttar Pradesh,Shrawasti,DEPLETION_WARNING,10
+Uttar Pradesh,Siddharthnagar,CRITICAL_GROUNDWATER,5
+Uttar Pradesh,Siddharthnagar,DEPLETION_WARNING,4
+Uttar Pradesh,Siddharthnagar,RECOVERY_SIGNAL,3
+Uttar Pradesh,Siddharthnagar,SUDDEN_DROP,1
+Uttar Pradesh,Sitapur,CRITICAL_GROUNDWATER,6
+Uttar Pradesh,Sitapur,DEPLETION_WARNING,1
+Uttar Pradesh,Sitapur,RECOVERY_SIGNAL,1
+Uttar Pradesh,Sonbhadra,CRITICAL_GROUNDWATER,4
+Uttar Pradesh,Sonbhadra,DEPLETION_WARNING,3
+Uttar Pradesh,Sonbhadra,RECOVERY_SIGNAL,19
+Uttar Pradesh,Sonbhadra,SUDDEN_DROP,19
+Uttar Pradesh,Sultanpur,CRITICAL_GROUNDWATER,10
+Uttar Pradesh,Sultanpur,DEPLETION_WARNING,2
+Uttar Pradesh,Sultanpur,RECOVERY_SIGNAL,2
+Uttar Pradesh,Sultanpur,SUDDEN_DROP,3
+Uttar Pradesh,Unnao,DEPLETION_WARNING,3
+Uttar Pradesh,Varanasi,CRITICAL_GROUNDWATER,2
+Uttar Pradesh,Varanasi,RECOVERY_SIGNAL,4
+Uttar Pradesh,Varanasi,SUDDEN_DROP,4
+Uttarakhand,Champawat,CRITICAL_GROUNDWATER,2
+Uttarakhand,Champawat,DEPLETION_WARNING,3
+Uttarakhand,Champawat,RECOVERY_SIGNAL,3
+Uttarakhand,Champawat,SUDDEN_DROP,4
+Uttarakhand,Dehradun,CRITICAL_GROUNDWATER,53
+Uttarakhand,Dehradun,DEPLETION_WARNING,19
+Uttarakhand,Dehradun,RECOVERY_SIGNAL,48
+Uttarakhand,Dehradun,SUDDEN_DROP,54
+Uttarakhand,Haridwar,CRITICAL_GROUNDWATER,47
+Uttarakhand,Haridwar,DEPLETION_WARNING,27
+Uttarakhand,Haridwar,RECOVERY_SIGNAL,18
+Uttarakhand,Haridwar,SUDDEN_DROP,16
+Uttarakhand,Nainital,CRITICAL_GROUNDWATER,9
+Uttarakhand,Nainital,DEPLETION_WARNING,5
+Uttarakhand,Nainital,RECOVERY_SIGNAL,7
+Uttarakhand,Nainital,SUDDEN_DROP,12
+Uttarakhand,Udam Singh Nagar,CRITICAL_GROUNDWATER,43
+Uttarakhand,Udam Singh Nagar,DEPLETION_WARNING,26
+Uttarakhand,Udam Singh Nagar,RECOVERY_SIGNAL,19
+Uttarakhand,Udam Singh Nagar,SUDDEN_DROP,20
+Uttarakhand,Uttar Kashi,CRITICAL_GROUNDWATER,8
+Uttarakhand,Uttar Kashi,RECOVERY_SIGNAL,5
+Uttarakhand,Uttar Kashi,SUDDEN_DROP,9
+West Bengal,Alipurduar,CRITICAL_GROUNDWATER,6
+West Bengal,Alipurduar,DEPLETION_WARNING,5
+West Bengal,Alipurduar,RECOVERY_SIGNAL,2
+West Bengal,Bankura,CRITICAL_GROUNDWATER,23
+West Bengal,Bankura,DEPLETION_WARNING,20
+West Bengal,Bankura,RECOVERY_SIGNAL,23
+West Bengal,Bankura,SUDDEN_DROP,16
+West Bengal,Birbhum,CRITICAL_GROUNDWATER,18
+West Bengal,Birbhum,DEPLETION_WARNING,13
+West Bengal,Birbhum,RECOVERY_SIGNAL,5
+West Bengal,Birbhum,SUDDEN_DROP,13
+West Bengal,Cooch Behar,CRITICAL_GROUNDWATER,5
+West Bengal,Cooch Behar,DEPLETION_WARNING,3
+West Bengal,Dakshin Dinajpur,CRITICAL_GROUNDWATER,6
+West Bengal,Dakshin Dinajpur,DEPLETION_WARNING,2
+West Bengal,Dakshin Dinajpur,RECOVERY_SIGNAL,2
+West Bengal,Dakshin Dinajpur,SUDDEN_DROP,1
+West Bengal,Darjeeling,CRITICAL_GROUNDWATER,42
+West Bengal,Darjeeling,DEPLETION_WARNING,25
+West Bengal,Darjeeling,RECOVERY_SIGNAL,6
+West Bengal,Darjeeling,SUDDEN_DROP,9
+West Bengal,Hooghly,CRITICAL_GROUNDWATER,14
+West Bengal,Hooghly,DEPLETION_WARNING,18
+West Bengal,Hooghly,RECOVERY_SIGNAL,7
+West Bengal,Hooghly,SUDDEN_DROP,10
+West Bengal,Howrah,CRITICAL_GROUNDWATER,10
+West Bengal,Howrah,DEPLETION_WARNING,9
+West Bengal,Howrah,RECOVERY_SIGNAL,4
+West Bengal,Howrah,SUDDEN_DROP,3
+West Bengal,Jalpaiguri,CRITICAL_GROUNDWATER,71
+West Bengal,Jalpaiguri,DEPLETION_WARNING,21
+West Bengal,Jalpaiguri,RECOVERY_SIGNAL,2
+West Bengal,Jalpaiguri,SUDDEN_DROP,7
+West Bengal,Jhargram,CRITICAL_GROUNDWATER,18
+West Bengal,Jhargram,DEPLETION_WARNING,19
+West Bengal,Jhargram,RECOVERY_SIGNAL,19
+West Bengal,Jhargram,SUDDEN_DROP,21
+West Bengal,Kolkata,RECOVERY_SIGNAL,1
+West Bengal,Kolkata,SUDDEN_DROP,2
+West Bengal,Malda,CRITICAL_GROUNDWATER,22
+West Bengal,Malda,DEPLETION_WARNING,9
+West Bengal,Malda,RECOVERY_SIGNAL,8
+West Bengal,Malda,SUDDEN_DROP,15
+West Bengal,Murshidabad,CRITICAL_GROUNDWATER,1
+West Bengal,Murshidabad,DEPLETION_WARNING,3
+West Bengal,Murshidabad,SUDDEN_DROP,1
+West Bengal,Nadia,CRITICAL_GROUNDWATER,3
+West Bengal,Nadia,DEPLETION_WARNING,4
+West Bengal,Nadia,RECOVERY_SIGNAL,3
+West Bengal,Nadia,SUDDEN_DROP,2
+West Bengal,North 24 Parganas,CRITICAL_GROUNDWATER,1
+West Bengal,North 24 Parganas,DEPLETION_WARNING,1
+West Bengal,North 24 Parganas,RECOVERY_SIGNAL,5
+West Bengal,North 24 Parganas,SUDDEN_DROP,10
+West Bengal,Paschim Bardhaman,CRITICAL_GROUNDWATER,33
+West Bengal,Paschim Bardhaman,DEPLETION_WARNING,27
+West Bengal,Paschim Bardhaman,RECOVERY_SIGNAL,30
+West Bengal,Paschim Bardhaman,SUDDEN_DROP,41
+West Bengal,Paschim Medinipur,CRITICAL_GROUNDWATER,10
+West Bengal,Paschim Medinipur,DEPLETION_WARNING,3
+West Bengal,Paschim Medinipur,RECOVERY_SIGNAL,4
+West Bengal,Paschim Medinipur,SUDDEN_DROP,6
+West Bengal,Purba Bardhaman,CRITICAL_GROUNDWATER,2
+West Bengal,Purba Bardhaman,DEPLETION_WARNING,3
+West Bengal,Purba Bardhaman,RECOVERY_SIGNAL,5
+West Bengal,Purba Bardhaman,SUDDEN_DROP,6
+West Bengal,Purba Medinipur,RECOVERY_SIGNAL,2
+West Bengal,Purba Medinipur,SUDDEN_DROP,3
+West Bengal,Purulia,CRITICAL_GROUNDWATER,14
+West Bengal,Purulia,DEPLETION_WARNING,17
+West Bengal,Purulia,RECOVERY_SIGNAL,17
+West Bengal,Purulia,SUDDEN_DROP,16
+West Bengal,South 24 Parganas,CRITICAL_GROUNDWATER,3
+West Bengal,South 24 Parganas,DEPLETION_WARNING,4
+West Bengal,South 24 Parganas,RECOVERY_SIGNAL,5
+West Bengal,South 24 Parganas,SUDDEN_DROP,1
+West Bengal,Uttar Dinajpur,CRITICAL_GROUNDWATER,9
+West Bengal,Uttar Dinajpur,DEPLETION_WARNING,5
