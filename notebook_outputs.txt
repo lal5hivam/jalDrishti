@@ -1,0 +1,462 @@
+================================================================================
+GAVI COMPUTATION NOTEBOOK - ALL CELL OUTPUTS
+Extracted on: January 3, 2026
+================================================================================
+
+================================================================================
+CELL 1 - Load datasets
+================================================================================
+Records: 86912
+Stations: 9632
+
+================================================================================
+CELL 2 - Merge with baseline
+================================================================================
+After merge records: 86515
+
+================================================================================
+CELL 5 - GAVI Statistics
+================================================================================
+count    86515.000000
+mean        52.811472
+std         34.341167
+min          0.000000
+25%         22.222222
+50%         55.454545
+75%         84.210526
+max        100.000000
+Name: GAVI, dtype: float64
+GAVI_CATEGORY
+Safe        33.507484
+Critical    26.863550
+Watch       21.278391
+Stressed    18.350575
+Name: proportion, dtype: float64
+
+================================================================================
+CELL 6 - Save GAVI dataset
+================================================================================
+✓ GAVI dataset saved successfully!
+
+================================================================================
+CELL 8 - Generate alerts
+================================================================================
+✓ Alerts generated successfully!
+
+Total records: 86515
+
+Alert distribution:
+ALERT
+NORMAL                  40798
+CRITICAL_GROUNDWATER    23241
+SUDDEN_DROP              8884
+RECOVERY_SIGNAL          7909
+DEPLETION_WARNING        5683
+Name: count, dtype: int64
+
+Alert percentage:
+ALERT
+NORMAL                  47.16
+CRITICAL_GROUNDWATER    26.86
+SUDDEN_DROP             10.27
+RECOVERY_SIGNAL          9.14
+DEPLETION_WARNING        6.57
+Name: proportion, dtype: float64
+
+================================================================================
+CELL 9 - Persistence checks
+================================================================================
+✓ Persistence checks applied!
+
+Critical alerts before persistence check: 23241
+Critical alerts after persistence check: 10548
+
+Confirmed alert distribution:
+ALERT_CONFIRMED
+NORMAL                  53491
+CRITICAL_GROUNDWATER    10548
+SUDDEN_DROP              8884
+RECOVERY_SIGNAL          7909
+DEPLETION_WARNING        5683
+Name: count, dtype: int64
+
+================================================================================
+CELL 10 - Alert actions and severity
+================================================================================
+[OUTPUT TOO LARGE - Contains detailed alert action mapping table]
+
+================================================================================
+CELL 12 - District and state level alert aggregation
+================================================================================
+[OUTPUT TOO LARGE - Contains detailed district and state level statistics]
+
+================================================================================
+CELL 13 - Current snapshot fix (Latest observation per station)
+================================================================================
+======================================================================
+CREATING CURRENT GROUNDWATER SNAPSHOT
+======================================================================
+
+✓ Latest snapshot created: 9545 stations
+✓ Most recent year: 2024
+
+Current stress distribution:
+  Stressed (GAVI < 50): 4133 stations
+  Safe (GAVI >= 50): 5412 stations
+  Stressed %: 43.3%
+
+✓ District stress (CURRENT) computed for 713 districts
+
+Top 10 most stressed districts (CURRENT snapshot):
+          STATE_UT         DISTRICT  stressed_ratio   avg_gavi  critical_alerts  
+661  Uttar Pradesh       Mahrajganj           100.0  31.641124                1  
+672  Uttar Pradesh           Rampur           100.0   6.818182                1  
+113          Bihar       Sheikhpura           100.0   9.438776                2  
+115          Bihar        Sitamarhi           100.0   8.056634                3  
+114          Bihar          Sheohar           100.0   0.000000                1  
+611        Tripura     West Tripura           100.0  32.367632                1  
+116          Bihar            Siwan           100.0  15.403245                2  
+379    Maharashtra  DharashivKalamb           100.0  47.368421                0  
+664  Uttar Pradesh              Mau           100.0  28.533651                1  
+412      Meghalaya  West Garo Hills           100.0  18.750000                0  
+
+======================================================================
+
+================================================================================
+CELL 14 - Save alert datasets
+================================================================================
+======================================================================
+SAVING ALERT DATASETS
+======================================================================
+
+✓ Saved: output/groundwater_gavi_alerts_2015_2024.csv
+✓ Saved: output/district_level_alerts.csv
+✓ Saved: output/district_stress_summary.csv
+✓ Saved: output/state_alert_summary.csv
+
+======================================================================
+✓ ALL ALERT DATASETS SAVED SUCCESSFULLY!
+======================================================================
+
+Files created:
+  1. output/groundwater_gavi_alerts_2015_2024.csv
+  2. output/district_level_alerts.csv
+  3. output/district_stress_summary.csv
+  4. output/state_alert_summary.csv
+
+================================================================================
+CELL 15 - Policy-ready alert statements
+================================================================================
+======================================================================
+POLICY-READY ALERT STATEMENTS
+======================================================================
+
+📊 OVERALL ASSESSMENT:
+   Total monitoring stations: 9545
+   Stations under stress (GAVI < 50): 4133 (43.3%)
+   Average GAVI: 54.1
+
+🔴 TOP CRITICAL DISTRICTS:
+   • Mahrajganj, Uttar Pradesh
+     - 1 critical alerts
+     - 100.0% stations under stress
+     - Suggested action: Immediate extraction restriction and emergency planning
+   • Rampur, Uttar Pradesh
+     - 1 critical alerts
+     - 100.0% stations under stress
+     - Suggested action: Immediate extraction restriction and emergency planning
+   • Sheikhpura, Bihar
+     - 2 critical alerts
+     - 100.0% stations under stress
+     - Suggested action: Immediate extraction restriction and emergency planning
+
+🟢 POSITIVE SIGNALS:
+   7909 recovery/recharge signals detected
+   Indicates successful monsoon recharge or reduced extraction
+
+======================================================================
+✓ ALERT SYSTEM COMPLETE AND READY FOR DEPLOYMENT!
+======================================================================
+
+================================================================================
+CELL 18 - Modeling dataset prepared
+================================================================================
+======================================================================
+MODELING DATASET PREPARED
+======================================================================
+
+✓ Total records: 76970
+✓ Total stations: 9545
+✓ Year range: 2015 - 2024
+✓ WL range: 0.00 - 50.00 mbgl
+
+Records per station (stats):
+count    9545.000000
+mean        8.063908
+std         1.714877
+min         5.000000
+25%         7.000000
+50%         8.000000
+75%         9.000000
+max        36.000000
+dtype: float64
+
+======================================================================
+
+================================================================================
+CELL 20 - Baseline forecast model
+================================================================================
+[OUTPUT TOO LARGE - Contains baseline forecast statistics and sample forecasts]
+
+================================================================================
+CELL 22 - Forecast → GAVI conversion
+================================================================================
+======================================================================
+FORECAST → GAVI CONVERSION COMPLETE
+======================================================================
+
+✓ Future GAVI computed for 9545 stations
+
+Current GAVI statistics:
+count    9545.000000
+mean       54.095097
+std        35.560261
+min         0.000000
+25%        22.222222
+50%        57.894737
+75%        87.500000
+max       100.000000
+Name: GAVI, dtype: float64
+
+1-Year Forecast GAVI statistics:
+count    9545.000000
+mean       54.416596
+std        37.305828
+min         0.000000
+25%        18.045113
+50%        58.962264
+75%        91.927083
+max       100.000000
+Name: GAVI_forecast_1y, dtype: float64
+
+3-Year Forecast GAVI statistics:
+count    9545.000000
+mean       54.732805
+std        39.794459
+min         0.000000
+25%        10.000000
+50%        60.344828
+75%       100.000000
+max       100.000000
+Name: GAVI_forecast_3y, dtype: float64
+
+======================================================================
+
+1-Year Forecast GAVI Categories:
+GAVI_CATEGORY_1y
+Safe        3671
+Critical    2725
+Watch       1709
+Stressed    1440
+Name: count, dtype: int64
+
+3-Year Forecast GAVI Categories:
+GAVI_CATEGORY_3y
+Safe        3962
+Critical    2959
+Watch       1386
+Stressed    1238
+Name: count, dtype: int64
+
+================================================================================
+CELL 24 - Future alert logic
+================================================================================
+[OUTPUT TOO LARGE - Contains predictive alert system statistics]
+
+================================================================================
+CELL 26 - Model validation
+================================================================================
+[OUTPUT TOO LARGE - Contains validation results and MAE statistics]
+
+================================================================================
+CELL 28 - Save forecast results
+================================================================================
+[OUTPUT TOO LARGE - Contains forecast dataset save confirmation]
+
+================================================================================
+CELL 33 - Visualization libraries loaded
+================================================================================
+======================================================================
+VISUALIZATION LIBRARIES LOADED
+======================================================================
+
+================================================================================
+CELL 34 - District visualization data prepared
+================================================================================
+[OUTPUT TOO LARGE - Contains district visualization preparation statistics with CURRENT snapshot]
+Note: Cell 34 was re-executed with count=63, now uses district_stress_current instead of historical data
+
+================================================================================
+CELL 35 - District stress bar chart created
+================================================================================
+✓ District stress chart saved: output/district_stress_chart.html
+
+================================================================================
+CELL 37 - Station map data prepared
+================================================================================
+[OUTPUT TOO LARGE - Contains station-level map preparation statistics]
+
+================================================================================
+CELL 38 - Station alert map created
+================================================================================
+Warning: color argument of Icon should be one of: {'lightblue', 'darkpurple', 
+'cadetblue', 'gray', 'blue', 'lightgray', 'darkgreen', 'purple', 'green', 'pink', 
+'lightgreen', 'red', 'orange', 'darkblue', 'lightred', 'beige', 'darkred', 'black', 
+'white'}.
+
+======================================================================
+✓ Station alert map saved: output/station_alert_map.html
+======================================================================
+
+📍 Map features:
+   • 9339 stations plotted
+   • Marker clustering enabled
+   • Color-coded by alert type
+   • Interactive tooltips & popups
+
+🖱️ Open the HTML file in a browser to interact with the map
+
+================================================================================
+CELL 40 - Time series charts for critical stations
+================================================================================
+======================================================================
+CREATING TIME SERIES CHARTS FOR CRITICAL STATIONS
+======================================================================
+
+Selected stations: ['Maharashtra_19.8167_76.8667', 'Gujarat_22.4208_73.4194', 'Odisha_19.3681_85.0028']
+
+======================================================================
+
+📊 Creating chart 1/3 for station: Maharashtra_19.8167_76.8667
+   ✓ Saved: output/station_timeseries_Maharashtra_19.8167_76.8667.html
+
+📊 Creating chart 2/3 for station: Gujarat_22.4208_73.4194
+   ✓ Saved: output/station_timeseries_Gujarat_22.4208_73.4194.html
+
+📊 Creating chart 3/3 for station: Odisha_19.3681_85.0028
+   ✓ Saved: output/station_timeseries_Odisha_19.3681_85.0028.html
+
+======================================================================
+✓ TIME SERIES CHARTS COMPLETE
+======================================================================
+
+================================================================================
+CELL 42 - Comprehensive dashboard created
+================================================================================
+======================================================================
+✓ Comprehensive dashboard saved: output/groundwater_dashboard.html
+======================================================================
+
+================================================================================
+CELL 44 - Presentation-ready alert summary
+================================================================================
+======================================================================
+CREATING PRESENTATION-READY ALERT SUMMARY
+======================================================================
+
+✓ Critical districts table saved: output/critical_districts_table.html
+
+======================================================================
+PRESENTATION SUMMARY STATISTICS
+======================================================================
+
+📊 NATIONAL GROUNDWATER ASSESSMENT SUMMARY
+
+CURRENT STATUS:
+  • Total Monitoring Stations: 9,545
+  • Stations Under Stress (GAVI < 50): 4,133 (43.3%)
+  • Active Critical Alerts: 1,109
+  • Average National GAVI: 54.1
+
+FUTURE RISK (1-YEAR FORECAST):
+  • Stations Predicted Critical: 2725
+  • Average Forecast GAVI: 54.4
+  • Districts at HIGH Risk: 340
+
+TOP 3 MOST CRITICAL DISTRICTS:
+
+  1. DharashivKalamb, Maharashtra
+     → 100.0% stations stressed, GAVI=47.4
+     → 0 critical alerts, Future Risk: LOW
+
+  2. Siwan, Bihar
+     → 100.0% stations stressed, GAVI=15.4
+     → 2 critical alerts, Future Risk: HIGH
+
+  3. West Tripura, Tripura
+     → 100.0% stations stressed, GAVI=32.4
+     → 1 critical alerts, Future Risk: LOW
+
+======================================================================
+
+================================================================================
+CELL 45 - Final visualization summary
+================================================================================
+[OUTPUT TOO LARGE - Contains complete visualization system summary and demo script]
+
+================================================================================
+END OF OUTPUTS
+================================================================================
+
+NOTE: Some cell outputs were too large to be extracted in full detail. 
+These cells typically contained:
+- Large data tables with district/state statistics
+- Detailed forecast models and predictions
+- Comprehensive alert distributions
+- Complete visualization summaries
+
+All outputs can be viewed directly in the Jupyter notebook.
+
+================================================================================
+KEY UPDATES FROM LATEST RUN:
+================================================================================
+
+✅ FIXED: Current snapshot calculation now shows correct stress percentages
+   - Previous (WRONG): 100% of stations stressed (historical aggregation)
+   - Current (CORRECT): 43.3% of stations stressed (latest observation only)
+
+✅ Updated Cells (with new execution counts):
+   - Cell 13: count=62 - Current snapshot creation
+   - Cell 15: count=61 - Policy statements (now 43.3% stressed)
+   - Cell 18: count=64 - Modeling dataset (re-run)
+   - Cell 34: count=63 - District visualization (uses current data)
+   - Cell 44: count=66 - Presentation summary (now 43.3% stressed, 1,109 critical alerts)
+
+✅ Key Changes:
+   - Stations Under Stress: 4,133 (43.3%) instead of 9,545 (100%)
+   - Active Critical Alerts: 1,109 instead of 10,548
+   - Average National GAVI: 54.1 instead of 52.8
+   - District stress map now reflects CURRENT conditions, not historical
+
+================================================================================
+
+================================================================================
+SUMMARY OF FILES CREATED:
+================================================================================
+
+1. output/groundwater_gavi_alerts_2015_2024.csv
+2. output/district_level_alerts.csv
+3. output/district_stress_summary.csv
+4. output/state_alert_summary.csv
+5. output/groundwater_forecast_gavi_alerts.csv
+6. output/critical_future_alerts.csv
+7. output/district_future_alerts.csv
+8. output/district_stress_chart.html
+9. output/station_alert_map.html
+10. output/groundwater_dashboard.html
+11. output/critical_districts_table.html
+12. output/station_timeseries_Maharashtra_19.8167_76.8667.html
+13. output/station_timeseries_Gujarat_22.4208_73.4194.html
+14. output/station_timeseries_Odisha_19.3681_85.0028.html
+
+================================================================================
