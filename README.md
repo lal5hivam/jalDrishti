@@ -1,27 +1,27 @@
-    # Groundwater Monitoring & Predictive Alert System (2015-2024)
+# Groundwater Monitoring & Predictive Alert System (2015-2024)
 
-    ## Project Overview
+## Project Overview
 
-    This project implements a comprehensive groundwater monitoring and predictive alert system for India using CGWB (Central Ground Water Board) data from 2015-2024. The system combines data engineering, statistical analysis, and machine learning to provide real-time alerts and future forecasts for groundwater availability.
+This project implements a comprehensive groundwater monitoring and predictive alert system for India using CGWB (Central Ground Water Board) data from 2015-2024. The system combines data engineering, statistical analysis, and machine learning to provide real-time alerts and future forecasts for groundwater availability.
 
-    ---
+---
 
-    ## Table of Contents
+## Table of Contents
 
-    - [Architecture](#architecture)
-    - [Services & Capabilities](#services--capabilities)
-    - [Data Pipeline](#data-pipeline)
-    - [GAVI Index](#gavi-index)
-    - [Alert System](#alert-system)
-    - [Predictive Forecasting](#predictive-forecasting)
-    - [Output Files](#output-files)
-    - [Key Metrics](#key-metrics)
-    - [Getting Started](#getting-started)
-    - [Next Steps](#next-steps)
+- [Architecture](#architecture)
+- [Services & Capabilities](#services--capabilities)
+- [Data Pipeline](#data-pipeline)
+- [GAVI Index](#gavi-index)
+- [Alert System](#alert-system)
+- [Predictive Forecasting](#predictive-forecasting)
+- [Output Files](#output-files)
+- [Key Metrics](#key-metrics)
+- [Getting Started](#getting-started)
+- [Next Steps](#next-steps)
 
-    ---
+  ---
 
-    ## Architecture
+  ## Architecture
 
     ```
     ┌─────────────────┐
