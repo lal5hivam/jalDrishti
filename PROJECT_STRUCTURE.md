@@ -1,4 +1,4 @@
-# 📁 JalDrishti Backend - Complete Project Structure
+# 📁 JalDrishti - Complete Project Structure
 
 ```
 tabula/
@@ -11,9 +11,9 @@ tabula/
 │
 ├── 🗂️ OUTPUT (Precomputed Datasets)
 │   ├── groundwater_gavi_alerts_2015_2024.csv    # Main dataset (86K records)
-│   ├── district_stress_summary.csv              # District rankings
-│   ├── state_alert_summary.csv                  # State aggregations
-│   ├── groundwater_forecast_gavi_alerts.csv     # Forecasts (1y, 3y)
+│   ├── district_stress_summary.csv              # District rankings (732 districts)
+│   ├── state_alert_summary.csv                  # State aggregations (35 states)
+│   ├── groundwater_forecast_gavi_alerts.csv     # Forecasts (9,546 stations)
 │   ├── critical_future_alerts.csv               # Urgent interventions
 │   ├── district_future_alerts.csv               # District future risk
 │   ├── station_baseline.csv                     # Station normalization data
@@ -46,19 +46,70 @@ tabula/
 │   ├── start_api.sh                    # Linux/macOS startup script
 │   └── test_api.py                     # API test suite
 │
+├── 🎨 FRONTEND (Next.js Dashboard)
+│   └── frontend/
+│       ├── package.json                # Node.js dependencies
+│       ├── next.config.js              # Next.js configuration
+│       ├── tailwind.config.ts          # Tailwind CSS config
+│       ├── tsconfig.json               # TypeScript config
+│       │
+│       └── src/
+│           ├── pages/                  # Next.js pages (7 routes)
+│           │   ├── _app.tsx            # App wrapper
+│           │   ├── _document.tsx       # Document wrapper
+│           │   ├── index.tsx           # National dashboard
+│           │   ├── districts.tsx       # District map & rankings
+│           │   ├── alerts.tsx          # Alert center
+│           │   ├── forecast.tsx        # Future risk analysis
+│           │   ├── reports.tsx         # Download center
+│           │   ├── about.tsx           # About page
+│           │   └── stations/
+│           │       ├── index.tsx       # Station explorer
+│           │       └── [id].tsx        # Station detail page
+│           │
+│           ├── components/             # Reusable UI components
+│           │   ├── StationMap.tsx      # Leaflet map with clustering
+│           │   ├── DistrictHeatmap.tsx # District visualization
+│           │   ├── GAVIBadge.tsx       # GAVI score badge
+│           │   ├── AlertBadge.tsx      # Alert type badge
+│           │   ├── StatCard.tsx        # Metric card
+│           │   ├── Layout.tsx          # Page layout
+│           │   ├── LoadingSpinner.tsx  # Loading indicator
+│           │   └── ErrorMessage.tsx    # Error display
+│           │
+│           ├── hooks/
+│           │   └── useApi.ts           # React Query hooks
+│           │
+│           ├── lib/
+│           │   ├── api-client.ts       # Axios API client
+│           │   └── utils.ts            # Utility functions
+│           │
+│           ├── types/
+│           │   └── api.ts              # TypeScript interfaces
+│           │
+│           └── styles/
+│               └── globals.css         # Global styles
+│
 ├── 📖 DOCUMENTATION
-│   ├── README.md                       # Project overview
+│   ├── README.md                       # Master project overview
 │   ├── README_API.md                   # Complete API documentation
 │   ├── API_EXAMPLES.md                 # Example requests & responses
-│   └── PROJECT_STRUCTURE.md            # This file
+│   ├── PROJECT_STRUCTURE.md            # This file
+│   ├── QUICK_START.md                  # Getting started guide
+│   └── DEPLOYMENT_GUIDE.md             # Production deployment
 │
-├── 📂 OTHER
-│   ├── input/                          # Raw data files (if any)
-│   ├── temp/                           # Temporary files
-│   └── .gitignore                      # Git ignore rules
+├── 🔧 STARTUP SCRIPTS
+│   ├── start_api.bat                   # Windows - start backend
+│   ├── start_api.sh                    # Linux/macOS - start backend
+│   ├── start_frontend.bat              # Windows - start frontend
+│   ├── start_frontend.sh               # Linux/macOS - start frontend
+│   ├── start_fullstack.bat             # Windows - start both
+│   └── start_fullstack.sh              # Linux/macOS - start both
 │
-└── 🔧 CONFIGURATION
-    └── venv/                           # Virtual environment (created on setup)
+└── 📂 OTHER
+    ├── input/                          # Raw data files (if any)
+    ├── temp/                           # Temporary files
+    └── venv/                           # Python virtual environment
 ```
 
 ---
@@ -149,6 +200,60 @@ tabula/
 - `/api/reports/download` - CSV export
 - `/api/reports/metadata` - Report info
 - **Lines of Code:** ~100
+
+---
+
+## 🎨 Frontend Module Breakdown
+
+### Pages (Next.js Routes)
+
+| File | Route | Purpose |
+|------|-------|---------|
+| `index.tsx` | `/` | National dashboard with key metrics |
+| `districts.tsx` | `/districts` | Interactive map + district table |
+| `alerts.tsx` | `/alerts` | Alert center with tabs |
+| `forecast.tsx` | `/forecast` | 1y/3y future risk analysis |
+| `reports.tsx` | `/reports` | CSV download center |
+| `about.tsx` | `/about` | Project information |
+| `stations/index.tsx` | `/stations` | Station explorer |
+| `stations/[id].tsx` | `/stations/:id` | Station detail with charts |
+
+### Key Components
+
+| Component | Purpose |
+|-----------|---------|
+| `StationMap.tsx` | Leaflet map with marker clustering for 10K+ stations |
+| `DistrictHeatmap.tsx` | Color-coded district stress visualization |
+| `GAVIBadge.tsx` | Color badge showing GAVI score (green/yellow/orange/red) |
+| `AlertBadge.tsx` | Alert type indicator with severity colors |
+| `StatCard.tsx` | Metric display card with title/value/subtitle |
+| `Layout.tsx` | Common page layout with navigation |
+| `LoadingSpinner.tsx` | Loading state indicator |
+| `ErrorMessage.tsx` | Error display with retry option |
+
+### Hooks & Libraries
+
+| File | Purpose |
+|------|---------|
+| `useApi.ts` | React Query hooks for all API endpoints |
+| `api-client.ts` | Axios client with interceptors |
+| `api.ts` | TypeScript interfaces matching Pydantic models |
+| `utils.ts` | Formatting and utility functions |
+
+### Frontend Tech Stack
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| Next.js | 14.0.4 | React framework with SSR |
+| React | 18.2.0 | UI library |
+| TypeScript | 5.3.3 | Type safety |
+| Tailwind CSS | 3.4.0 | Utility-first styling |
+| Leaflet | 1.9.4 | Interactive maps |
+| MarkerCluster | 1.5.3 | Map marker clustering |
+| Recharts | 2.10.3 | Charts and graphs |
+| React Query | 5.17.9 | Server state management |
+| Axios | 1.6.5 | HTTP client |
+| Lucide React | 0.303.0 | Icon library |
 
 ---
 

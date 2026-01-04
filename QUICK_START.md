@@ -1,53 +1,79 @@
-# 🚀 Quick Start Guide - Get Your API Running in 5 Minutes
+# 🚀 Quick Start Guide - Get JalDrishti Running in 5 Minutes
 
-## Step 1: Open Terminal/Command Prompt
+## Prerequisites
 
-**Windows:** Press `Win + R`, type `cmd`, press Enter  
-**Mac:** Press `Cmd + Space`, type `terminal`, press Enter  
-**Linux:** Press `Ctrl + Alt + T`
-
----
-
-## Step 2: Navigate to Project Directory
-
-```bash
-cd C:\Users\lsing\Desktop\tabula
-```
+- **Python** 3.9+ with pip
+- **Node.js** 18.0+ with npm (for frontend)
+- **Git** (optional)
 
 ---
 
-## Step 3: Run the Quick Start Script
+## 🎯 Option 1: Full Stack Quick Start (Recommended)
+
+Start both backend API and frontend dashboard with one command:
 
 ### Windows
 ```bash
-start_api.bat
+cd C:\Users\lsing\Desktop\tabula
+start_fullstack.bat
 ```
 
 ### Mac/Linux
 ```bash
-chmod +x start_api.sh
-./start_api.sh
+cd ~/tabula
+chmod +x start_fullstack.sh
+./start_fullstack.sh
 ```
 
 **What happens:**
-- ✅ Creates virtual environment (if needed)
-- ✅ Installs dependencies
-- ✅ Starts FastAPI server
-- ✅ Loads all CSV data into memory
+- ✅ Starts backend API on port 8000
+- ✅ Starts frontend dashboard on port 3000
+- ✅ Opens both in separate terminal windows
+
+**Access:**
+- 🌐 **Dashboard**: http://localhost:3000
+- 📡 **API Docs**: http://localhost:8000/docs
+
+---
+
+## 🔧 Option 2: Manual Setup
+
+### Step 1: Backend API
+
+```bash
+cd C:\Users\lsing\Desktop\tabula
+
+# Create and activate virtual environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+# source venv/bin/activate  # Mac/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start server
+uvicorn app.main:app --reload --port 8000
+```
 
 **Wait for:** "✅ API ready to serve requests!"
 
+### Step 2: Frontend Dashboard (New Terminal)
+
+```bash
+cd C:\Users\lsing\Desktop\tabula\frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+**Wait for:** "▲ Next.js 14.0.4 ready"
+
 ---
 
-## Step 4: Open Your Browser
-
-Go to: **http://localhost:8000/docs**
-
-You should see the interactive API documentation (Swagger UI).
-
----
-
-## Step 5: Try Your First API Call
+## Step 3: Verify Installation
 
 ### Option A: Use the Interactive Docs
 1. Click on "GET /api/summary/national"
@@ -129,67 +155,52 @@ uvicorn app.main:app --reload --port 8001
 
 ---
 
-## 🛑 Stopping the Server
+## 🛑 Stopping the Servers
 
-Press **Ctrl + C** in the terminal where the server is running.
+Press **Ctrl + C** in the terminal where each server is running.
 
 ---
 
 ## 📚 Full Documentation
 
+- **Master README:** [README.md](README.md)
 - **Complete API Docs:** [README_API.md](README_API.md)
 - **Example Responses:** [API_EXAMPLES.md](API_EXAMPLES.md)
-- **Architecture:** [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)
+- **Project Structure:** [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)
 - **Deployment:** [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
 
 ---
 
-## 🎨 Integrate with Frontend
+## 🎨 Frontend Pages
 
-### JavaScript Example
-```javascript
-async function getNationalSummary() {
-  const response = await fetch('http://localhost:8000/api/summary/national');
-  const data = await response.json();
-  
-  console.log('Total Stations:', data.total_stations);
-  console.log('Stressed %:', data.stressed_percentage);
-  console.log('Average GAVI:', data.average_gavi);
-}
+Once running, explore these dashboard pages:
 
-getNationalSummary();
-```
-
-### Python Example
-```python
-import requests
-
-response = requests.get('http://localhost:8000/api/summary/national')
-data = response.json()
-
-print(f"Total Stations: {data['total_stations']}")
-print(f"Stressed %: {data['stressed_percentage']}")
-print(f"Average GAVI: {data['average_gavi']}")
-```
+| Page | URL | Description |
+|------|-----|-------------|
+| Dashboard | http://localhost:3000 | National overview |
+| Districts | http://localhost:3000/districts | Interactive map |
+| Alerts | http://localhost:3000/alerts | Alert center |
+| Forecast | http://localhost:3000/forecast | Future risk |
+| Reports | http://localhost:3000/reports | CSV downloads |
+| Stations | http://localhost:3000/stations | Station explorer |
 
 ---
 
 ## ✨ You're All Set!
 
-Your groundwater intelligence API is now running and ready to power:
-- 📊 Dashboard applications
-- 🗺️ Interactive maps
-- 📱 Mobile apps
-- 📈 Analytics tools
-- 🏛️ Policy platforms
+Your groundwater intelligence platform is now running:
 
-**Happy Building! 🌊💧**
+- 📊 **Dashboard** at http://localhost:3000
+- 📡 **API** at http://localhost:8000
+- 📖 **API Docs** at http://localhost:8000/docs
+
+**Happy Exploring! 🌊💧**
 
 ---
 
 **Need Help?**
-- Check [README_API.md](README_API.md) for detailed documentation
+- Check [README.md](README.md) for comprehensive documentation
 - Run `python test_api.py` to test all endpoints
 - View logs in terminal for debugging
 
-**Pro Tip:** Keep the server running in one terminal and test in another!
+**Pro Tip:** Keep both servers running - frontend connects to backend automatically!

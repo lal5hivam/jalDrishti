@@ -1,14 +1,14 @@
-# 📚 JalDrishti Backend - Complete Documentation Index
+# 📚 JalDrishti - Complete Documentation Index
 
-Welcome to the **JalDrishti Groundwater Intelligence API** documentation. This index will help you find exactly what you need.
+Welcome to the **JalDrishti Groundwater Intelligence Platform** documentation. This index will help you find exactly what you need.
 
 ---
 
 ## 🚀 **Start Here**
 
-### New to the API?
-1. 📘 **[QUICK_START.md](QUICK_START.md)** - Get running in 5 minutes
-2. 🎯 **[BACKEND_SUMMARY.md](BACKEND_SUMMARY.md)** - What's been built and why
+### New to JalDrishti?
+1. 📘 **[README.md](README.md)** - Master project overview
+2. ⚡ **[QUICK_START.md](QUICK_START.md)** - Get running in 5 minutes
 3. 🗺️ **[ARCHITECTURE_DIAGRAM.md](ARCHITECTURE_DIAGRAM.md)** - Visual system overview
 
 ### Ready to Build?
@@ -28,16 +28,14 @@ Welcome to the **JalDrishti Groundwater Intelligence API** documentation. This i
 
 | File | Purpose | Read Time |
 |------|---------|-----------|
-| **[QUICK_START.md](QUICK_START.md)** | Get API running in 5 minutes | 5 min |
+| **[README.md](README.md)** | Master project overview with all details | 15 min |
+| **[QUICK_START.md](QUICK_START.md)** | Get running in 5 minutes | 5 min |
 | **[README_API.md](README_API.md)** | Complete API documentation & usage guide | 20 min |
-| **[API_EXAMPLES.md](API_EXAMPLES.md)** | Example requests/responses for all 11 endpoints | 15 min |
-| **[BACKEND_SUMMARY.md](BACKEND_SUMMARY.md)** | What's been built, features, achievements | 10 min |
+| **[API_EXAMPLES.md](API_EXAMPLES.md)** | Example requests/responses for all endpoints | 15 min |
+| **[BACKEND_SUMMARY.md](BACKEND_SUMMARY.md)** | Backend features & achievements | 10 min |
 | **[ARCHITECTURE_DIAGRAM.md](ARCHITECTURE_DIAGRAM.md)** | Visual system architecture & data flow | 10 min |
-| **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** | Code organization, design decisions | 15 min |
-| **[DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)** | Production deployment (7 options) | 25 min |
-| **[INDEX.md](INDEX.md)** | This file - Documentation index | 5 min |
-
-**Total Documentation:** ~8,000 lines across 8 files
+| **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** | Full project organization (backend + frontend) | 15 min |
+| **[DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)** | Production deployment options | 25 min |
 
 ---
 
@@ -45,8 +43,8 @@ Welcome to the **JalDrishti Groundwater Intelligence API** documentation. This i
 
 ### Getting Started
 - **Installation:** [QUICK_START.md](QUICK_START.md)
-- **First API Call:** [QUICK_START.md](QUICK_START.md#step-5-try-your-first-api-call)
-- **Test Suite:** `test_api.py` + [QUICK_START.md](QUICK_START.md)
+- **First API Call:** [QUICK_START.md](QUICK_START.md#step-3-verify-installation)
+- **Dashboard:** http://localhost:3000 after starting frontend
 
 ### API Reference
 - **All Endpoints:** [README_API.md](README_API.md#-api-endpoints)
