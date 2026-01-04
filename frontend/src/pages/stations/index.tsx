@@ -8,7 +8,7 @@ import ErrorMessage from '@/components/ErrorMessage';
 import AlertBadge from '@/components/AlertBadge';
 import GAVIBadge from '@/components/GAVIBadge';
 import dynamic from 'next/dynamic';
-import type { StationListItem } from '@/types/api';
+import type { StationListItem, MapStation } from '@/types/api';
 
 const StationMap = dynamic(() => import('@/components/StationMap'), {
   ssr: false,
@@ -151,8 +151,8 @@ export default function StationsPage() {
             <div className="h-[600px]">
               <StationMap
                 stations={filteredStations}
-                onStationClick={(alert) => {
-                  const station = filteredStations.find(s => s.station_id === alert.station_id);
+                onStationClick={(mapStation: MapStation) => {
+                  const station = filteredStations.find(s => s.station_id === mapStation.station_id);
                   if (station) setSelectedStation(station);
                 }}
               />

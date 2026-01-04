@@ -124,6 +124,19 @@ export interface StationListItem {
   latest_alert: string;
 }
 
+// Union type for map components - works with both StationAlert and StationListItem
+export type MapStation = StationAlert | StationListItem;
+
+// Helper to get GAVI value from either type
+export function getStationGavi(station: MapStation): number {
+  return 'gavi' in station ? station.gavi : station.latest_gavi;
+}
+
+// Helper to get alert from either type
+export function getStationAlert(station: MapStation): string {
+  return 'alert' in station ? station.alert : station.latest_alert;
+}
+
 export interface ReportMetadata {
   report_type: string;
   description: string;
@@ -253,6 +266,9 @@ export const ALERT_CONFIG = {
 // Type-safe alert config keys
 export type AlertType = keyof typeof ALERT_CONFIG;
 
+// Alert configuration type
+type AlertConfigValue = typeof ALERT_CONFIG[AlertType];
+
 // Default fallback for unknown alert types
 const DEFAULT_ALERT_CONFIG = {
   label: 'Unknown Alert',
@@ -266,7 +282,7 @@ const DEFAULT_ALERT_CONFIG = {
  * Get alert configuration with automatic fallback for unknown types
  * Production-safe: Never returns undefined
  */
-export function getAlertConfig(alertType: string | null | undefined): typeof DEFAULT_ALERT_CONFIG {
+export function getAlertConfig(alertType: string | null | undefined): AlertConfigValue | typeof DEFAULT_ALERT_CONFIG {
   if (!alertType) return DEFAULT_ALERT_CONFIG;
   
   const config = ALERT_CONFIG[alertType as AlertType];

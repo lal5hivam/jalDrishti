@@ -1,132 +1,188 @@
-# 🚀 JalDrishti API - Deployment Guide
+# 🚀 JalDrishti - Deployment Guide
 
-Complete guide for deploying the JalDrishti Groundwater Intelligence API to production.
-
----
-
-## 📋 Pre-Deployment Checklist
-
-- [ ] All CSV files present in `output/` directory
-- [ ] Virtual environment created and tested locally
-- [ ] API tested via `/docs` interface
-- [ ] Example endpoints return valid responses
-- [ ] Requirements.txt is up to date
-- [ ] Documentation reviewed and accurate
+Complete guide for deploying JalDrishti to production environments.
 
 ---
 
-## 🖥️ Local Development Setup
+## 📋 Table of Contents
 
-### Windows
-
-```bash
-# 1. Navigate to project
-cd C:\Users\lsing\Desktop\tabula
-
-# 2. Run quick start script
-start_api.bat
-
-# 3. Test API
-# Open browser: http://localhost:8000/docs
-```
-
-### Linux/macOS
-
-```bash
-# 1. Navigate to project
-cd ~/tabula
-
-# 2. Make script executable
-chmod +x start_api.sh
-
-# 3. Run quick start script
-./start_api.sh
-
-# 4. Test API
-# Open browser: http://localhost:8000/docs
-```
+1. [Prerequisites](#prerequisites)
+2. [Deployment Options](#deployment-options)
+3. [Docker Deployment](#docker-deployment-recommended)
+4. [Manual Deployment](#manual-deployment)
+5. [Cloud Platforms](#cloud-platforms)
+6. [Environment Configuration](#environment-configuration)
+7. [SSL/HTTPS Setup](#sslhttps-setup)
+8. [Monitoring & Logging](#monitoring--logging)
+9. [Troubleshooting](#troubleshooting)
 
 ---
 
-## 🌐 Production Deployment Options
+## 📦 Prerequisites
 
-### Option 1: Traditional Server (Linux)
+### For Docker Deployment
+- Docker 20.10+
+- Docker Compose 2.0+
+- 2GB RAM minimum
+- 5GB disk space
 
-#### Requirements
-- Ubuntu 20.04+ or similar
+### For Manual Deployment
 - Python 3.9+
-- Systemd for service management
-- Nginx for reverse proxy (optional)
+- Node.js 18+
+- npm 9+
+- 2GB RAM minimum
 
-#### Steps
+---
 
-**1. Server Setup**
+## 🎯 Deployment Options
+
+| Option | Best For | Complexity |
+|--------|----------|------------|
+| **Docker Compose** | Quick deployment, VPS | ⭐ Easy |
+| **Docker + Nginx** | Production with SSL | ⭐⭐ Medium |
+| **Kubernetes** | Enterprise, scaling | ⭐⭐⭐ Advanced |
+| **Manual** | Development, testing | ⭐⭐ Medium |
+| **Cloud PaaS** | Managed infrastructure | ⭐ Easy |
+
+---
+
+## 🐳 Docker Deployment (Recommended)
+
+### Quick Start
+
 ```bash
-# Update system
-sudo apt update && sudo apt upgrade -y
+# Clone the repository
+git clone <repo-url>
+cd tabula
 
-# Install Python and dependencies
-sudo apt install python3.9 python3.9-venv python3-pip nginx -y
-
-# Create deployment user (optional)
-sudo useradd -m -s /bin/bash jaldrishti
-sudo su - jaldrishti
+# Deploy with one command
+./deploy.sh prod       # Linux/macOS
+deploy.bat prod        # Windows
 ```
 
-**2. Deploy Application**
+### Development Mode
+
 ```bash
-# Clone/copy project files
-cd /home/jaldrishti
-# (Upload your project files here)
+./deploy.sh dev        # Linux/macOS
+deploy.bat dev         # Windows
+```
+
+### Step-by-Step Docker Setup
+
+#### 1. Build Images
+
+```bash
+# Build backend
+docker build -t jaldrishti-api:latest .
+
+# Build frontend
+docker build -t jaldrishti-frontend:latest ./frontend
+```
+
+#### 2. Run with Docker Compose
+
+```bash
+# Development (without nginx)
+docker compose -f docker-compose.dev.yml up -d
+
+# Production (with nginx)
+docker compose -f docker-compose.yml --profile production up -d
+
+# View logs
+docker compose logs -f
+
+# Stop services
+docker compose down
+```
+
+#### 3. Access Points
+
+| Service | URL |
+|---------|-----|
+| Frontend | http://localhost:3000 |
+| API | http://localhost:8000 |
+| API Docs | http://localhost:8000/docs |
+| Nginx (prod) | http://localhost:80 |
+
+### Docker Compose Files
+
+| File | Purpose |
+|------|---------|
+| `docker-compose.yml` | Production deployment |
+| `docker-compose.dev.yml` | Development deployment |
+| `Dockerfile` | Backend image |
+| `frontend/Dockerfile` | Frontend image |
+
+---
+
+## 🔧 Manual Deployment
+
+### Backend API
+
+```bash
+cd tabula
 
 # Create virtual environment
-python3.9 -m venv venv
-source venv/bin/activate
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Install gunicorn for production
+# Production server with Gunicorn
 pip install gunicorn
+gunicorn app.main:app \
+    --workers 4 \
+    --worker-class uvicorn.workers.UvicornWorker \
+    --bind 0.0.0.0:8000 \
+    --access-logfile - \
+    --error-logfile -
 ```
 
-**3. Create Systemd Service**
+### Frontend Dashboard
+
 ```bash
-sudo nano /etc/systemd/system/jaldrishti-api.service
+cd frontend
+
+# Install dependencies
+npm ci
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Add this content:
+### Systemd Service (Linux)
+
+Create `/etc/systemd/system/jaldrishti-api.service`:
+
 ```ini
 [Unit]
-Description=JalDrishti Groundwater API
+Description=JalDrishti API
 After=network.target
 
 [Service]
 Type=notify
-User=jaldrishti
-Group=jaldrishti
-WorkingDirectory=/home/jaldrishti/tabula
-Environment="PATH=/home/jaldrishti/tabula/venv/bin"
-ExecStart=/home/jaldrishti/tabula/venv/bin/gunicorn \
-    app.main:app \
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/jaldrishti
+Environment="PATH=/opt/jaldrishti/venv/bin"
+ExecStart=/opt/jaldrishti/venv/bin/gunicorn app.main:app \
     --workers 4 \
     --worker-class uvicorn.workers.UvicornWorker \
-    --bind 0.0.0.0:8000 \
-    --access-logfile /var/log/jaldrishti/access.log \
-    --error-logfile /var/log/jaldrishti/error.log
+    --bind 0.0.0.0:8000
 Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
 ```
 
-**4. Create Log Directory**
-```bash
-sudo mkdir -p /var/log/jaldrishti
-sudo chown jaldrishti:jaldrishti /var/log/jaldrishti
-```
+Enable and start:
 
-**5. Start Service**
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable jaldrishti-api
@@ -134,503 +190,340 @@ sudo systemctl start jaldrishti-api
 sudo systemctl status jaldrishti-api
 ```
 
-**6. Configure Nginx (Optional)**
-```bash
-sudo nano /etc/nginx/sites-available/jaldrishti
-```
-
-Add:
-```nginx
-server {
-    listen 80;
-    server_name api.jaldrishti.in;  # Your domain
-
-    location / {
-        proxy_pass http://127.0.0.1:8000;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-```
-
-Enable site:
-```bash
-sudo ln -s /etc/nginx/sites-available/jaldrishti /etc/nginx/sites-enabled/
-sudo nginx -t
-sudo systemctl restart nginx
-```
-
-**7. SSL Certificate (Let's Encrypt)**
-```bash
-sudo apt install certbot python3-certbot-nginx -y
-sudo certbot --nginx -d api.jaldrishti.in
-```
-
 ---
 
-### Option 2: Docker Deployment
+## ☁️ Cloud Platforms
 
-#### Create Dockerfile
-```dockerfile
-FROM python:3.11-slim
+### AWS (EC2 + Docker)
 
-# Set working directory
-WORKDIR /app
-
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    gcc \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy requirements first (for caching)
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir gunicorn
-
-# Copy application code
-COPY app/ ./app/
-COPY output/ ./output/
-
-# Expose port
-EXPOSE 8000
-
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python -c "import requests; requests.get('http://localhost:8000/health')"
-
-# Run with gunicorn
-CMD ["gunicorn", "app.main:app", \
-     "--workers", "4", \
-     "--worker-class", "uvicorn.workers.UvicornWorker", \
-     "--bind", "0.0.0.0:8000", \
-     "--access-logfile", "-", \
-     "--error-logfile", "-"]
-```
-
-#### Create docker-compose.yml
-```yaml
-version: '3.8'
-
-services:
-  api:
-    build: .
-    image: jaldrishti-api:latest
-    container_name: jaldrishti-api
-    ports:
-      - "8000:8000"
-    environment:
-      - LATEST_YEAR=2024
-    volumes:
-      - ./output:/app/output:ro  # Read-only data
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-```
-
-#### Build and Run
 ```bash
-# Build image
-docker build -t jaldrishti-api:latest .
+# Connect to EC2
+ssh -i key.pem ubuntu@your-ec2-ip
 
-# Run container
-docker-compose up -d
+# Install Docker
+sudo apt update
+sudo apt install docker.io docker-compose-plugin -y
+sudo usermod -aG docker $USER
 
-# Check logs
-docker-compose logs -f
-
-# Stop
-docker-compose down
+# Clone and deploy
+git clone <repo-url>
+cd tabula
+./deploy.sh prod
 ```
 
----
+### AWS (ECS/Fargate)
 
-### Option 3: Cloud Platforms
-
-#### 🔹 **Heroku**
-
-**1. Create Procfile**
-```
-web: gunicorn app.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
-```
-
-**2. Create runtime.txt**
-```
-python-3.11.0
-```
-
-**3. Deploy**
+1. Push images to ECR:
 ```bash
-# Install Heroku CLI
-# https://devcenter.heroku.com/articles/heroku-cli
+aws ecr get-login-password | docker login --username AWS --password-stdin <account>.dkr.ecr.<region>.amazonaws.com
 
-# Login
-heroku login
-
-# Create app
-heroku create jaldrishti-api
-
-# Deploy
-git add .
-git commit -m "Deploy to Heroku"
-git push heroku master
-
-# Open
-heroku open
+docker tag jaldrishti-api:latest <account>.dkr.ecr.<region>.amazonaws.com/jaldrishti-api:latest
+docker push <account>.dkr.ecr.<region>.amazonaws.com/jaldrishti-api:latest
 ```
 
----
+2. Create ECS task definition with the pushed images
+3. Configure Application Load Balancer
 
-#### 🔹 **AWS Lambda + API Gateway**
+### Google Cloud (Cloud Run)
 
-**1. Install Mangum**
 ```bash
-pip install mangum
-```
-
-**2. Modify app/main.py**
-```python
-from mangum import Mangum
-
-# ... existing code ...
-
-# Add at the end
-handler = Mangum(app)
-```
-
-**3. Create deployment package**
-```bash
-pip install -t ./package -r requirements.txt
-cd package
-zip -r ../deployment.zip .
-cd ..
-zip -g deployment.zip app/ output/
-```
-
-**4. Deploy to Lambda**
-- Create Lambda function (Python 3.9+)
-- Upload deployment.zip
-- Set handler: `app.main.handler`
-- Set timeout: 30 seconds
-- Set memory: 1024 MB
-- Create API Gateway trigger
-
----
-
-#### 🔹 **Google Cloud Run**
-
-**1. Install gcloud CLI**
-```bash
-# https://cloud.google.com/sdk/docs/install
-```
-
-**2. Build and deploy**
-```bash
-# Authenticate
-gcloud auth login
-
-# Set project
-gcloud config set project YOUR_PROJECT_ID
-
-# Deploy
+# Backend
 gcloud run deploy jaldrishti-api \
-  --source . \
-  --platform managed \
-  --region us-central1 \
-  --allow-unauthenticated \
-  --memory 1Gi \
-  --cpu 2
+    --source . \
+    --region us-central1 \
+    --allow-unauthenticated
+
+# Frontend
+cd frontend
+gcloud run deploy jaldrishti-frontend \
+    --source . \
+    --region us-central1 \
+    --set-env-vars NEXT_PUBLIC_API_URL=https://jaldrishti-api-xxx.run.app \
+    --allow-unauthenticated
 ```
 
----
+### Azure (Container Instances)
 
-#### 🔹 **Azure App Service**
-
-**1. Install Azure CLI**
 ```bash
-# https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
-```
-
-**2. Deploy**
-```bash
-# Login
-az login
-
 # Create resource group
 az group create --name jaldrishti-rg --location eastus
 
-# Create app service plan
-az appservice plan create \
-  --name jaldrishti-plan \
-  --resource-group jaldrishti-rg \
-  --sku B1 \
-  --is-linux
+# Deploy API
+az container create \
+    --resource-group jaldrishti-rg \
+    --name jaldrishti-api \
+    --image <acr>.azurecr.io/jaldrishti-api:latest \
+    --ports 8000 \
+    --dns-name-label jaldrishti-api
+```
 
-# Create web app
-az webapp create \
-  --resource-group jaldrishti-rg \
-  --plan jaldrishti-plan \
-  --name jaldrishti-api \
-  --runtime "PYTHON|3.11"
+### DigitalOcean (App Platform)
 
-# Deploy code
-az webapp up \
-  --resource-group jaldrishti-rg \
-  --name jaldrishti-api
+1. Connect GitHub repository
+2. Configure build settings:
+   - Backend: Dockerfile at root
+   - Frontend: Dockerfile at `/frontend`
+3. Set environment variables
+4. Deploy
+
+### Heroku
+
+```bash
+# Login
+heroku login
+
+# Create apps
+heroku create jaldrishti-api
+heroku create jaldrishti-frontend
+
+# Deploy backend
+heroku container:push web -a jaldrishti-api
+heroku container:release web -a jaldrishti-api
+
+# Deploy frontend
+cd frontend
+heroku container:push web -a jaldrishti-frontend
+heroku container:release web -a jaldrishti-frontend
 ```
 
 ---
 
-## 🔧 Environment Configuration
+## ⚙️ Environment Configuration
 
-### Production Settings
+### Backend Environment Variables
 
-Create `.env` file (optional):
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `PORT` | 8000 | API server port |
+| `HOST` | 0.0.0.0 | Bind address |
+| `WORKERS` | 4 | Gunicorn workers |
+| `CORS_ORIGINS` | * | Allowed CORS origins |
+
+### Frontend Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `NEXT_PUBLIC_API_URL` | http://localhost:8000 | Backend API URL |
+| `PORT` | 3000 | Frontend server port |
+
+### Configuration Files
+
 ```bash
-# API Configuration
-API_HOST=0.0.0.0
-API_PORT=8000
-API_ENV=production
+# Copy example configs
+cp .env.example .env
+cp frontend/.env.example frontend/.env.local
 
-# Data Configuration
-DATA_DIR=/app/output
-LATEST_YEAR=2024
-
-# CORS
-ALLOWED_ORIGINS=https://dashboard.jaldrishti.in,https://app.jaldrishti.in
-
-# Logging
-LOG_LEVEL=INFO
+# Edit for your environment
+nano .env
 ```
 
-### Load Environment Variables
+---
 
-Modify `app/config.py`:
-```python
-from os import getenv
+## 🔐 SSL/HTTPS Setup
 
-class Settings:
-    API_ENV = getenv("API_ENV", "development")
-    DATA_DIR = Path(getenv("DATA_DIR", BASE_DIR / "output"))
-    LATEST_YEAR = int(getenv("LATEST_YEAR", 2024))
-    ALLOWED_ORIGINS = getenv("ALLOWED_ORIGINS", "*").split(",")
+### Option 1: Let's Encrypt (Certbot)
+
+```bash
+# Install certbot
+sudo apt install certbot python3-certbot-nginx
+
+# Get certificate
+sudo certbot --nginx -d jaldrishti.example.com -d api.jaldrishti.example.com
+
+# Auto-renewal
+sudo certbot renew --dry-run
+```
+
+### Option 2: Self-Signed (Development)
+
+```bash
+mkdir -p nginx/ssl
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+    -keyout nginx/ssl/key.pem \
+    -out nginx/ssl/cert.pem \
+    -subj "/CN=localhost"
+```
+
+### Nginx HTTPS Configuration
+
+Update `nginx/nginx.conf`:
+
+```nginx
+server {
+    listen 443 ssl http2;
+    server_name jaldrishti.example.com;
+    
+    ssl_certificate /etc/nginx/ssl/cert.pem;
+    ssl_certificate_key /etc/nginx/ssl/key.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    
+    # ... rest of configuration
+}
 ```
 
 ---
 
 ## 📊 Monitoring & Logging
 
-### Application Logs
+### Health Checks
 
-**View logs (systemd)**
 ```bash
-journalctl -u jaldrishti-api -f
-```
+# API health
+curl http://localhost:8000/health
 
-**View logs (Docker)**
-```bash
-docker logs -f jaldrishti-api
-```
-
-### Health Monitoring
-
-**Endpoint:** `GET /health`
-
-**Monitoring Script**
-```bash
-#!/bin/bash
-while true; do
-    STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8000/health)
-    if [ $STATUS -ne 200 ]; then
-        echo "API DOWN! Status: $STATUS"
-        # Send alert (email, Slack, etc.)
-    fi
-    sleep 60
-done
-```
-
-### Performance Monitoring
-
-Use tools like:
-- **New Relic**: APM monitoring
-- **DataDog**: Infrastructure monitoring
-- **Prometheus + Grafana**: Custom metrics
-
----
-
-## 🔐 Security Best Practices
-
-### 1. Firewall Configuration
-```bash
-# Allow only HTTP/HTTPS
-sudo ufw allow 80/tcp
-sudo ufw allow 443/tcp
-sudo ufw enable
-```
-
-### 2. Rate Limiting (Nginx)
-```nginx
-limit_req_zone $binary_remote_addr zone=api_limit:10m rate=10r/s;
-
-server {
-    location / {
-        limit_req zone=api_limit burst=20 nodelay;
-        proxy_pass http://127.0.0.1:8000;
-    }
+# Expected response:
+{
+  "status": "healthy",
+  "version": "1.0.0",
+  "data_loaded": true,
+  "latest_year": 2024,
+  "total_stations": 9547
 }
 ```
 
-### 3. API Key Authentication (Future)
-```python
-# Add to app/main.py
-from fastapi.security import APIKeyHeader
+### Docker Logs
 
-api_key_header = APIKeyHeader(name="X-API-Key")
+```bash
+# All services
+docker compose logs -f
 
-@app.get("/api/protected")
-async def protected(api_key: str = Depends(api_key_header)):
-    if api_key != settings.API_KEY:
-        raise HTTPException(403, "Invalid API key")
-    return {"data": "protected"}
+# Specific service
+docker compose logs -f api
+docker compose logs -f frontend
+
+# Last 100 lines
+docker compose logs --tail 100
+```
+
+### Log Aggregation (Optional)
+
+For production, consider:
+- **ELK Stack** (Elasticsearch, Logstash, Kibana)
+- **Grafana + Loki**
+- **CloudWatch** (AWS)
+- **Stackdriver** (GCP)
+
+---
+
+## 🔍 Troubleshooting
+
+### Common Issues
+
+#### Port Already in Use
+
+```bash
+# Find process using port
+lsof -i :8000   # Linux/macOS
+netstat -ano | findstr :8000   # Windows
+
+# Kill process
+kill -9 <PID>   # Linux/macOS
+taskkill /PID <PID> /F   # Windows
+```
+
+#### Docker Build Fails
+
+```bash
+# Clean Docker cache
+docker system prune -a
+
+# Rebuild without cache
+docker compose build --no-cache
+```
+
+#### Frontend Can't Connect to API
+
+1. Check API is running: `curl http://localhost:8000/health`
+2. Verify `NEXT_PUBLIC_API_URL` is correct
+3. Check CORS settings in backend
+4. Ensure network connectivity between containers
+
+#### Out of Memory
+
+```bash
+# Increase Docker memory limit
+# Docker Desktop → Settings → Resources → Memory
+
+# Reduce workers
+WORKERS=2 docker compose up
+```
+
+### Debug Mode
+
+```bash
+# Backend with debug logs
+LOG_LEVEL=DEBUG uvicorn app.main:app --reload
+
+# Frontend with verbose output
+npm run dev -- --verbose
+```
+
+### Container Shell Access
+
+```bash
+# API container
+docker exec -it jaldrishti-api /bin/sh
+
+# Frontend container
+docker exec -it jaldrishti-frontend /bin/sh
 ```
 
 ---
 
-## 🧪 Post-Deployment Testing
+## 📈 Performance Tuning
 
-### 1. Health Check
+### Backend Optimization
+
 ```bash
-curl https://api.jaldrishti.in/health
+# Increase workers based on CPU
+WORKERS=$((2 * $(nproc) + 1))
+
+# Enable keep-alive
+gunicorn --keep-alive 120 ...
 ```
 
-### 2. Load Testing
-```bash
-# Install Apache Bench
-sudo apt install apache2-utils
+### Frontend Optimization
 
-# Test with 1000 requests, 10 concurrent
-ab -n 1000 -c 10 https://api.jaldrishti.in/api/summary/national
-```
+- Enable caching in nginx
+- Use CDN for static assets
+- Enable gzip compression
 
-### 3. Integration Testing
-```python
-import requests
+### Resource Allocation
 
-BASE_URL = "https://api.jaldrishti.in"
-
-def test_endpoints():
-    endpoints = [
-        "/api/summary/national",
-        "/api/summary/districts",
-        "/api/summary/states",
-        "/api/alerts/critical"
-    ]
-    
-    for endpoint in endpoints:
-        response = requests.get(f"{BASE_URL}{endpoint}")
-        assert response.status_code == 200, f"Failed: {endpoint}"
-        print(f"✓ {endpoint}")
-
-test_endpoints()
-```
+| Environment | API Workers | RAM | CPU |
+|-------------|-------------|-----|-----|
+| Development | 1-2 | 1GB | 1 core |
+| Staging | 2-4 | 2GB | 2 cores |
+| Production | 4-8 | 4GB+ | 4+ cores |
 
 ---
 
-## 🔄 Updates & Maintenance
+## ✅ Deployment Checklist
 
-### Update Data
-```bash
-# 1. Generate new CSVs from Jupyter notebooks
-# 2. Copy to server
-scp output/*.csv user@server:/home/jaldrishti/tabula/output/
-
-# 3. Restart service
-sudo systemctl restart jaldrishti-api
-```
-
-### Update Code
-```bash
-# 1. Pull latest code
-git pull origin main
-
-# 2. Install dependencies
-source venv/bin/activate
-pip install -r requirements.txt
-
-# 3. Restart service
-sudo systemctl restart jaldrishti-api
-```
+- [ ] Environment variables configured
+- [ ] SSL certificates in place
+- [ ] Health checks passing
+- [ ] CORS origins configured
+- [ ] Logging enabled
+- [ ] Backup strategy defined
+- [ ] Monitoring configured
+- [ ] DNS records set up
+- [ ] Firewall rules configured
+- [ ] Load testing completed
 
 ---
 
-## 📈 Performance Optimization
+## 📞 Support
 
-### 1. Increase Workers
-```bash
-# Edit systemd service
---workers 8  # Match CPU cores
-```
-
-### 2. Enable Caching Headers
-```python
-from fastapi.responses import JSONResponse
-
-@app.middleware("http")
-async def add_cache_headers(request, call_next):
-    response = await call_next(request)
-    response.headers["Cache-Control"] = "public, max-age=300"
-    return response
-```
-
-### 3. Use CDN
-- CloudFlare
-- AWS CloudFront
-- Azure CDN
+For deployment issues:
+1. Check logs: `docker compose logs -f`
+2. Review this guide
+3. Open a GitHub issue
 
 ---
 
-## 🆘 Troubleshooting
+<div align="center">
 
-### Issue: Service won't start
-```bash
-# Check logs
-sudo journalctl -u jaldrishti-api -n 50
+**Happy Deploying! 🚀**
 
-# Check permissions
-ls -la /home/jaldrishti/tabula
-
-# Test manually
-source venv/bin/activate
-python -m app.main
-```
-
-### Issue: High memory usage
-- Reduce workers
-- Optimize data loading
-- Consider database for large datasets
-
-### Issue: Slow responses
-- Check data file sizes
-- Enable response compression
-- Use caching layer (Redis)
-
----
-
-## 📞 Support Resources
-
-- **FastAPI Docs**: https://fastapi.tiangolo.com/deployment/
-- **Gunicorn Docs**: https://docs.gunicorn.org/
-- **Nginx Docs**: https://nginx.org/en/docs/
-- **Docker Docs**: https://docs.docker.com/
-
----
-
-**Remember:** Always test in staging environment before production deployment!
-
-**Monitoring is critical:** Set up alerts for API downtime and errors.
-
-🎯 **Goal:** 99.9% uptime, <100ms response time, secure and scalable!
+</div>

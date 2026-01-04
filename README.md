@@ -423,47 +423,72 @@ GAVI = 100 × (1 - (WL_current - WL_min) / (WL_max - WL_min))
 
 ## 🚀 Deployment
 
-### Development
+### Quick Deploy with Docker
+
+```bash
+# One-command deployment
+./deploy.sh prod       # Linux/macOS
+deploy.bat prod        # Windows
+
+# Or manually with Docker Compose
+docker compose up -d
+```
+
+Access:
+- 📊 **Frontend**: http://localhost:3000
+- 📡 **API**: http://localhost:8000
+- 📖 **Docs**: http://localhost:8000/docs
+
+### Development Mode
+
 ```bash
 # Backend
 uvicorn app.main:app --reload --port 8000
 
-# Frontend
+# Frontend (separate terminal)
 cd frontend && npm run dev
+
+# Or with Docker
+./deploy.sh dev
 ```
 
-### Production (Linux)
+### Production with Nginx
 
 ```bash
-# Backend with Gunicorn
-gunicorn app.main:app \
-    --workers 4 \
-    --worker-class uvicorn.workers.UvicornWorker \
-    --bind 0.0.0.0:8000
-
-# Frontend
-cd frontend && npm run build && npm start
+# Full production stack with SSL-ready nginx
+docker compose --profile production up -d
 ```
 
-### Docker
+### Deployment Files
 
-```dockerfile
-# Backend
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt gunicorn
-COPY app/ ./app/
-COPY output/ ./output/
-EXPOSE 8000
-CMD ["gunicorn", "app.main:app", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "-b", "0.0.0.0:8000"]
-```
+| File | Purpose |
+|------|---------|
+| `Dockerfile` | Backend container image |
+| `frontend/Dockerfile` | Frontend container image |
+| `docker-compose.yml` | Production orchestration |
+| `docker-compose.dev.yml` | Development setup |
+| `nginx/nginx.conf` | Reverse proxy config |
+| `deploy.sh` / `deploy.bat` | Deployment scripts |
+| `.env.example` | Environment template |
+
+### Cloud Deployment
+
+Supported platforms:
+- **AWS** (EC2, ECS, Fargate)
+- **Google Cloud** (Cloud Run, GKE)
+- **Azure** (Container Instances, AKS)
+- **DigitalOcean** (App Platform, Droplets)
+- **Heroku** (Container Registry)
+
+See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions.
 
 ### Environment Variables
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `NEXT_PUBLIC_API_URL` | `http://localhost:8000` | Backend API URL for frontend |
+| `NEXT_PUBLIC_API_URL` | `http://localhost:8000` | Backend API URL |
+| `PORT` | `8000` / `3000` | Server port |
+| `WORKERS` | `4` | Gunicorn workers |
 
 ---
 

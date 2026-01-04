@@ -1,0 +1,52 @@
+# ============================================
+# JalDrishti - Development Docker Compose
+# ============================================
+# Lightweight setup for local development
+
+services:
+  # ==========================================
+  # Backend API (FastAPI) - Development
+  # ==========================================
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jaldrishti-api-dev
+    restart: unless-stopped
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - WORKERS=2
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount source code for development
+      - ./app:/app/app:ro
+      - ./output:/app/output:ro
+    networks:
+      - jaldrishti-dev
+
+  # ==========================================
+  # Frontend Dashboard (Next.js) - Development
+  # ==========================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=http://localhost:8000
+    container_name: jaldrishti-frontend-dev
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - jaldrishti-dev
+
+networks:
+  jaldrishti-dev:
+    driver: bridge

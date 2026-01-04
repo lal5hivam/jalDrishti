@@ -6,18 +6,18 @@ import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 // @ts-ignore
 import 'leaflet.markercluster';
-import { getGAVIColor } from '@/types/api';
-import type { StationAlert } from '@/types/api';
+import { getGAVIColor, getStationGavi, getStationAlert } from '@/types/api';
+import type { MapStation } from '@/types/api';
 
 interface StationMapProps {
-  stations: StationAlert[];
-  onStationClick?: (station: StationAlert) => void;
+  stations: MapStation[];
+  onStationClick?: (station: MapStation) => void;
   onZoomChange?: (zoom: number) => void;
   onBoundsChange?: (bounds: [[number, number], [number, number]]) => void;
 }
 
 // Custom hook to add marker clustering
-function useMarkerCluster(stations: StationAlert[], onStationClick?: (station: StationAlert) => void) {
+function useMarkerCluster(stations: MapStation[], onStationClick?: (station: MapStation) => void) {
   const map = useMap();
   const clusterGroupRef = useRef<any>(null);
 
@@ -44,7 +44,9 @@ function useMarkerCluster(stations: StationAlert[], onStationClick?: (station: S
 
     // Add markers
     stations.forEach((station) => {
-      const color = getGAVIColor(station.gavi);
+      const gavi = getStationGavi(station);
+      const alert = getStationAlert(station);
+      const color = getGAVIColor(gavi);
       const icon = L.divIcon({
         html: `<div style="
           background-color: ${color};
@@ -61,6 +63,7 @@ function useMarkerCluster(stations: StationAlert[], onStationClick?: (station: S
 
       const marker = L.marker([station.latitude, station.longitude], { icon });
       
+      const waterLevel = 'water_level' in station ? station.water_level : null;
       const popupContent = `
         <div style="padding: 8px;">
           <h4 style="font-weight: bold; font-size: 14px; margin-bottom: 4px;">${station.station_id}</h4>
@@ -68,9 +71,9 @@ function useMarkerCluster(stations: StationAlert[], onStationClick?: (station: S
             ${station.district}, ${station.state}
           </p>
           <div style="font-size: 12px; line-height: 1.6;">
-            <div><strong>GAVI:</strong> ${station.gavi.toFixed(1)}</div>
-            <div><strong>Alert:</strong> ${station.alert}</div>
-            ${station.water_level != null ? `<div><strong>Water Level:</strong> ${station.water_level.toFixed(2)}m</div>` : ''}
+            <div><strong>GAVI:</strong> ${gavi.toFixed(1)}</div>
+            <div><strong>Alert:</strong> ${alert}</div>
+            ${waterLevel != null ? `<div><strong>Water Level:</strong> ${waterLevel.toFixed(2)}m</div>` : ''}
           </div>
         </div>
       `;
@@ -186,8 +189,8 @@ const StationMap: React.FC<StationMapProps> = ({ stations, onStationClick, onZoo
 
 // Component that uses the custom hook
 function MarkerClusterLayer({ stations, onStationClick }: {
-  stations: StationAlert[];
-  onStationClick?: (station: StationAlert) => void;
+  stations: MapStation[];
+  onStationClick?: (station: MapStation) => void;
 }) {
   useMarkerCluster(stations, onStationClick);
   return null;
