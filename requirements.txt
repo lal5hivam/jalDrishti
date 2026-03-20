@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+pypdf
+tqdm
+camelot-py
+opencv-python-headless
+folium
+plotly
+kaleido
+streamlit
