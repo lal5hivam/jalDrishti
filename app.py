@@ -544,11 +544,64 @@ def show_forecasting(forecast, gavi_alerts):
 def show_station_explorer(gavi_alerts, forecast):
     """Station-level exploration"""
     st.header("📍 Station Explorer")
-    
-    # Station selection
-    stations = sorted(gavi_alerts['station_id'].unique())
-    selected_station = st.selectbox("Select Station", stations)
-    
+
+    # Hierarchical station selection: State -> District -> Block -> Station
+    st.subheader("🔎 Locate a Station")
+    st.caption("Narrow down step by step: State/UT → District → Block (Sub-district) → Station")
+
+    catalog = gavi_alerts.copy()
+    for level in ['STATE_UT', 'DISTRICT', 'BLOCK']:
+        catalog[level] = catalog[level].fillna("Unknown").astype(str).str.strip()
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        states = sorted(catalog['STATE_UT'].unique())
+        selected_state = st.selectbox("1️⃣ State / UT", states, key="se_state")
+
+    state_df = catalog[catalog['STATE_UT'] == selected_state]
+
+    with col2:
+        districts = sorted(state_df['DISTRICT'].unique())
+        selected_district = st.selectbox("2️⃣ District", districts, key="se_district")
+
+    district_df = state_df[state_df['DISTRICT'] == selected_district]
+
+    col3, col4 = st.columns(2)
+
+    with col3:
+        blocks = sorted(district_df['BLOCK'].unique())
+        selected_block = st.selectbox("3️⃣ Block / Sub-district", blocks, key="se_block")
+
+    block_df = district_df[district_df['BLOCK'] == selected_block]
+
+    # Build readable station labels (station_id encodes state + coordinates)
+    station_options = (
+        block_df[['station_id', 'LATITUDE', 'LONGITUDE']]
+        .drop_duplicates(subset='station_id')
+        .sort_values(['LATITUDE', 'LONGITUDE'])
+    )
+    station_labels = {
+        row['station_id']: f"{row['LATITUDE']:.4f}, {row['LONGITUDE']:.4f}"
+        for _, row in station_options.iterrows()
+    }
+
+    with col4:
+        selected_station = st.selectbox(
+            "4️⃣ Station (Lat, Lon)",
+            list(station_labels.keys()),
+            format_func=lambda sid: station_labels.get(sid, sid),
+            key="se_station"
+        )
+
+    # Selection summary
+    st.info(
+        f"**Selected:** {selected_state} › {selected_district} › {selected_block} › "
+        f"{station_labels.get(selected_station, selected_station)}  \n"
+        f"*{len(station_labels)} station(s) in this block · {district_df['station_id'].nunique()} in this district · "
+        f"{state_df['station_id'].nunique()} in this state*"
+    )
+
     if selected_station:
         # Get station data
         station_data = gavi_alerts[gavi_alerts['station_id'] == selected_station].sort_values('year')
@@ -562,7 +615,8 @@ def show_station_explorer(gavi_alerts, forecast):
             with col1:
                 st.write(f"**State:** {station_data.iloc[0]['STATE_UT']}")
                 st.write(f"**District:** {station_data.iloc[0]['DISTRICT']}")
-            
+                st.write(f"**Block:** {station_data.iloc[0]['BLOCK']}")
+
             with col2:
                 st.write(f"**Latitude:** {station_data.iloc[0]['LATITUDE']}")
                 st.write(f"**Longitude:** {station_data.iloc[0]['LONGITUDE']}")

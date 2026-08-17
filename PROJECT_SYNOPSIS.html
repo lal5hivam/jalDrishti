@@ -1,0 +1,453 @@
+<title>JalDrishti Project Synopsis</title>
+
+<style>
+  /* ---------- Tokens ---------------------------------------------------
+     The document itself is a printed artefact: white paper, black ink,
+     Times New Roman, as mandated by the university specification. Only the
+     surround (the desk the sheets rest on) responds to the viewer's theme,
+     so the preview stays a faithful representation of the printed page.  */
+  :root {
+    --desk:        #E4E7E9;   /* cool slate backdrop            */
+    --desk-line:   #C9CFD3;
+    --paper:       #FFFFFF;
+    --ink:         #101214;   /* near-black with a blue bias    */
+    --ink-soft:    #3B4247;
+    --rule:        #8E9AA1;
+    --accent:      #1F4E5F;   /* deep water-teal, prints grey   */
+    --accent-tint: #EAF1F3;
+    --shadow:      rgba(16, 30, 38, 0.18);
+    --chrome-bg:   #F5F7F8;
+    --chrome-ink:  #3B4247;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --desk:      #14181B;
+      --desk-line: #232A2E;
+      --shadow:    rgba(0, 0, 0, 0.55);
+      --chrome-bg: #1C2226;
+      --chrome-ink:#AEB8BE;
+    }
+  }
+  :root[data-theme="dark"] {
+    --desk:      #14181B;
+    --desk-line: #232A2E;
+    --shadow:    rgba(0, 0, 0, 0.55);
+    --chrome-bg: #1C2226;
+    --chrome-ink:#AEB8BE;
+  }
+
+  body {
+    background: var(--desk);
+    color: var(--ink);
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0 0 3rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* ---------- Screen-only chrome --------------------------------------- */
+  .chrome {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--chrome-ink);
+    background: var(--chrome-bg);
+    border-bottom: 1px solid var(--desk-line);
+    padding: 0.85rem 1.25rem;
+    text-align: center;
+  }
+
+  /* ---------- The sheet ------------------------------------------------ */
+  .sheet {
+    width: 210mm;
+    min-height: 297mm;
+    box-sizing: border-box;
+    padding: 2.5cm 1.25cm 1.25cm 3.5cm;   /* top, right, bottom, left */
+    margin: 1.75rem auto 0;
+    background: var(--paper);
+    color: var(--ink);
+    box-shadow: 0 2px 14px var(--shadow);
+    font-size: 12pt;
+    line-height: 2;                        /* double spacing */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .sheet > *:first-child { margin-top: 0; }
+
+  .folio {
+    position: absolute;
+    left: 3.5cm; right: 1.25cm; bottom: 0.5cm;
+    text-align: center;
+    font-size: 10.5pt;
+    line-height: 1;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- Document typography -------------------------------------- */
+  p { margin: 0 0 0.55em; text-align: justify; }
+  h1, h2, h3 { text-wrap: balance; font-weight: bold; }
+  h2 {
+    font-size: 14pt;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0 0 0.35em;
+    padding-bottom: 0.15em;
+    border-bottom: 1.5pt solid var(--accent);
+    line-height: 1.4;
+  }
+  h3 {
+    font-size: 12pt;
+    margin: 0.7em 0 0.1em;
+    line-height: 1.6;
+  }
+  ul, ol { margin: 0 0 0.55em; padding-left: 1.6em; }
+  li { margin-bottom: 0.1em; text-align: justify; }
+  .tight { line-height: 1.6; }
+
+  .formula {
+    text-align: center;
+    font-style: italic;
+    font-size: 13pt;
+    line-height: 1.8;
+    margin: 0.4em 0 0.5em;
+  }
+
+  /* ---------- Tables: caption on TOP, per specification ---------------- */
+  .table-wrap { overflow-x: auto; margin: 0.4em 0 0.7em; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 11pt;
+    line-height: 1.35;
+  }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 11pt;
+    font-style: italic;
+    line-height: 1.4;
+    padding-bottom: 0.25em;
+    color: var(--ink);
+  }
+  th, td {
+    border: 0.5pt solid var(--rule);
+    padding: 3pt 6pt;
+    vertical-align: top;
+    text-align: left;
+  }
+  th { background: var(--accent-tint); font-weight: bold; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* ---------- Title page ----------------------------------------------- */
+  .title-page { text-align: center; justify-content: flex-start; line-height: 1.5; }
+  .title-page .doc-title {
+    font-size: 24pt;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 1.4cm 0 0.15cm;
+    letter-spacing: 0.01em;
+  }
+  .title-page .doc-subtitle { font-size: 15pt; font-weight: bold; line-height: 1.35; margin: 0 0 1.6cm; }
+  .title-page .synopsis { font-size: 14pt; font-weight: bold; margin: 0; }
+  .title-page .minor { font-size: 12pt; margin: 0 0 1.5cm; }
+  .title-page .fulfilment { font-size: 12pt; font-weight: bold; line-height: 1.5; margin: 0 0 1.6cm; }
+  .title-page .submitted-by { font-size: 12pt; margin: 0; }
+  .title-page .who { font-size: 14pt; line-height: 1.6; margin: 0 0 1.4cm; }
+  .title-page .date { font-size: 12pt; margin: 0 0 1.2cm; }
+  .title-page .to { font-size: 12pt; margin: 0 0 0.5cm; }
+  .title-page .dept { font-size: 16pt; font-weight: bold; line-height: 1.45; margin: 0; }
+  .fill { color: var(--ink); border-bottom: 0.75pt solid var(--rule); padding: 0 0.6em; }
+
+  /* ---------- Index ----------------------------------------------------- */
+  .index-list { list-style: none; padding: 0; margin: 0.6em 0 0; font-size: 12pt; }
+  .index-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4em;
+    line-height: 2;
+    text-align: left;
+  }
+  .index-list .dots {
+    flex: 1;
+    border-bottom: 0.75pt dotted var(--rule);
+    transform: translateY(-0.25em);
+  }
+  .index-list .pg { font-variant-numeric: tabular-nums; }
+
+  /* ---------- Print ----------------------------------------------------- */
+  @media print {
+    @page { size: A4; margin: 0; }
+    body { background: #FFFFFF; padding: 0; }
+    .chrome { display: none; }
+    .sheet {
+      margin: 0;
+      box-shadow: none;
+      break-after: page;
+      page-break-after: always;
+    }
+    .sheet:last-child { break-after: auto; page-break-after: auto; }
+    th { background: #EFEFEF !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  @media (max-width: 230mm) {
+    .sheet { width: 100%; min-height: 0; padding: 6vw 5vw; }
+    .folio { left: 5vw; right: 5vw; }
+  }
+</style>
+
+<div class="chrome">Print or save as PDF at A4, 100% scale — margins and spacing are set in the stylesheet</div>
+
+<!-- ============================ TITLE PAGE ============================ -->
+<section class="sheet title-page">
+  <p class="doc-title">JALDRISHTI</p>
+  <p class="doc-subtitle">A GROUNDWATER MONITORING AND<br>PREDICTIVE ALERT SYSTEM</p>
+
+  <p class="synopsis">PROJECT SYNOPSIS</p>
+  <p class="minor">OF MINOR PROJECT</p>
+
+  <p class="fulfilment">
+    Submitted in partial fulfilment of the requirements for the award of the degree of<br>
+    Bachelor of Technology in Computer Science &amp; Engineering
+  </p>
+
+  <p class="submitted-by">SUBMITTED BY</p>
+  <p class="who">
+    <span class="fill">STUDENT NAME</span><br>
+    <span class="fill">UNIVERSITY ROLL NUMBER</span><br>
+    Branch: Computer Science &amp; Engineering<br>
+    Batch: <span class="fill">2023 &ndash; 2027</span>
+  </p>
+
+  <p class="date">August 2026</p>
+
+  <p class="to">SUBMITTED TO</p>
+  <p class="dept">
+    DEPARTMENT OF COMPUTER SCIENCE &amp; ENGINEERING<br>
+    INVERTIS UNIVERSITY<br>
+    Bareilly-Lucknow National Highway NH-24, Bareilly 243123
+  </p>
+</section>
+
+<!-- ============================ INDEX ================================= -->
+<section class="sheet">
+  <h2>Index</h2>
+  <ul class="index-list">
+    <li><span>1.&nbsp;&nbsp;Introduction</span><span class="dots"></span><span class="pg">3</span></li>
+    <li><span>2.&nbsp;&nbsp;Feasibility Study</span><span class="dots"></span><span class="pg">6</span></li>
+    <li><span>3.&nbsp;&nbsp;Methodology / Planning of Work</span><span class="dots"></span><span class="pg">7</span></li>
+    <li><span>4.&nbsp;&nbsp;Facilities Required for Proposed Work</span><span class="dots"></span><span class="pg">8</span></li>
+    <li><span>5.&nbsp;&nbsp;Bibliography</span><span class="dots"></span><span class="pg">9</span></li>
+  </ul>
+
+  <h3 style="margin-top:1.2em;">Notations and Nomenclature</h3>
+  <div class="table-wrap">
+    <table>
+      <caption>Table 1: Abbreviations and technical notations used in this synopsis.</caption>
+      <thead>
+        <tr><th style="width:22%">Notation</th><th>Expansion / Meaning</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>CGWB</td><td>Central Ground Water Board, Ministry of Jal Shakti, Government of India</td></tr>
+        <tr><td>GAVI</td><td>Groundwater Availability Vulnerability Index &mdash; the normalised 0&ndash;100 score defined by this project</td></tr>
+        <tr><td>WL</td><td>Water level, measured downward from the ground surface</td></tr>
+        <tr><td>mbgl</td><td>Metres below ground level; a larger value means a deeper, i.e. worse, water table</td></tr>
+        <tr><td>&Delta;WL (delta_wl)</td><td>Year-on-year change in water level for a monitoring station</td></tr>
+        <tr><td>Baseline</td><td>Per-station historical statistics: mean, minimum, maximum and standard deviation of WL</td></tr>
+        <tr><td>Station ID</td><td>Unique key formed as {STATE}_{LATITUDE}_{LONGITUDE}</td></tr>
+        <tr><td>MAE</td><td>Mean Absolute Error, the primary forecast accuracy metric</td></tr>
+        <tr><td>EDA</td><td>Exploratory Data Analysis</td></tr>
+        <tr><td>ETL</td><td>Extract, Transform, Load &mdash; the data pipeline pattern followed</td></tr>
+        <tr><td>Stress ratio</td><td>Percentage of a district's stations whose latest observation has GAVI &lt; 50</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="folio">2</div>
+</section>
+
+<!-- ========================= INTRODUCTION 1/3 ========================= -->
+<section class="sheet">
+  <h2>1. Introduction</h2>
+
+  <h3>1.1 Background of the Problem</h3>
+  <p>India is the largest consumer of groundwater in the world. Approximately 63 per cent of the country's irrigated area and 85 per cent of its rural drinking water supply are drawn from beneath the ground, yet the resource itself is invisible and is therefore managed reactively. The Central Ground Water Board (CGWB) maintains a national network of observation wells and publishes the recorded water levels every year, but this information is released as large, unstructured PDF documents. In that form the data cannot be queried, compared across regions, or turned into an early warning. A district administration typically learns that its water table has fallen only after wells begin to fail.</p>
+  <p>Four gaps follow from this. First, management is reactive rather than anticipatory. Second, the data is fragmented and locked in documents. Third, no operational forecast of future availability exists at the level of an individual monitoring station. Fourth, the raw depth-to-water figure is not comparable between regions, because a level of ten metres is normal in one aquifer and alarming in another.</p>
+
+  <h3>1.2 The Proposed System</h3>
+  <p><i>JalDrishti</i> (from <i>jal</i>, water, and <i>drishti</i>, vision) is an end-to-end software system that converts a decade of CGWB observations into a monitored, scored, alerted and forecast decision-support dashboard. The working dataset covers 86,912 observations recorded at 9,545 monitoring stations across 713 districts and 31 states between 2015 and 2024. January readings are used throughout, so that every station is compared with itself at the same point in the annual recharge cycle.</p>
+  <p>The system is organised as five layers. The <b>extraction layer</b> converts the source PDF into structured records. The <b>preparation layer</b> cleans the records, derives a per-station baseline and applies quality control. The <b>analytics layer</b> computes the GAVI score and generates alerts. The <b>forecasting layer</b> projects each station one and three years forward. The <b>presentation layer</b> serves the results as an interactive web dashboard.</p>
+  <div class="folio">3</div>
+</section>
+
+<!-- ========================= INTRODUCTION 2/3 ========================= -->
+<section class="sheet">
+  <h3>1.3 The GAVI Index</h3>
+  <p>The central technical contribution of the project is the <b>Groundwater Availability Vulnerability Index (GAVI)</b>, a normalised score that makes stations comparable by rescaling each one against its own historical extremes:</p>
+  <p class="formula">GAVI = 100 &times; [ 1 &minus; (WL<sub>current</sub> &minus; WL<sub>min</sub>) / (WL<sub>max</sub> &minus; WL<sub>min</sub>) ]</p>
+  <p>A score of 100 places the station at its historical best and a score of 0 at its historical worst. Because the normalisation is station-specific, local geology and aquifer type are absorbed into the baseline, and a score of 30 carries the same meaning in Rajasthan as in Odisha. The continuous score is then banded into four policy-facing categories.</p>
+  <div class="table-wrap">
+    <table>
+      <caption>Table 2: GAVI categories and the administrative response associated with each.</caption>
+      <thead><tr><th style="width:18%">Category</th><th class="num" style="width:16%">GAVI range</th><th>Interpretation and indicated action</th></tr></thead>
+      <tbody>
+        <tr><td>Safe</td><td class="num">75 &ndash; 100</td><td>Good availability; continue routine monitoring</td></tr>
+        <tr><td>Watch</td><td class="num">50 &ndash; 74</td><td>Moderate stress developing; increase observation frequency</td></tr>
+        <tr><td>Stressed</td><td class="num">25 &ndash; 49</td><td>Significant depletion; regulate demand and plan recharge</td></tr>
+        <tr><td>Critical</td><td class="num">0 &ndash; 24</td><td>Severe deficit; emergency intervention and extraction control</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>1.4 Alert Generation</h3>
+  <p>A multi-layered rule engine converts scores and trends into named alerts, resolved by a strict priority order so that each station carries exactly one alert per year. Critical conditions take precedence over trend-based signals.</p>
+  <div class="table-wrap">
+    <table>
+      <caption>Table 3: Alert hierarchy applied to every station-year record.</caption>
+      <thead><tr><th class="num" style="width:10%">Priority</th><th style="width:32%">Alert type</th><th>Triggering condition</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td>CRITICAL_GROUNDWATER</td><td>GAVI &lt; 25</td></tr>
+        <tr><td class="num">2</td><td>DEPLETION_WARNING</td><td>GAVI &lt; 50 and &Delta;WL indicates a falling table</td></tr>
+        <tr><td class="num">3</td><td>SUDDEN_DROP</td><td>Water level falls by 2.0 m or more in one year</td></tr>
+        <tr><td class="num">4</td><td>RECOVERY_SIGNAL</td><td>Water level rises by 1.0 m or more in one year</td></tr>
+        <tr><td class="num">5</td><td>NORMAL</td><td>No rule satisfied; routine monitoring continues</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>To suppress false alarms arising from measurement error or a single anomalous season, a <b>persistence check</b> requires a critical alert to appear in two or more consecutive observations before it is treated as confirmed, and a rolling window of three observations is used to filter transient spikes.</p>
+  <div class="folio">4</div>
+</section>
+
+<!-- ========================= INTRODUCTION 3/3 ========================= -->
+<section class="sheet">
+  <h3>1.5 Predictive Forecasting</h3>
+  <p>Each station is projected forward using a transparent trend model, <i>WL<sub>future</sub> = WL<sub>last</sub> + mean historical &Delta;WL</i>, evaluated at horizons of one and three years and clipped to the physically meaningful range of 0 to 50 mbgl. The projected level is converted back into a GAVI score using the same station baseline, which yields forward-looking alerts: FUTURE_CRITICAL where the projected score falls below 25, EARLY_DEPLETION_WARNING where it declines materially, and RECOVERY_EXPECTED where it improves. The model is validated by backtesting: it is fitted on the years 2015 to 2022, used to predict 2023, and scored on mean absolute error together with the proportion of stations predicted within one and two metres. A deliberately simple and interpretable model was chosen as the first baseline, both because it can be explained to a non-technical administrator and because it establishes the benchmark that later machine-learning models must beat.</p>
+
+  <h3>1.6 Technology Used</h3>
+  <p>The system is written entirely in <b>Python 3.11</b>. Table extraction from the source PDF uses <b>Camelot</b> with <b>Ghostscript</b> and <b>pypdf</b>; cleaning, baseline computation and index calculation use <b>pandas</b> and <b>NumPy</b>; exploratory analysis is carried out in <b>Jupyter Notebook</b>. The dashboard is built with <b>Streamlit</b>, with interactive charts in <b>Plotly</b> and clustered station maps in <b>Folium</b>. The application is containerised with <b>Docker</b> for deployment on an <b>AWS EC2</b> instance, and the source is version-controlled with <b>Git</b>.</p>
+
+  <h3>1.7 Field of the Project</h3>
+  <p>The project belongs to <b>data engineering and applied data science</b>, specialised towards <b>hydro-informatics</b> &mdash; the application of computing to water resource management. It combines three sub-disciplines: document data extraction, time-series analysis of environmental measurements, and geospatial visualisation for decision support.</p>
+
+  <h3>1.8 Objectives</h3>
+  <ul class="tight">
+    <li>To build an automated pipeline that converts published CGWB water level reports into a clean, analysis-ready dataset.</li>
+    <li>To define and compute the GAVI index so that groundwater availability becomes comparable across stations, districts and states.</li>
+    <li>To implement a prioritised, persistence-checked alert engine that maps each condition to a specific administrative action.</li>
+    <li>To forecast station-level water levels at one-year and three-year horizons and validate them by backtesting.</li>
+    <li>To aggregate station results to district and state level for policy use.</li>
+    <li>To deliver the whole analysis as an interactive, deployable web dashboard usable by non-technical officials.</li>
+  </ul>
+  <div class="folio">5</div>
+</section>
+
+<!-- ========================= FEASIBILITY ============================== -->
+<section class="sheet">
+  <h2>2. Feasibility Study</h2>
+
+  <h3>2.1 Technical Feasibility</h3>
+  <p>Every component of the system is available as mature, free and open-source software with substantial documentation, and extraction from the actual CGWB source document has already been demonstrated on the project's own data. The working dataset of 86,912 records is small enough to be processed entirely in memory on a commodity laptop, so no distributed computing infrastructure is required. The project is therefore technically feasible within an undergraduate setting.</p>
+
+  <h3>2.2 Economic Feasibility</h3>
+  <p>Development cost is effectively nil: the toolchain is open source, the data is published free of charge by the Government of India, and development proceeds on hardware the student already owns. The only recurring expense is optional cloud hosting for the public dashboard, which fits comfortably within a small single-instance tier and can be avoided entirely by running the application locally for demonstration.</p>
+
+  <h3>2.3 Operational Feasibility</h3>
+  <p>The output is designed for the people who would use it. Scores are expressed on an intuitive 0 to 100 scale, alerts are named in plain language, and every alert level is bound to a concrete action, so a district officer need not interpret hydrological units to act on the display. The dashboard runs in an ordinary web browser and requires no installation by the end user.</p>
+
+  <h3>2.4 Schedule Feasibility</h3>
+  <p>The work decomposes into seven short, independently testable phases, each producing a usable artefact, and fits within one academic semester. Because the layers are separated by intermediate CSV files, a delay in any one phase does not block work already completed downstream of it.</p>
+
+  <h3>2.5 Legal and Ethical Feasibility</h3>
+  <p>The source data is published by a central government body and carries no personal or identifying information, so no privacy or licensing obstacle arises. All third-party libraries used are permissively licensed.</p>
+
+  <h3>2.6 Need and Significance</h3>
+  <p>Analysis of the assembled dataset shows why the system is needed: in the most recent year covered, 43.3 per cent of monitoring stations are under stress with a GAVI below 50, over one thousand critical alerts are active, and the national average GAVI stands at 54.1. These conditions are presently distributed across hundreds of pages of tabulated PDF and are effectively unreadable at a glance. By converting the same figures into a ranked, mapped and forecast view, the project shortens the distance between measurement and intervention, and supports planning under national programmes for groundwater management and recharge.</p>
+  <div class="folio">6</div>
+</section>
+
+<!-- ========================= METHODOLOGY ============================== -->
+<section class="sheet">
+  <h2>3. Methodology / Planning of Work</h2>
+  <p>An <b>iterative and incremental</b> model is followed. Each phase produces a persisted intermediate dataset, so a later phase can be re-run and refined without repeating the earlier, expensive stages &mdash; a property that proved essential when the district stress calculation had to be corrected to use only the latest observation per station rather than the whole history.</p>
+  <div class="table-wrap">
+    <table>
+      <caption>Table 4: Phase-wise plan of work, with principal activities and deliverables.</caption>
+      <thead><tr><th class="num" style="width:8%">Phase</th><th style="width:28%">Stage</th><th>Principal activities and deliverable</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td>Requirement study and data acquisition</td><td>Study groundwater monitoring practice, identify the CGWB source report, define the scope as 2015&ndash;2024 January observations. <i>Deliverable:</i> requirement note and source document.</td></tr>
+        <tr><td class="num">2</td><td>Extraction layer</td><td>Batch table extraction from PDF using Camelot and Ghostscript, representative sampling of blocks per district, station identifier generation, streamed writing to CSV. <i>Deliverable:</i> raw records dataset.</td></tr>
+        <tr><td class="num">3</td><td>Preparation and quality control</td><td>Exploratory analysis, date parsing, retention of stations with sufficient observation history, computation of per-station baselines and year-on-year change, removal of readings deeper than 50 mbgl and of degenerate baselines. <i>Deliverable:</i> cleaned dataset and station baseline table.</td></tr>
+        <tr><td class="num">4</td><td>Analytics: GAVI and alerts</td><td>Implement the GAVI formula and categories, build the prioritised alert engine, add persistence and rolling-window confirmation, aggregate to district and state level. <i>Deliverable:</i> scored and alerted dataset with summaries.</td></tr>
+        <tr><td class="num">5</td><td>Forecasting and validation</td><td>Fit the trend model, generate one-year and three-year projections, convert projections to future GAVI and predictive alerts, backtest on 2015&ndash;2022 against 2023 and report MAE and accuracy bands. <i>Deliverable:</i> forecast dataset and validation report.</td></tr>
+        <tr><td class="num">6</td><td>Visualisation and dashboard</td><td>Build the Streamlit application with pages for overview, GAVI analysis, alerts, geographic analysis, forecasting and station-level exploration; add caching, interactive Plotly charts and clustered Folium maps. <i>Deliverable:</i> working dashboard.</td></tr>
+        <tr><td class="num">7</td><td>Deployment, testing and documentation</td><td>Containerise the application, deploy to a cloud instance, verify results end to end against the source figures, and prepare user and technical documentation. <i>Deliverable:</i> deployed system and project report.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="folio">7</div>
+</section>
+
+<!-- ========================= FACILITIES =============================== -->
+<section class="sheet">
+  <h2>4. Facilities Required for Proposed Work</h2>
+
+  <h3>4.1 Hardware Requirements</h3>
+  <div class="table-wrap">
+    <table>
+      <caption>Table 5: Hardware required for development and deployment.</caption>
+      <thead><tr><th style="width:30%">Component</th><th style="width:34%">Minimum</th><th>Recommended</th></tr></thead>
+      <tbody>
+        <tr><td>Processor</td><td>Dual-core, 2.0 GHz</td><td>Quad-core, 2.5 GHz or higher</td></tr>
+        <tr><td>Memory</td><td>4 GB RAM</td><td>8 GB RAM or higher (PDF extraction is memory-intensive)</td></tr>
+        <tr><td>Storage</td><td>10 GB free space</td><td>20 GB free space on a solid-state drive</td></tr>
+        <tr><td>Display</td><td>1366 &times; 768</td><td>1920 &times; 1080, for dashboard layout testing</td></tr>
+        <tr><td>Network</td><td>Broadband connection</td><td>Broadband connection, for data download and deployment</td></tr>
+        <tr><td>Deployment host</td><td>Local machine</td><td>Cloud virtual machine, 2 vCPU and 2 GB RAM</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>4.2 Software Requirements</h3>
+  <div class="table-wrap">
+    <table>
+      <caption>Table 6: Software required for development and deployment.</caption>
+      <thead><tr><th style="width:34%">Category</th><th>Software</th></tr></thead>
+      <tbody>
+        <tr><td>Operating system</td><td>Windows 10 or 11, or any Linux distribution</td></tr>
+        <tr><td>Language and runtime</td><td>Python 3.11</td></tr>
+        <tr><td>Data processing</td><td>pandas, NumPy, pyarrow</td></tr>
+        <tr><td>PDF table extraction</td><td>Camelot, pypdf, OpenCV, Ghostscript</td></tr>
+        <tr><td>Visualisation</td><td>Plotly, Folium, Matplotlib, Seaborn</td></tr>
+        <tr><td>Web application</td><td>Streamlit</td></tr>
+        <tr><td>Development environment</td><td>Jupyter Notebook, Visual Studio Code</td></tr>
+        <tr><td>Deployment</td><td>Docker, Docker Compose, an AWS EC2 instance</td></tr>
+        <tr><td>Version control</td><td>Git and a remote repository</td></tr>
+        <tr><td>Browser</td><td>Any modern browser, for using the dashboard</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="folio">8</div>
+</section>
+
+<!-- ========================= BIBLIOGRAPHY ============================= -->
+<section class="sheet">
+  <h2>5. Bibliography</h2>
+  <ol class="tight">
+    <li>Central Ground Water Board, <i>Ground Water Year Book &mdash; India</i>, Ministry of Jal Shakti, Government of India, Faridabad. Source of the water level observations used throughout the project.</li>
+    <li>Central Ground Water Board, <i>National Compilation on Dynamic Ground Water Resources of India</i>, Ministry of Jal Shakti, Government of India. Referred to for the national assessment categories and extraction statistics.</li>
+    <li>NITI Aayog, <i>Composite Water Management Index</i>, Government of India, 2019. Referred to for the policy framing of water stress in Indian states.</li>
+    <li>T. Rajaee, H. Ebrahimi and V. Nourani, &ldquo;A review of the artificial intelligence methods in groundwater level modeling&rdquo;, <i>Journal of Hydrology</i>, vol. 572, pp. 336&ndash;353, 2019. Surveyed for the choice of a baseline forecasting method.</li>
+    <li>D. Sahoo, T. A. Russo, J. Elliott and I. Foster, &ldquo;Machine learning algorithms for modeling groundwater level changes in agricultural regions of the U.S.&rdquo;, <i>Water Resources Research</i>, vol. 53, no. 5, pp. 3878&ndash;3895, 2017. Referred to for feature design and validation practice.</li>
+    <li>J. P. Bloomfield and B. P. Marchant, &ldquo;Analysis of groundwater drought building on the standardised precipitation index approach&rdquo;, <i>Hydrology and Earth System Sciences</i>, vol. 17, pp. 4769&ndash;4787, 2013. The station-wise normalisation idea behind the GAVI index draws on this standardised-index approach.</li>
+    <li>R. J. Hyndman and G. Athanasopoulos, <i>Forecasting: Principles and Practice</i>, 3rd ed., OTexts, Melbourne, 2021. Available at https://otexts.com/fpp3/. Used for the backtesting design and the choice of mean absolute error as the accuracy metric.</li>
+    <li>W. McKinney, &ldquo;Data Structures for Statistical Computing in Python&rdquo;, <i>Proceedings of the 9th Python in Science Conference</i>, pp. 51&ndash;56, 2010. Background for the pandas data model used in the preparation layer.</li>
+    <li>C. R. Harris et al., &ldquo;Array programming with NumPy&rdquo;, <i>Nature</i>, vol. 585, pp. 357&ndash;362, 2020. Background for the vectorised computation of the index.</li>
+    <li>Camelot documentation, <i>Camelot: PDF Table Extraction for Humans</i>. Available at https://camelot-py.readthedocs.io. Used for the extraction layer, particularly the lattice and stream parsing modes.</li>
+    <li>Streamlit documentation. Available at https://docs.streamlit.io. Used for the multi-page dashboard structure and data caching.</li>
+    <li>Plotly, <i>Plotly Python Graphing Library</i>. Available at https://plotly.com/python/. Used for the interactive charts on every dashboard page.</li>
+    <li>Folium documentation. Available at https://python-visualization.github.io/folium/. Used for the clustered station map.</li>
+    <li>Docker documentation. Available at https://docs.docker.com. Used for containerising the application.</li>
+    <li>Amazon Web Services, <i>Amazon EC2 User Guide</i>. Available at https://docs.aws.amazon.com/ec2/. Used for the deployment configuration.</li>
+  </ol>
+  <div class="folio">9</div>
+</section>
